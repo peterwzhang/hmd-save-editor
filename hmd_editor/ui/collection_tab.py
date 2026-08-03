@@ -105,15 +105,17 @@ class CollectionTab(QWidget):
     def _refresh_tier_combo(self) -> None:
         self.tier_combo.blockSignals(True)
         self.tier_combo.clear()
-        for tier in range(TIER_COUNT):
+        # Tier 0 isn't a real in-game tier (the game only has 1, 2, 3) - the
+        # save file just carries an unused slot 0 in collectibles_by_tier.
+        for tier in range(1, TIER_COUNT):
             count = len(self.bundle.global_data["collectibles_by_tier"][tier])
             self.tier_combo.addItem(f"Tier {tier} ({count} discovered)", tier)
-        self.tier_combo.setCurrentIndex(self.tier)
+        self.tier_combo.setCurrentIndex(self.tier - 1)
         self.tier_combo.blockSignals(False)
 
     def _on_tier_changed(self, _index: int) -> None:
         data = self.tier_combo.currentData()
-        self.tier = data if data is not None else 0
+        self.tier = data if data is not None else 1
         self._rebuild_table()
 
     def _apply_filter(self) -> None:
@@ -145,7 +147,7 @@ class CollectionTab(QWidget):
             ids |= set(self.catalog.ids_of_kind(kind))
         # Include any ids present in the save but missing from the catalog,
         # so something already-earned never silently disappears from view.
-        for tier in range(TIER_COUNT):
+        for tier in range(1, TIER_COUNT):
             ids |= set(self.bundle.global_data["collectibles_by_tier"][tier])
         return sorted(ids, key=self.catalog.name_for)
 
