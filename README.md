@@ -36,6 +36,17 @@ This only happens once, and only if you say yes; decline and items just show wit
 
 If you're on WSL, that path is reachable at `/mnt/c/Users/<you>/AppData/Local/HowManyDudes/...`.
 
+### Running the editor itself on WSL
+
+WSLg's Wayland compositor has a popup-positioning bug: dropdown lists can get stranded on screen after you move the window.
+The editor works around this automatically by preferring X11 over Wayland when it detects WSL, but that needs a few extra system libraries:
+
+```
+sudo apt install libxcb-cursor0 libxkbcommon-x11-0 libxcb-icccm4 libxcb-keysyms1 libxcb-xkb1
+```
+
+Without them, dropdowns fall back to the buggy default (Wayland) rather than failing to start.
+
 ## Important: Steam Cloud
 
 If Steam is running with cloud sync enabled, it can overwrite an edited save.
