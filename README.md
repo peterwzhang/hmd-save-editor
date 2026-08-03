@@ -6,6 +6,31 @@ This is an unofficial fan-made tool and is not affiliated with or endorsed by Bu
 
 Edit your current run, your permanent collection (discovered / silver / gold stars), and your achievements.
 
+## Features
+
+**Run** (`save_data.json`)
+- Edit cash, round, tier, and game mode (Classic / Ensemble / Daily)
+- Add roster dudes, individually or in bulk
+- Equip and unequip trinkets per dude
+- Add and remove relics, consumables, and food
+- Real item names, descriptions, and icons instead of raw ids
+
+**Collection** (`global.json`, the Dudex)
+- Discovery / silver-star / gold-star editing per tier (1, 2, 3)
+- Search by name, filter by kind, hide already-discovered items
+- Bulk actions (discover / silver-star / gold-star / clear) across the currently filtered rows
+
+**Achievements** (`global.json`)
+- Edit achievement progress and completion
+- Edit minutes played
+- Edit or delete saved best runs (roster, best round, money earned/spent, pinned)
+
+**Other**
+- Drag-and-drop or file-picker to open a save folder, plus a recent-folders list
+- Automatic timestamped backup of every file before it's overwritten
+- Warns if Steam Cloud might be about to overwrite your edits
+- Flags internal save inconsistencies as warnings (e.g. a trinket equipped to a dude no longer on the roster)
+
 ## Screenshots
 
 | Run | Collection | Achievements |
