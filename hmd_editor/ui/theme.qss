@@ -26,6 +26,11 @@ QPushButton#saveButton {
     padding: 4px 18px;
 }
 
+QPushButton:checkable:checked {
+    background: palette(highlight);
+    color: palette(highlighted-text);
+}
+
 QGroupBox {
     font-weight: 600;
     margin-top: 10px;

@@ -6,6 +6,7 @@ from typing import Callable
 
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
+    QButtonGroup,
     QCheckBox,
     QComboBox,
     QHBoxLayout,
@@ -68,7 +69,7 @@ class CollectionTab(QWidget):
             return
         self.placeholder.hide()
         self.content.show()
-        self._refresh_tier_combo()
+        self._refresh_tier_buttons()
         self._rebuild_table()
 
     def _notify_changed(self) -> None:
@@ -79,10 +80,19 @@ class CollectionTab(QWidget):
     def _build_filter_bar(self) -> QHBoxLayout:
         row = QHBoxLayout()
 
-        self.tier_combo = QComboBox()
-        self.tier_combo.currentIndexChanged.connect(self._on_tier_changed)
+        # Plain toggle buttons rather than a combo box: there are only 3
+        # tiers, and a dropdown popup here would float directly over the
+        # table below, making it easy to mis-click a row's star checkboxes
+        # while dismissing the popup.
         row.addWidget(QLabel("Tier"))
-        row.addWidget(self.tier_combo)
+        self.tier_button_group = QButtonGroup(self)
+        self.tier_button_group.setExclusive(True)
+        self.tier_button_group.idClicked.connect(self._on_tier_changed)
+        for tier in range(1, TIER_COUNT):
+            button = QPushButton(f"Tier {tier}")
+            button.setCheckable(True)
+            self.tier_button_group.addButton(button, tier)
+            row.addWidget(button)
 
         self.search_edit = QLineEdit()
         self.search_edit.setPlaceholderText("Search by name...")
@@ -102,20 +112,19 @@ class CollectionTab(QWidget):
 
         return row
 
-    def _refresh_tier_combo(self) -> None:
-        self.tier_combo.blockSignals(True)
-        self.tier_combo.clear()
+    def _refresh_tier_buttons(self) -> None:
         # Tier 0 isn't a real in-game tier (the game only has 1, 2, 3) - the
         # save file just carries an unused slot 0 in collectibles_by_tier.
         for tier in range(1, TIER_COUNT):
+            button = self.tier_button_group.button(tier)
             count = len(self.bundle.global_data["collectibles_by_tier"][tier])
-            self.tier_combo.addItem(f"Tier {tier} ({count} discovered)", tier)
-        self.tier_combo.setCurrentIndex(self.tier - 1)
-        self.tier_combo.blockSignals(False)
+            button.setText(f"Tier {tier} ({count})")
+            button.blockSignals(True)
+            button.setChecked(tier == self.tier)
+            button.blockSignals(False)
 
-    def _on_tier_changed(self, _index: int) -> None:
-        data = self.tier_combo.currentData()
-        self.tier = data if data is not None else 1
+    def _on_tier_changed(self, tier: int) -> None:
+        self.tier = tier
         self._rebuild_table()
 
     def _apply_filter(self) -> None:
@@ -218,7 +227,7 @@ class CollectionTab(QWidget):
         for box in (discovered_box, silver_box, gold_box):
             box.blockSignals(False)
 
-        self._refresh_tier_combo()
+        self._refresh_tier_buttons()
         self._notify_changed()
 
     # -- bulk actions -------------------------------------------------------------------
