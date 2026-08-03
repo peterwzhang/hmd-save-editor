@@ -10,7 +10,6 @@ from PySide6.QtWidgets import (
     QGroupBox,
     QHBoxLayout,
     QLabel,
-    QLineEdit,
     QListWidget,
     QListWidgetItem,
     QPushButton,
@@ -22,7 +21,14 @@ from PySide6.QtWidgets import (
 from ..model import run as run_model
 from .widgets import combo_box, count_spinbox, icon_label, money_spinbox
 
-RUN_FILE = "save_data.json"
+# (raw save value, display label). The game doesn't expose readable names
+# for these anywhere - "custom" and "daily_challenge" are what the save
+# format calls the Ensemble and Daily modes in its own UI.
+GAME_MODES = (
+    ("classic", "Classic mode"),
+    ("custom", "Ensemble mode"),
+    ("daily_challenge", "Daily mode"),
+)
 
 
 class RunTab(QWidget):
@@ -88,14 +94,21 @@ class RunTab(QWidget):
         rank_box.valueChanged.connect(lambda v: self._set_scalar(run_model.set_rank, v))
         form.addRow("Rank", rank_box)
 
-        mode_edit = QLineEdit(run.get("game_mode", ""))
-
-        def set_mode():
-            self.bundle.set_value(RUN_FILE, ["game_mode"], mode_edit.text())
-            self._notify_changed()
-
-        mode_edit.editingFinished.connect(set_mode)
-        form.addRow("Game mode", mode_edit)
+        mode_combo = combo_box()
+        for raw, label in GAME_MODES:
+            mode_combo.addItem(label, raw)
+        current_mode = run.get("game_mode", "")
+        index = mode_combo.findData(current_mode)
+        if index == -1:
+            # Unknown mode (e.g. a future game update) - show it verbatim
+            # rather than silently switching the save to a different one.
+            mode_combo.addItem(current_mode, current_mode)
+            index = mode_combo.count() - 1
+        mode_combo.setCurrentIndex(index)
+        mode_combo.currentIndexChanged.connect(
+            lambda _i: self._set_scalar(run_model.set_game_mode, mode_combo.currentData())
+        )
+        form.addRow("Game mode", mode_combo)
 
         return box
 

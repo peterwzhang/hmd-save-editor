@@ -166,6 +166,10 @@ def set_rank(bundle: SaveBundle, value) -> None:
     bundle.set_value(FILE, ["rank"], value)
 
 
+def set_game_mode(bundle: SaveBundle, value: str) -> None:
+    bundle.set_value(FILE, ["game_mode"], value)
+
+
 def validate(bundle: SaveBundle) -> list:
     """Return a list of human-readable warnings about internal
     inconsistencies in the run data. An empty list means everything the

@@ -95,6 +95,12 @@ def test_set_cash_serializes_as_float(save_dir):
     assert '"cash":5.0' in (save_dir / "save_data.json").read_text(encoding="utf-8")
 
 
+def test_set_game_mode(save_dir):
+    bundle = SaveBundle.load(save_dir)
+    run_model.set_game_mode(bundle, "daily_challenge")
+    assert bundle.run_data["game_mode"] == "daily_challenge"
+
+
 def test_set_consumable_new_and_existing(save_dir):
     bundle = SaveBundle.load(save_dir)
     run_model.set_consumable(bundle, "dude_juice", 9)  # already owned (float)
