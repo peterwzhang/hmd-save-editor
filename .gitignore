@@ -1,0 +1,25 @@
+# Real save data - never commit user save files
+local_save/
+*.dmp
+
+# Sprite art fetched from howmanydudes.com - not redistributed
+cache/sprites/
+
+# Editor backups written next to opened save files
+hmd_editor_backups/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Machine-local Claude Code permissions
+.claude/settings.local.json

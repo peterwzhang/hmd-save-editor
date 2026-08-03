@@ -1,0 +1,34 @@
+[project]
+name = "hmd-save-editor"
+version = "0.1.0"
+description = "A save editor for How Many Dudes?"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+hmd-save-editor = "hmd_editor.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["hmd_editor*"]
+
+[tool.setuptools.package-data]
+hmd_editor = ["ui/theme.qss"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

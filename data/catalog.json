@@ -1,0 +1,4802 @@
+{
+ "Kung%20Roo": {
+  "ability_name": null,
+  "description": "",
+  "id": "Kung%20Roo",
+  "kind": "enemy",
+  "name": "Kung Roo",
+  "sprite": "/sprites/sp_icon_anim_kungroo_0.webp"
+ },
+ "ab_roller": {
+  "ability_name": null,
+  "description": "The Spartan Dude gains 10% Max HP and 10% Deflection, and he Spawns near other Dudes.",
+  "id": "ab_roller",
+  "kind": "relic",
+  "name": "Ab Roller",
+  "sprite": "/sprites/sp_relic_ab_roller_0.webp"
+ },
+ "action": {
+  "ability_name": null,
+  "description": "Action Dudes may get knocked down, but they always come back in the third act to save the world.",
+  "id": "action",
+  "kind": "family",
+  "name": "Action",
+  "sprite": "/sprites/sp_famicon_action_0.webp"
+ },
+ "agent": {
+  "ability_name": "GET DOWN!",
+  "description": "When he deals Direct Damage, he has a 15% chance to Dash to a Roster Dude in danger. Any Dude he Dashes to becomes an Asset for 8 seconds, gaining Temporary Health for 20% of his Max HP.",
+  "id": "agent",
+  "kind": "dude",
+  "name": "Agent Dude",
+  "sprite": "/sprites/sp_icon_dude_spy_0.webp"
+ },
+ "alien": {
+  "ability_name": "Tractor Beam",
+  "description": "Every 3 seconds, he Beams a random Dude of the Dude Type immediately above him on the Roster, forcing him to Dash to the enemy with the lowest HP and attack it.",
+  "id": "alien",
+  "kind": "dude",
+  "name": "Alien Dude",
+  "sprite": "/sprites/sp_icon_dude_alien_0.webp"
+ },
+ "ancient_sword": {
+  "ability_name": null,
+  "description": "2 Skeledudes are Summoned when battle starts. When a Dude Taunts, there is a 5% chance he pierces into the Underworld and Summons a Skeledude, with a 1 second Global Cooldown.",
+  "id": "ancient_sword",
+  "kind": "relic",
+  "name": "Ancient Sword",
+  "sprite": "/sprites/sp_relic_ancient_sword_0.webp"
+ },
+ "assassin": {
+  "ability_name": "Toxic Slash",
+  "description": "His Direct Damage injects Toxins into his target, reducing its Attack Power by 5% for 5 seconds, stacking up to 3 times.",
+  "id": "assassin",
+  "kind": "dude",
+  "name": "Assassin Dude",
+  "sprite": "/sprites/sp_icon_dude_thief_0.webp"
+ },
+ "assassin_song": {
+  "ability_name": null,
+  "description": "The Ninja Dude gains 20% Evasion. When he uses Shuriken Throw, he gains an Independently Stacking 5% Attack Power for 3 seconds.",
+  "id": "assassin_song",
+  "kind": "relic",
+  "name": "Mix Tape",
+  "sprite": "/sprites/sp_relic_assassin_song_0.webp"
+ },
+ "attack_speed": {
+  "ability_name": null,
+  "description": "How many times per second you Attack.",
+  "id": "attack_speed",
+  "kind": "stat",
+  "name": "Attack Speed",
+  "sprite": "/sprites/sp_stat_attack_speed_0.webp"
+ },
+ "bagpipes": {
+  "ability_name": null,
+  "description": "The Knight Dude gains 10% Toughness, and he now has a 20% chance when dealing Direct Damage to Taunt a nearby enemy.",
+  "id": "bagpipes",
+  "kind": "relic",
+  "name": "Bagpipes",
+  "sprite": "/sprites/sp_relic_bagpipes_0.webp"
+ },
+ "bamboo_practice": {
+  "ability_name": null,
+  "description": "The Samurai Dude gains 20% Deflection. When he Deflects, he gains 5% Crit Chance for 5 seconds, stacking up to 3 times.",
+  "id": "bamboo_practice",
+  "kind": "relic",
+  "name": "Bamboo Dummy",
+  "sprite": "/sprites/sp_relic_bamboo_dummy_0.webp"
+ },
+ "bard": {
+  "ability_name": "Four Chord Song",
+  "description": "Every 4 times he deals Direct Damage, the Bard Dude plays a Song that inspires 4 random Dudes, granting 4% Attack Power and Run Speed for 4 seconds. This effect stacks up to 4 times.",
+  "id": "bard",
+  "kind": "dude",
+  "name": "Bard Dude",
+  "sprite": "/sprites/sp_icon_dude_bard_0.webp"
+ },
+ "basic": {
+  "ability_name": "Mob Mentality",
+  "description": "Gains 2% Attack Power and Max HP for every additional Regular Dude on your Roster.",
+  "id": "basic",
+  "kind": "dude",
+  "name": "Regular Dude",
+  "sprite": "/sprites/sp_icon_dude_regular_0.webp"
+ },
+ "bat_wings": {
+  "ability_name": null,
+  "description": "When a Vampire Dude takes Fatal Damage, he Lifesteals from nearby enemies until his HP is full and then teleports away. 10 second Cooldown.",
+  "id": "bat_wings",
+  "kind": "relic",
+  "name": "Bat Wings",
+  "sprite": "/sprites/sp_relic_bat_wings_0.webp"
+ },
+ "battle_standard": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Crit Chance.",
+  "id": "battle_standard",
+  "kind": "relic",
+  "name": "Battle Standard",
+  "sprite": "/sprites/sp_relic_battle_standard_0.webp"
+ },
+ "bean_burrito": {
+  "ability_name": null,
+  "description": "When a Dude gets Knocked Out, he creates a burst of toxic gas when he lands, dealing damage equal to 400% of his DPS to nearby enemies.",
+  "id": "bean_burrito",
+  "kind": "relic",
+  "name": "Bean Burrito",
+  "sprite": "/sprites/sp_relic_bean_burrito_0.webp"
+ },
+ "bee": {
+  "ability_name": null,
+  "description": "",
+  "id": "bee",
+  "kind": "enemy",
+  "name": "Bee",
+  "sprite": "/sprites/sp_icon_anim_bee_little_0.webp"
+ },
+ "belted_greaves": {
+  "ability_name": null,
+  "description": "The Knight Dude gains 10% Toughness. In addition, all Dudes gain 1% Toughness per Knight Dude on your Team, stacking up to 10%.",
+  "id": "belted_greaves",
+  "kind": "relic",
+  "name": "Belted Greaves",
+  "sprite": "/sprites/sp_relic_belted_greaves_0.webp"
+ },
+ "big_bee": {
+  "ability_name": null,
+  "description": "",
+  "id": "big_bee",
+  "kind": "enemy",
+  "name": "Big Bee",
+  "sprite": "/sprites/sp_icon_anim_bee_big_0.webp"
+ },
+ "bigcat_cougar": {
+  "ability_name": null,
+  "description": "",
+  "id": "bigcat_cougar",
+  "kind": "enemy",
+  "name": "Cougar",
+  "sprite": "/sprites/sp_icon_puma_0.webp"
+ },
+ "bigcat_leopard": {
+  "ability_name": null,
+  "description": "",
+  "id": "bigcat_leopard",
+  "kind": "enemy",
+  "name": "Leopard",
+  "sprite": "/sprites/sp_icon_leopard_0.webp"
+ },
+ "bigcat_lion": {
+  "ability_name": null,
+  "description": "",
+  "id": "bigcat_lion",
+  "kind": "enemy",
+  "name": "Lion",
+  "sprite": "/sprites/sp_icon_lion_0.webp"
+ },
+ "bigcat_lioness": {
+  "ability_name": null,
+  "description": "",
+  "id": "bigcat_lioness",
+  "kind": "enemy",
+  "name": "Lioness",
+  "sprite": "/sprites/sp_icon_lioness_0.webp"
+ },
+ "bigcat_panther": {
+  "ability_name": null,
+  "description": "",
+  "id": "bigcat_panther",
+  "kind": "enemy",
+  "name": "Panther",
+  "sprite": "/sprites/sp_icon_panther_0.webp"
+ },
+ "bigcat_sabertooth": {
+  "ability_name": null,
+  "description": "",
+  "id": "bigcat_sabertooth",
+  "kind": "enemy",
+  "name": "Sabertooth",
+  "sprite": "/sprites/sp_icon_sabertooth_0.webp"
+ },
+ "bigcat_tiger": {
+  "ability_name": null,
+  "description": "",
+  "id": "bigcat_tiger",
+  "kind": "enemy",
+  "name": "Tiger",
+  "sprite": "/sprites/sp_icon_tiger_0.webp"
+ },
+ "black_sheep": {
+  "ability_name": null,
+  "description": "When battle starts, the Dude Type at the end of your Roster immediately Taunts up to 5 random enemies for 3 seconds.",
+  "id": "black_sheep",
+  "kind": "relic",
+  "name": "Black Sheep",
+  "sprite": "/sprites/sp_relic_black_sheep_0.webp"
+ },
+ "blacksmith_hammer": {
+  "ability_name": null,
+  "description": "The Knight Dude gains 30% Max HP. When he lands a Direct Crit, he deals bonus damage equal to 40% of his current Temporary Health.",
+  "id": "blacksmith_hammer",
+  "kind": "relic",
+  "name": "Blacksmith's Hammer",
+  "sprite": "/sprites/sp_relic_blacksmith_hammer_0.webp"
+ },
+ "block_chance": {
+  "ability_name": null,
+  "description": "The chance to Block incoming Direct Damage, preventing it. Block Chance is a Diminishing Stat.",
+  "id": "block_chance",
+  "kind": "stat",
+  "name": "Block Chance",
+  "sprite": "/sprites/sp_stat_block_chance_0.webp"
+ },
+ "blood_bag": {
+  "ability_name": null,
+  "description": "The Vampire Dude gains 50% Cleave, and any Dude who Lifesteals now also Heals the most-injured Roster Dude for 80% of the Lifesteal amount.",
+  "id": "blood_bag",
+  "kind": "relic",
+  "name": "Blood Bag",
+  "sprite": "/sprites/sp_relic_bloodbag_0.webp"
+ },
+ "blood_siphon": {
+  "ability_name": null,
+  "description": "When the Vampire Dude takes damage while below 50% HP, he Siphons 20% HP from a random healthier Roster Dude and applies Bloodsucker Aura to him.",
+  "id": "blood_siphon",
+  "kind": "relic",
+  "name": "Blood Siphon",
+  "sprite": "/sprites/sp_relic_blood_siphon_0.webp"
+ },
+ "bloodthirsty": {
+  "ability_name": null,
+  "description": "This creature has 80% Taunt Resistance.",
+  "id": "bloodthirsty",
+  "kind": "enemy_trait",
+  "name": "Don't Care",
+  "sprite": "/sprites/sp_trait_bloodthirsty_0.webp"
+ },
+ "bloody_talisman": {
+  "ability_name": null,
+  "description": "When a Dude receives Healing, he gains 1% Attack Speed for the rest of the battle. This effect can stack up to 20 times.",
+  "id": "bloody_talisman",
+  "kind": "relic",
+  "name": "Bloody Talisman",
+  "sprite": "/sprites/sp_relic_bloodytalisman_0.webp"
+ },
+ "bone_axe": {
+  "ability_name": null,
+  "description": "The Skeledude gains 100% Attack Power. When a Skeledude takes Fatal Damage, all nearby Dudes gain 10% Crit Chance for 6 seconds.",
+  "id": "bone_axe",
+  "kind": "relic",
+  "name": "Bone Axe",
+  "sprite": "/sprites/sp_relic_bone_axe_0.webp"
+ },
+ "bone_broth": {
+  "ability_name": null,
+  "description": "The Frankendude's Blood Pump now additionally Heals the next 2 most-injured Roster Dudes for 30% of the HP Donated each.",
+  "id": "bone_broth",
+  "kind": "relic",
+  "name": "Bone Broth",
+  "sprite": "/sprites/sp_relic_bone_broth_0.webp"
+ },
+ "bonfire": {
+  "ability_name": null,
+  "description": "Dudes gain 1% Max HP for every Dude of the same Family on your Team, up to a maximum of 20%.",
+  "id": "bonfire",
+  "kind": "relic",
+  "name": "Bonfire",
+  "sprite": "/sprites/sp_relic_bonfire_0.webp"
+ },
+ "bony_backhand": {
+  "ability_name": null,
+  "description": "The Skeledude gains 20% Toughness, and he Taunts up to 4 nearby enemies for 4 seconds when he gets Summoned.",
+  "id": "bony_backhand",
+  "kind": "relic",
+  "name": "Bony Backhand",
+  "sprite": "/sprites/sp_relic_bony_backhand_0.webp"
+ },
+ "book_of_shadows": {
+  "ability_name": null,
+  "description": "The Ninja Dude gains 50% Crit Damage, and his Shurikens now bounce to 1 additional enemy.",
+  "id": "book_of_shadows",
+  "kind": "relic",
+  "name": "Book of Shadows",
+  "sprite": "/sprites/sp_relic_book_of_shadows_0.webp"
+ },
+ "booming_voice": {
+  "ability_name": null,
+  "description": "The General Dude commands Dudes to Taunt 2 more enemies at a time, and he deals damage around the Taunter equal to 300% of his DPS, split among enemies hit.",
+  "id": "booming_voice",
+  "kind": "relic",
+  "name": "Megaphone",
+  "sprite": "/sprites/sp_relic_booming_voice_0.webp"
+ },
+ "brain_in_a_jar": {
+  "ability_name": null,
+  "description": "The Frankendude gains 4% Regeneration. When he Donates HP to a Dude through his Blood Pump, he also deals Direct Damage to a nearby enemy for 10% of his DPS.",
+  "id": "brain_in_a_jar",
+  "kind": "relic",
+  "name": "Brain in a Jar",
+  "sprite": "/sprites/sp_relic_brain_in_a_jar_0.webp"
+ },
+ "bullfrog": {
+  "ability_name": null,
+  "description": "",
+  "id": "bullfrog",
+  "kind": "enemy",
+  "name": "Bullfrog",
+  "sprite": "/sprites/sp_icon_anim_bullfrog_0.webp"
+ },
+ "caboose": {
+  "ability_name": null,
+  "description": "The Dude Type at the end of your Roster gains 30% Max HP.",
+  "id": "caboose",
+  "kind": "relic",
+  "name": "Caboose",
+  "sprite": "/sprites/sp_relic_caboose_0.webp"
+ },
+ "caged_tiger": {
+  "ability_name": null,
+  "description": "When any Dude gets Knocked Out, all Dudes gain 20% Crit Chance for 3 seconds.",
+  "id": "caged_tiger",
+  "kind": "relic",
+  "name": "Caged Tiger",
+  "sprite": "/sprites/sp_relic_caged_tiger_0.webp"
+ },
+ "calcium_pills": {
+  "ability_name": null,
+  "description": "The Skeledude gains 60% Max HP, and the Necrodude gains 30% Max HP. When a Skeledude takes Fatal Damage, he Heals the 5 most-injured Roster Dudes for 100% of his Max HP, split evenly among them.",
+  "id": "calcium_pills",
+  "kind": "relic",
+  "name": "Calcium Pills",
+  "sprite": "/sprites/sp_relic_calciumpills_0.webp"
+ },
+ "canada_goose": {
+  "ability_name": null,
+  "description": "",
+  "id": "canada_goose",
+  "kind": "enemy",
+  "name": "Canada Goose",
+  "sprite": "/sprites/sp_icon_anim_canadagoose_0.webp"
+ },
+ "captains_hat": {
+  "ability_name": null,
+  "description": "The Dude Type at the top of your Roster gains 30% Attack Power.",
+  "id": "captains_hat",
+  "kind": "relic",
+  "name": "Captain's Hat",
+  "sprite": "/sprites/sp_relic_captainshat_0.webp"
+ },
+ "cassowary": {
+  "ability_name": null,
+  "description": "",
+  "id": "cassowary",
+  "kind": "enemy",
+  "name": "Cassowary",
+  "sprite": "/sprites/sp_icon_anim_cassowary_0.webp"
+ },
+ "cave": {
+  "ability_name": "Unga Bunga",
+  "description": "First, Cave Dude Unga. Then... he Bunga.",
+  "id": "cave",
+  "kind": "dude",
+  "name": "Cave Dude",
+  "sprite": "/sprites/sp_icon_dude_cave_0.webp"
+ },
+ "chef": {
+  "ability_name": "Burger",
+  "description": "When he deals Direct Damage, he prepares a Burger that Heals for 70% of his Attack Power. He can have 4 Burgers prepared at a time, and he delivers them to Roster Dudes as needed.",
+  "id": "chef",
+  "kind": "dude",
+  "name": "Chef Dude",
+  "sprite": "/sprites/sp_icon_dude_chef_0.webp"
+ },
+ "chestplate": {
+  "ability_name": null,
+  "description": "When the Knight Dude takes damage greater than 5% of his Max HP, he gains Temporary Health for 3 seconds equal to 40% of the damage taken.",
+  "id": "chestplate",
+  "kind": "relic",
+  "name": "Chestplate",
+  "sprite": "/sprites/sp_relic_chestplate_0.webp"
+ },
+ "cleave": {
+  "ability_name": null,
+  "description": "A chance to hit an additional target near your Primary Target when you Attack. Every 100% Cleave is a guaranteed extra hit.",
+  "id": "cleave",
+  "kind": "stat",
+  "name": "Cleave",
+  "sprite": "/sprites/sp_stat_cleave_0.webp"
+ },
+ "cleave_reduction": {
+  "ability_name": null,
+  "description": "Reduces the damage dealt by Cleave. Cleave Damage Down is a Diminishing Stat.",
+  "id": "cleave_reduction",
+  "kind": "stat",
+  "name": "Cleave Damage Down",
+  "sprite": "/sprites/sp_icon_target_0.webp"
+ },
+ "cleric": {
+  "ability_name": "Divine Pulse",
+  "description": "Every 2 seconds, the Cleric Dude creates a Pulse at the most-injured Roster Dude. The Pulse Heals injured Dudes within its radius for 100% of the Cleric Dude's DPS, split evenly among them.",
+  "id": "cleric",
+  "kind": "dude",
+  "name": "Cleric Dude",
+  "sprite": "/sprites/sp_icon_dude_cleric_0.webp"
+ },
+ "clumpy_potion": {
+  "ability_name": null,
+  "description": "Teleports a group of Dudes to a location of your choosing and grants them Temporary Health equal to 25% of their Max HP that lasts until depleted.",
+  "id": "clumpy_potion",
+  "kind": "consumable",
+  "name": "Burner Phone",
+  "sprite": "/sprites/sp_cons_burnerphone_0.webp"
+ },
+ "combat_boots": {
+  "ability_name": null,
+  "description": "The General Dude gains 20% Toughness and Attack Power.",
+  "id": "combat_boots",
+  "kind": "relic",
+  "name": "Combat Boots",
+  "sprite": "/sprites/sp_relic_combat_boots_0.webp"
+ },
+ "combat_radio": {
+  "ability_name": null,
+  "description": "When a General Dude uses Tactical Command, the target Dude gains an Independently Stacking 15% Attack Power, 5% Crit Chance, and 30% Cleave for 4 seconds.",
+  "id": "combat_radio",
+  "kind": "relic",
+  "name": "Combat Radio",
+  "sprite": "/sprites/sp_relic_combat_radio_0.webp"
+ },
+ "cons_pocket_dice": {
+  "ability_name": null,
+  "description": "Rerolls the Relics and Trinkets found in Stashes, rerolls Flyers, and restocks the inventory of the Merchant Dude.",
+  "id": "cons_pocket_dice",
+  "kind": "consumable",
+  "name": "Pocket Dice",
+  "sprite": "/sprites/sp_cons_dice_0.webp"
+ },
+ "construction": {
+  "ability_name": "Hammer Toss",
+  "description": "When he deals Direct Damage he has a 20% chance to toss a Hammer at a nearby enemy, damaging it for 50% of his Attack Power and Taunting it for 3 seconds.",
+  "id": "construction",
+  "kind": "dude",
+  "name": "Construction Dude",
+  "sprite": "/sprites/sp_icon_dude_construction_0.webp"
+ },
+ "copper_bolts": {
+  "ability_name": null,
+  "description": "The Frankendude gains 30% Attack Speed. When he deals Direct Damage, he has a 20% chance to gain 1% Regeneration for 3 seconds, stacking up to 6 times.",
+  "id": "copper_bolts",
+  "kind": "relic",
+  "name": "Copper Bolts",
+  "sprite": "/sprites/sp_relic_copper_bolts_0.webp"
+ },
+ "crab": {
+  "ability_name": null,
+  "description": "",
+  "id": "crab",
+  "kind": "enemy",
+  "name": "Crab",
+  "sprite": "/sprites/sp_icon_anim_crab_0.webp"
+ },
+ "crit_chance": {
+  "ability_name": null,
+  "description": "The chance you land a Critical Hit, dealing increased damage. Crit Chance is a Diminishing Stat.",
+  "id": "crit_chance",
+  "kind": "stat",
+  "name": "Crit Chance",
+  "sprite": "/sprites/sp_stat_critchance_0.webp"
+ },
+ "crit_damage": {
+  "ability_name": null,
+  "description": "Increases the damage of your Critical Hits.",
+  "id": "crit_damage",
+  "kind": "stat",
+  "name": "Crit Damage",
+  "sprite": "/sprites/sp_stat_critdamage_0.webp"
+ },
+ "crit_weakness": {
+  "ability_name": null,
+  "description": "Increases the damage you take from Critical Hits.",
+  "id": "crit_weakness",
+  "kind": "stat",
+  "name": "Crit Vulnerability",
+  "sprite": "/sprites/sp_icon_chevrons_down_0.webp"
+ },
+ "crittable": {
+  "ability_name": null,
+  "description": "Increases your chance to receive Critical Hits.",
+  "id": "crittable",
+  "kind": "stat",
+  "name": "Crit Exposure",
+  "sprite": "/sprites/sp_icon_bullseye_0.webp"
+ },
+ "crocodile": {
+  "ability_name": null,
+  "description": "",
+  "id": "crocodile",
+  "kind": "enemy",
+  "name": "Crocodile",
+  "sprite": "/sprites/sp_icon_anim_croc_0.webp"
+ },
+ "cyborg": {
+  "ability_name": "Extermination",
+  "description": "When a Cyborg Dude deals Direct Damage to his Primary Target, he has a 25% chance to grant a stacking 1% Attack Power to all Cyborg Dudes for the rest of the battle.",
+  "id": "cyborg",
+  "kind": "dude",
+  "name": "Cyborg Dude",
+  "sprite": "/sprites/sp_icon_dude_cyborg_0.webp"
+ },
+ "damage": {
+  "ability_name": null,
+  "description": "How much damage you deal with each Attack.",
+  "id": "damage",
+  "kind": "stat",
+  "name": "Attack Power",
+  "sprite": "/sprites/sp_stat_damage_0.webp"
+ },
+ "death_mask": {
+  "ability_name": null,
+  "description": "When a Medic Dude casts Triage on a Dude who is below 25% HP, that Dude gains 30% Attack Speed and 15% Toughness for 3 seconds.",
+  "id": "death_mask",
+  "kind": "relic",
+  "name": "Death Mask",
+  "sprite": "/sprites/sp_relic_death_mask_0.webp"
+ },
+ "death_rattle": {
+  "ability_name": null,
+  "description": "All Dudes gain 2% Attack Power during battle per Unconscious Dude on your Team, up to a maximum of 30%.",
+  "id": "death_rattle",
+  "kind": "relic",
+  "name": "Death Rattle",
+  "sprite": "/sprites/sp_relic_deathrattle_0.webp"
+ },
+ "deflection": {
+  "ability_name": null,
+  "description": "A chance to Deflect incoming damage, taking no damage and instead redirecting 50% of the damage as Direct Damage to an ally with high current HP. Allies can Block or Evade damage that is redirected to them through Deflection. Deflection is a Diminishing Stat.",
+  "id": "deflection",
+  "kind": "stat",
+  "name": "Deflection",
+  "sprite": "/sprites/sp_ui_staticon_deflection_0.webp"
+ },
+ "demon_goat": {
+  "ability_name": null,
+  "description": "",
+  "id": "demon_goat",
+  "kind": "enemy",
+  "name": "Demon Goat",
+  "sprite": "/sprites/sp_icon_anim_demongoat_0.webp"
+ },
+ "dentist": {
+  "ability_name": "Novocaine Injection",
+  "description": "When the Dentist Dude deals Direct Damage, he injects a random Dude with Novocaine for 5 seconds, stacking up to 5 times. Each stack of Novocaine prevents 3% of incoming damage.",
+  "id": "dentist",
+  "kind": "dude",
+  "name": "Dentist Dude",
+  "sprite": "/sprites/sp_icon_dude_dentist_0.webp"
+ },
+ "dog_tag": {
+  "ability_name": null,
+  "description": "When a Dude gets Knocked Out, all Dudes gain 20% Run Speed for the rest of the battle. This effect can stack up to 50 times.",
+  "id": "dog_tag",
+  "kind": "relic",
+  "name": "Dog Tag",
+  "sprite": "/sprites/sp_relic_dog_tag_0.webp"
+ },
+ "dps": {
+  "ability_name": null,
+  "description": "How much damage you deal per second while Attacking, determined by multiplying your Attack Speed and Attack Power.",
+  "id": "dps",
+  "kind": "stat",
+  "name": "DPS",
+  "sprite": "/sprites/sp_stat_dps_0.webp"
+ },
+ "druid": {
+  "ability_name": "Bear Form",
+  "description": "After he lands 10 Direct Damage hits while in Dude Form, he shapeshifts into a Bear, gaining 30% Attack Power and 200% Cleave for 3 seconds.",
+  "id": "druid",
+  "kind": "dude",
+  "name": "Druid Dude",
+  "sprite": "/sprites/sp_icon_dude_druid_0.webp"
+ },
+ "duck": {
+  "ability_name": null,
+  "description": "",
+  "id": "duck",
+  "kind": "enemy",
+  "name": "Lil' Duck",
+  "sprite": "/sprites/sp_icon_anim_duck_0.webp"
+ },
+ "duck_sized_horse": {
+  "ability_name": null,
+  "description": "",
+  "id": "duck_sized_horse",
+  "kind": "enemy",
+  "name": "Duck-Sized Horse",
+  "sprite": "/sprites/sp_icon_anim_horse_ducksized_0.webp"
+ },
+ "dude_juice": {
+  "ability_name": null,
+  "description": "Revives Unconscious Dudes! If used in the Ranch, revives 10 Dudes. If used during battle, revives 5 Dudes with full HP.",
+  "id": "dude_juice",
+  "kind": "consumable",
+  "name": "Dude Juice",
+  "sprite": "/sprites/sp_cons_dudejuice_0.webp"
+ },
+ "dudeplicator": {
+  "ability_name": null,
+  "description": "Immediately grants 2 Burner Phones and reduces their price by 50%. Dudes teleported by the Burner Phone gain 50% Attack Power, 50% Attack Speed, and 10% Crit Chance for 5 seconds.",
+  "id": "dudeplicator",
+  "kind": "relic",
+  "name": "Splitting Headache",
+  "sprite": "/sprites/sp_relic_dudeplicator_0.webp"
+ },
+ "echo": {
+  "ability_name": null,
+  "description": "",
+  "id": "echo",
+  "kind": "dude",
+  "name": "Echo Dude",
+  "sprite": "/sprites/sp_icon_dude_echo_0.webp"
+ },
+ "ectoplasm_vial": {
+  "ability_name": null,
+  "description": "When the Ghost Dude casts Phase Shift, he grants Temporary Health to both target Dudes equal to 100% of his Attack Power for 3 seconds.",
+  "id": "ectoplasm_vial",
+  "kind": "relic",
+  "name": "Ectoplasm Vial",
+  "sprite": "/sprites/sp_relic_ectoplasm_vial_0.webp"
+ },
+ "electrician": {
+  "ability_name": "Static Discharge",
+  "description": "When the Electrician Dude deals Direct Damage, he gains a Static Charge. At 10 Charges or more, his next Attack discharges a Static Shock, Throwing him and damaging his target for 40% Attack Power per Charge.",
+  "id": "electrician",
+  "kind": "dude",
+  "name": "Electrician Dude",
+  "sprite": "/sprites/sp_icon_dude_electrician_0.webp"
+ },
+ "elephant": {
+  "ability_name": null,
+  "description": "",
+  "id": "elephant",
+  "kind": "enemy",
+  "name": "Elephant",
+  "sprite": "/sprites/sp_icon_anim_elephant_0.webp"
+ },
+ "employed": {
+  "ability_name": null,
+  "description": "Employed Dudes have the tools and the know-how to get the job done right the third time. First time if the pay is good.",
+  "id": "employed",
+  "kind": "family",
+  "name": "Employed",
+  "sprite": "/sprites/sp_famicon_employed_0.webp"
+ },
+ "epinephrine": {
+  "ability_name": null,
+  "description": "The Medic Dude's Triage grants 5% Attack Speed for 5 seconds. This effect can stack up to 4 times.",
+  "id": "epinephrine",
+  "kind": "relic",
+  "name": "Epinephrine",
+  "sprite": "/sprites/sp_relic_epinephrine_0.webp"
+ },
+ "evasion": {
+  "ability_name": null,
+  "description": "The chance to Evade incoming damage, preventing it. Evasion is a Diminishing Stat.",
+  "id": "evasion",
+  "kind": "stat",
+  "name": "Evasion",
+  "sprite": "/sprites/sp_stat_evasion_0.webp"
+ },
+ "evasive": {
+  "ability_name": null,
+  "description": "Cannot be targeted by Cleave.",
+  "id": "evasive",
+  "kind": "enemy_trait",
+  "name": "Evasive",
+  "sprite": "/sprites/sp_trait_evasive_0.webp"
+ },
+ "expired_skin_cream": {
+  "ability_name": null,
+  "description": "When a Zombie Dude receives Healing, he damages surrounding enemies for 200% of the Healing received, evenly split among them.",
+  "id": "expired_skin_cream",
+  "kind": "relic",
+  "name": "Expired Skin Cream",
+  "sprite": "/sprites/sp_relic_expired_skin_cream_0.webp"
+ },
+ "explorer": {
+  "ability_name": "Canteen",
+  "description": "When a Roster Dude takes damage below 30% HP, the Explorer Dude gives him a Sip from his Canteen to Heal him for 150% of his DPS. His Canteen can hold 2 sips and refills one sip every 3 seconds.",
+  "id": "explorer",
+  "kind": "dude",
+  "name": "Explorer Dude",
+  "sprite": "/sprites/sp_icon_dude_explorer_0.webp"
+ },
+ "explosive_innards": {
+  "ability_name": null,
+  "description": "When the Zombie Dude takes Direct Damage, he has a 0.5% chance to explode, dealing damage to surrounding enemies equal to 200% of his Max HP. This explosion Knocks Out the Zombie Dude.",
+  "id": "explosive_innards",
+  "kind": "relic",
+  "name": "Explosive Innards",
+  "sprite": "/sprites/sp_relic_explosiveinnards_0.webp"
+ },
+ "fairy_ring": {
+  "ability_name": null,
+  "description": "Immediately grants 2 Strange Spores and reduces their price by 50%. All Dudes gain 100% Healing Received while under the effects of Strange Spores.",
+  "id": "fairy_ring",
+  "kind": "relic",
+  "name": "Fairy Ring",
+  "sprite": "/sprites/sp_relic_fairy_ring_0.webp"
+ },
+ "false_fangs": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Lifesteal.",
+  "id": "false_fangs",
+  "kind": "relic",
+  "name": "False Fangs",
+  "sprite": "/sprites/sp_relic_false_fangs_0.webp"
+ },
+ "fantasy": {
+  "ability_name": null,
+  "description": "Fantasy Dudes use magic and otherworldly abilities to empower themselves and each other.",
+  "id": "fantasy",
+  "kind": "family",
+  "name": "Fantasy",
+  "sprite": "/sprites/sp_famicon_fantasy_0.webp"
+ },
+ "farmer": {
+  "ability_name": "\"I'm Fine\"",
+  "description": "The Farmer Dude has high natural Toughness. When he receives Healing from another Dude, he Donates 50% of the restored HP to the most-injured other Roster Dude instead of accepting it for himself.",
+  "id": "farmer",
+  "kind": "dude",
+  "name": "Farmer Dude",
+  "sprite": "/sprites/sp_icon_dude_farmer_0.webp"
+ },
+ "feral_hog": {
+  "ability_name": null,
+  "description": "",
+  "id": "feral_hog",
+  "kind": "enemy",
+  "name": "Feral Hog",
+  "sprite": "/sprites/sp_icon_anim_pig_0.webp"
+ },
+ "finance": {
+  "ability_name": "Dividend",
+  "description": "Each Finance Dude on your Team generates $3 at the end of each battle.",
+  "id": "finance",
+  "kind": "dude",
+  "name": "Finance Dude",
+  "sprite": "/sprites/sp_icon_dude_finance_0.webp"
+ },
+ "flaming_skull": {
+  "ability_name": null,
+  "description": "The Skeledude burns for 10% of his Max HP every second, dealing damage to surrounding enemies for the same amount.",
+  "id": "flaming_skull",
+  "kind": "relic",
+  "name": "Flaming Skull",
+  "sprite": "/sprites/sp_relic_flamingskull_0.webp"
+ },
+ "frankendude": {
+  "ability_name": "Blood Pump",
+  "description": "The Frankendude has high natural Regeneration. Every second, he Donates 10% of his current HP to the 2 most-injured Roster Dudes, split between them.",
+  "id": "frankendude",
+  "kind": "dude",
+  "name": "Frankendude",
+  "sprite": "/sprites/sp_icon_dude_frankendude_0.webp"
+ },
+ "frenzy_stone": {
+  "ability_name": null,
+  "description": "When a Skeledude gets Summoned, all Dudes gain 1% Attack Speed for the rest of the battle, stacking up to 30%.",
+  "id": "frenzy_stone",
+  "kind": "relic",
+  "name": "Frenzy Stone",
+  "sprite": "/sprites/sp_relic_frenzystone_0.webp"
+ },
+ "fresh_sheets": {
+  "ability_name": null,
+  "description": "All Dudes gain 10% Max HP. In addition, the Ghost Dude gains 10% Evasion, and he has a 20% chance to cast Phase Shift when he Evades.",
+  "id": "fresh_sheets",
+  "kind": "relic",
+  "name": "Fresh Sheets",
+  "sprite": "/sprites/sp_relic_fresh_sheets_0.webp"
+ },
+ "frilled_shoulderpads": {
+  "ability_name": null,
+  "description": "The General Dude's Tactical Command now Heals for 20% of the target Dude's Max HP, and he gains that amount as Temporary Health for himself for 4 seconds. Overhealing on the target Dude converts to Temporary Health.",
+  "id": "frilled_shoulderpads",
+  "kind": "relic",
+  "name": "Frilled Shoulderpads",
+  "sprite": "/sprites/sp_relic_frilled_shoulderpads_0.webp"
+ },
+ "ft_baguette": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_baguette",
+  "kind": "food",
+  "name": "Baguette",
+  "sprite": "/sprites/sp_food_baguette_0.webp"
+ },
+ "ft_chili_dog": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_chili_dog",
+  "kind": "food",
+  "name": "Chili Dog",
+  "sprite": "/sprites/sp_food_chilidog_0.webp"
+ },
+ "ft_hot_pot": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_hot_pot",
+  "kind": "food",
+  "name": "Hot Pot",
+  "sprite": "/sprites/sp_food_hotpot_0.webp"
+ },
+ "ft_naan": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_naan",
+  "kind": "food",
+  "name": "Naan",
+  "sprite": "/sprites/sp_food_naan_0.webp"
+ },
+ "ft_pretzel": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_pretzel",
+  "kind": "food",
+  "name": "Pretzel",
+  "sprite": "/sprites/sp_food_pretzel_0.webp"
+ },
+ "ft_ramen": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_ramen",
+  "kind": "food",
+  "name": "Ramen",
+  "sprite": "/sprites/sp_food_ramen_0.webp"
+ },
+ "ft_red_curry": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_red_curry",
+  "kind": "food",
+  "name": "Red Curry",
+  "sprite": "/sprites/sp_food_redcurry_0.webp"
+ },
+ "ft_taco": {
+  "ability_name": null,
+  "description": "",
+  "id": "ft_taco",
+  "kind": "food",
+  "name": "Taco",
+  "sprite": "/sprites/sp_food_taco_0.webp"
+ },
+ "general": {
+  "ability_name": "Tactical Command",
+  "description": "Every 4 seconds, he commands a random Dude of the Dude Type immediately below him on the Roster to Taunt up to 3 nearby enemies.",
+  "id": "general",
+  "kind": "dude",
+  "name": "General Dude",
+  "sprite": "/sprites/sp_icon_dude_general_0.webp"
+ },
+ "ghost": {
+  "ability_name": "Phase Shift",
+  "description": "When he deals Direct Damage, he has a 30% chance to Equalize the HP between the most-injured Roster Dude and the healthiest Roster Dude. He then Heals them both for 100% of his Attack Power.",
+  "id": "ghost",
+  "kind": "dude",
+  "name": "Ghost Dude",
+  "sprite": "/sprites/sp_icon_dude_ghost_0.webp"
+ },
+ "giant_moose": {
+  "ability_name": null,
+  "description": "",
+  "id": "giant_moose",
+  "kind": "enemy",
+  "name": "Giant Moose",
+  "sprite": "/sprites/sp_icon_anim_bigmoose_0.webp"
+ },
+ "giga_wasp": {
+  "ability_name": null,
+  "description": "",
+  "id": "giga_wasp",
+  "kind": "enemy",
+  "name": "Queen Bee",
+  "sprite": "/sprites/sp_icon_anim_queenbee_0.webp"
+ },
+ "goat": {
+  "ability_name": null,
+  "description": "",
+  "id": "goat",
+  "kind": "enemy",
+  "name": "Goat",
+  "sprite": "/sprites/sp_icon_anim_goat_0.webp"
+ },
+ "gold_star": {
+  "ability_name": null,
+  "description": "When a General Dude uses Tactical Command, he applies 10% Crit Exposure to the Taunted enemies for 4 seconds.",
+  "id": "gold_star",
+  "kind": "relic",
+  "name": "Gold Insignia",
+  "sprite": "/sprites/sp_relic_gold_star_0.webp"
+ },
+ "goose": {
+  "ability_name": null,
+  "description": "",
+  "id": "goose",
+  "kind": "enemy",
+  "name": "Goose",
+  "sprite": "/sprites/sp_icon_anim_goose_0.webp"
+ },
+ "gorilla": {
+  "ability_name": null,
+  "description": "",
+  "id": "gorilla",
+  "kind": "enemy",
+  "name": "Gorilla",
+  "sprite": "/sprites/sp_icon_anim_gorilla_0.webp"
+ },
+ "gorilla_diamondback": {
+  "ability_name": null,
+  "description": "",
+  "id": "gorilla_diamondback",
+  "kind": "enemy",
+  "name": "Diamondback Gorilla",
+  "sprite": "/sprites/sp_icon_anim_gorilla_diamondback_0.webp"
+ },
+ "gorilla_silverback": {
+  "ability_name": null,
+  "description": "",
+  "id": "gorilla_silverback",
+  "kind": "enemy",
+  "name": "Silverback Gorilla",
+  "sprite": "/sprites/sp_icon_anim_gorilla_silverback_0.webp"
+ },
+ "gravestone": {
+  "ability_name": null,
+  "description": "When a Dude gets Knocked Out, his skeleton gets Summoned as a Skeledude and continues fighting for the rest of the battle.",
+  "id": "gravestone",
+  "kind": "relic",
+  "name": "Gravestone",
+  "sprite": "/sprites/sp_relic_gravestone_0.webp"
+ },
+ "grizzly_bear": {
+  "ability_name": null,
+  "description": "",
+  "id": "grizzly_bear",
+  "kind": "enemy",
+  "name": "Grizzly Bear",
+  "sprite": "/sprites/sp_icon_anim_grizzlybear_0.webp"
+ },
+ "grog": {
+  "ability_name": null,
+  "description": "Berserk now grants 100% Cleave and lasts 2 seconds longer.",
+  "id": "grog",
+  "kind": "relic",
+  "name": "Grog",
+  "sprite": "/sprites/sp_relic_grog_0.webp"
+ },
+ "hachimaki": {
+  "ability_name": null,
+  "description": "When a Samurai Dude lands a Direct Crit, there is a 20% chance for all Samurai Dudes to gain a stacking 5% Crit Damage for the rest of the battle.",
+  "id": "hachimaki",
+  "kind": "relic",
+  "name": "Hachimaki",
+  "sprite": "/sprites/sp_relic_hachimaki_0.webp"
+ },
+ "hacker": {
+  "ability_name": "Exploit",
+  "description": "Every 4 seconds, each Hacker Dude gains an Exploit. When a Dude Attacks, his Exploits are consumed to deal 100% of his DPS each, combined into one Direct Damage strike.",
+  "id": "hacker",
+  "kind": "dude",
+  "name": "Hacker Dude",
+  "sprite": "/sprites/sp_icon_dude_hacker_0.webp"
+ },
+ "half_full_glass": {
+  "ability_name": null,
+  "description": "When a Dude takes damage that brings his HP below 50%, he Heals for 15% of his Max HP. 5 second Cooldown.",
+  "id": "half_full_glass",
+  "kind": "relic",
+  "name": "Half-Full Glass",
+  "sprite": "/sprites/sp_relic_halffullglass_0.webp"
+ },
+ "hand_sanitizer": {
+  "ability_name": null,
+  "description": "The Medic Dude gains 20% Max HP. When he casts Triage, he gains Temporary Health for 2 seconds equal to 10% of his Max HP.",
+  "id": "hand_sanitizer",
+  "kind": "relic",
+  "name": "Hand Sanitizer",
+  "sprite": "/sprites/sp_relic_hand_sanitizer_0.webp"
+ },
+ "haunted_mirror": {
+  "ability_name": null,
+  "description": "The Ghost Dude grants 2% Regeneration to his Phase Shift targets for 5 seconds, stacking up to 3 times.",
+  "id": "haunted_mirror",
+  "kind": "relic",
+  "name": "Haunted Mirror",
+  "sprite": "/sprites/sp_relic_haunted_mirror_0.webp"
+ },
+ "healing_resistance": {
+  "ability_name": null,
+  "description": "Reduces incoming Healing.",
+  "id": "healing_resistance",
+  "kind": "stat",
+  "name": "Healing Resistance",
+  "sprite": "/sprites/sp_icon_chevrons_down_0.webp"
+ },
+ "healing_surge": {
+  "ability_name": null,
+  "description": "Increases incoming Healing.",
+  "id": "healing_surge",
+  "kind": "stat",
+  "name": "Healing Received",
+  "sprite": "/sprites/sp_stat_healing_surge_0.webp"
+ },
+ "health_potion": {
+  "ability_name": null,
+  "description": "Heals half of your Roster Dudes for 50% of their Max HP, prioritizing those that are the most injured. Any Overhealing is converted to Temporary Health.",
+  "id": "health_potion",
+  "kind": "consumable",
+  "name": "Health Potion",
+  "sprite": "/sprites/sp_cons_healthpotion_0.webp"
+ },
+ "healthcare": {
+  "ability_name": null,
+  "description": "All Dudes gain 10% Max HP.",
+  "id": "healthcare",
+  "kind": "relic",
+  "name": "Universal Healthcare",
+  "sprite": "/sprites/sp_relic_healthcare_0.webp"
+ },
+ "helmet": {
+  "ability_name": null,
+  "description": "When a Dude gets Thrown, he gains 100% Run Speed, 30% Attack Speed, and Temporary Health equal to 10% of his Max HP for 4 seconds.",
+  "id": "helmet",
+  "kind": "relic",
+  "name": "Padded Helmet",
+  "sprite": "/sprites/sp_relic_paddedhelmet_0.webp"
+ },
+ "hidden_daggers": {
+  "ability_name": null,
+  "description": "All Dudes gain 40% Cleave.",
+  "id": "hidden_daggers",
+  "kind": "relic",
+  "name": "Hidden Daggers",
+  "sprite": "/sprites/sp_relic_hidden_daggers_0.webp"
+ },
+ "hippo": {
+  "ability_name": null,
+  "description": "",
+  "id": "hippo",
+  "kind": "enemy",
+  "name": "Hippo",
+  "sprite": "/sprites/sp_icon_anim_hippo_0.webp"
+ },
+ "hollow_fangs": {
+  "ability_name": null,
+  "description": "The Vampire Dude gains 60% Attack Power and 50% Cleave.",
+  "id": "hollow_fangs",
+  "kind": "relic",
+  "name": "Hollow Fangs",
+  "sprite": "/sprites/sp_relic_hollowfangs_0.webp"
+ },
+ "honey_badger": {
+  "ability_name": null,
+  "description": "",
+  "id": "honey_badger",
+  "kind": "enemy",
+  "name": "Honey Badger",
+  "sprite": "/sprites/sp_icon_anim_honeybadger_0.webp"
+ },
+ "honk_blast": {
+  "ability_name": null,
+  "description": "Emits a powerful quack, creating a traveling shockwave that Throws Dudes in its path.",
+  "id": "honk_blast",
+  "kind": "enemy_trait",
+  "name": "Quack Blast",
+  "sprite": "/sprites/sp_trait_quack_blast_0.webp"
+ },
+ "horse": {
+  "ability_name": null,
+  "description": "",
+  "id": "horse",
+  "kind": "enemy",
+  "name": "Horse",
+  "sprite": "/sprites/sp_icon_anim_horse_0.webp"
+ },
+ "horse_sized_duck": {
+  "ability_name": null,
+  "description": "",
+  "id": "horse_sized_duck",
+  "kind": "enemy",
+  "name": "Horse-Sized Duck",
+  "sprite": "/sprites/sp_icon_anim_duck_horsesized_0.webp"
+ },
+ "horse_stallion": {
+  "ability_name": null,
+  "description": "",
+  "id": "horse_stallion",
+  "kind": "enemy",
+  "name": "Stallion",
+  "sprite": "/sprites/sp_icon_anim_horse_stallion_0.webp"
+ },
+ "horse_unicorn": {
+  "ability_name": null,
+  "description": "",
+  "id": "horse_unicorn",
+  "kind": "enemy",
+  "name": "Unicorn",
+  "sprite": "/sprites/sp_icon_anim_horse_unicorn_0.webp"
+ },
+ "hpmax": {
+  "ability_name": null,
+  "description": "How much damage you can take.",
+  "id": "hpmax",
+  "kind": "stat",
+  "name": "Max HP",
+  "sprite": "/sprites/sp_stat_maxhp_0.webp"
+ },
+ "hyena": {
+  "ability_name": null,
+  "description": "",
+  "id": "hyena",
+  "kind": "enemy",
+  "name": "Hyena",
+  "sprite": "/sprites/sp_icon_anim_hyena_0.webp"
+ },
+ "imposing_podium": {
+  "ability_name": null,
+  "description": "When a General Dude uses Tactical Command, the target Dude gains an Independently Stacking 10% Toughness for 4 seconds.",
+  "id": "imposing_podium",
+  "kind": "relic",
+  "name": "Imposing Podium",
+  "sprite": "/sprites/sp_relic_imposing_podium_0.webp"
+ },
+ "jumbo_shrimp": {
+  "ability_name": null,
+  "description": "",
+  "id": "jumbo_shrimp",
+  "kind": "enemy",
+  "name": "Jumbo Shrimp",
+  "sprite": "/sprites/sp_icon_anim_jumboshrimp_0.webp"
+ },
+ "kangaroo": {
+  "ability_name": null,
+  "description": "",
+  "id": "kangaroo",
+  "kind": "enemy",
+  "name": "Kangaroo",
+  "sprite": "/sprites/sp_icon_anim_kangaroo_0.webp"
+ },
+ "katana_sharpener": {
+  "ability_name": null,
+  "description": "When the Samurai Dude arrives at his Dash target, he gains an Independently Stacking 20% Attack Power and 2% Crit Chance for 4 seconds.",
+  "id": "katana_sharpener",
+  "kind": "relic",
+  "name": "Katana Sharpener",
+  "sprite": "/sprites/sp_relic_katana_sharpener_0.webp"
+ },
+ "keep_calm_poster": {
+  "ability_name": null,
+  "description": "When battle starts, all Dudes gain 30% Attack Power. This bonus decays by 3% each second until it runs out.",
+  "id": "keep_calm_poster",
+  "kind": "relic",
+  "name": "Brass Knuckles",
+  "sprite": "/sprites/sp_relic_brassknuckles_0.webp"
+ },
+ "king_cobra": {
+  "ability_name": null,
+  "description": "",
+  "id": "king_cobra",
+  "kind": "enemy",
+  "name": "King Cobra",
+  "sprite": "/sprites/sp_icon_anim_kingcobra_0.webp"
+ },
+ "knight": {
+  "ability_name": "Taunting Presence",
+  "description": "Every 3 seconds, the Knight Dude Taunts 5 nearby enemies to focus their attacks on him.",
+  "id": "knight",
+  "kind": "dude",
+  "name": "Knight Dude",
+  "sprite": "/sprites/sp_icon_dude_knight_0.webp"
+ },
+ "knucklebones": {
+  "ability_name": null,
+  "description": "When a Dude takes damage from an enemy's Cleave, he has a 25% chance to curse the attacker, applying 15% Cleave Damage Down for 4 seconds.",
+  "id": "knucklebones",
+  "kind": "relic",
+  "name": "Knucklebones",
+  "sprite": "/sprites/sp_relic_knucklebones_0.webp"
+ },
+ "leaky_heart_valve": {
+  "ability_name": null,
+  "description": "The Frankendude gains 30% Max HP, and his Blood Pump grants 3% Toughness and 4% Attack Speed for 5 seconds, stacking up to 5 times.",
+  "id": "leaky_heart_valve",
+  "kind": "relic",
+  "name": "Leaky Heart Valve",
+  "sprite": "/sprites/sp_relic_leaky_heart_valve_0.webp"
+ },
+ "leather_bracer": {
+  "ability_name": null,
+  "description": "When the Spartan Dude uses Phalanx to Block for another Dude, he grants 5% Crit Chance for 2 seconds. This effect can stack up to 3 times.",
+  "id": "leather_bracer",
+  "kind": "relic",
+  "name": "Leather Bracer",
+  "sprite": "/sprites/sp_relic_leather_bracer_0.webp"
+ },
+ "lich": {
+  "ability_name": "Enthrall",
+  "description": "70% of his incoming damage gets Stored in his Thralls instead. Every 3 seconds, the Stored Damage is Expelled onto them as True Damage. If it is Fatal, the Thrall is Healed for 50% HP and gains a stack of Revenant.",
+  "id": "lich",
+  "kind": "dude",
+  "name": "Lich Dude",
+  "sprite": "/sprites/sp_icon_dude_lich_forreal_0.webp"
+ },
+ "lieutenant_sigil": {
+  "ability_name": null,
+  "description": "The third Dude Type on your Roster gains 10% Crit Chance.",
+  "id": "lieutenant_sigil",
+  "kind": "relic",
+  "name": "Lieutenant's Sigil",
+  "sprite": "/sprites/sp_relic_lieutenant_sigil_0.webp"
+ },
+ "lifesteal": {
+  "ability_name": null,
+  "description": "A chance when dealing Direct Damage to Heal yourself for an amount equal to the damage dealt.",
+  "id": "lifesteal",
+  "kind": "stat",
+  "name": "Lifesteal",
+  "sprite": "/sprites/sp_stat_lifesteal_0.webp"
+ },
+ "lightning_potion": {
+  "ability_name": null,
+  "description": "Deals 1000 damage to enemies at random and Stuns them for 1 second. The damage is evenly split among enemies struck and increases each round.",
+  "id": "lightning_potion",
+  "kind": "consumable",
+  "name": "Bottled Lightning",
+  "sprite": "/sprites/sp_cons_bottledlightning_0.webp"
+ },
+ "liquid_courage": {
+  "ability_name": null,
+  "description": "All Dudes gain 10% Toughness.",
+  "id": "liquid_courage",
+  "kind": "relic",
+  "name": "Liquid Courage",
+  "sprite": "/sprites/sp_relic_liquid_courage_0.webp"
+ },
+ "living_hand": {
+  "ability_name": null,
+  "description": "2 Skeledudes are Summoned when battle starts, plus an additional Skeledude every 10 rounds.",
+  "id": "living_hand",
+  "kind": "relic",
+  "name": "Living Hand",
+  "sprite": "/sprites/sp_relic_livinghand_0.webp"
+ },
+ "living_will": {
+  "ability_name": null,
+  "description": "When any Dude gets Knocked Out, the 10 most-injured Roster Dudes are Healed for 20.",
+  "id": "living_will",
+  "kind": "relic",
+  "name": "Living Will",
+  "sprite": "/sprites/sp_relic_livingwill_0.webp"
+ },
+ "loaded_dice": {
+  "ability_name": null,
+  "description": "Immediately grants 2 Pocket Dice and reduces their price by 50%. Pocket Dice has a 50% chance to not be consumed when used.",
+  "id": "loaded_dice",
+  "kind": "relic",
+  "name": "Loaded Dice",
+  "sprite": "/sprites/sp_relic_loaded_dice_0.webp"
+ },
+ "lokis_arm": {
+  "ability_name": null,
+  "description": "Berserk grants an additional 50% Attack Speed. When the Viking Dude deals Direct Damage while Berserk, he gains a stacking 5% Attack Power that expires when Berserk ends.",
+  "id": "lokis_arm",
+  "kind": "relic",
+  "name": "Loki's Arm",
+  "sprite": "/sprites/sp_relic_lokis_arm_0.webp"
+ },
+ "lowyena": {
+  "ability_name": null,
+  "description": "",
+  "id": "lowyena",
+  "kind": "enemy",
+  "name": "Lowyena",
+  "sprite": "/sprites/sp_icon_anim_lowyena_0.webp"
+ },
+ "loyalty_card": {
+  "ability_name": null,
+  "description": "Restocking the Merchant Dude's shop now costs $25 less, and the first Restock is always free.",
+  "id": "loyalty_card",
+  "kind": "relic",
+  "name": "Loyalty Card",
+  "sprite": "/sprites/sp_relic_loyalty_card_0.webp"
+ },
+ "mallard_duck": {
+  "ability_name": null,
+  "description": "",
+  "id": "mallard_duck",
+  "kind": "enemy",
+  "name": "Mallard Duck",
+  "sprite": "/sprites/sp_icon_anim_duck_mallard_0.webp"
+ },
+ "mammoth": {
+  "ability_name": null,
+  "description": "",
+  "id": "mammoth",
+  "kind": "enemy",
+  "name": "Mammoth",
+  "sprite": "/sprites/sp_icon_anim_mammoth_0.webp"
+ },
+ "manager": {
+  "ability_name": "Micromanage",
+  "description": "When battle starts, the Manager Dude chooses 4 Non-Manager Dudes as Interns. He copies and Stores 15% of all damage they deal and Expels it onto his chosen Micromanage Target.",
+  "id": "manager",
+  "kind": "dude",
+  "name": "Manager Dude",
+  "sprite": "/sprites/sp_icon_dude_manager_0.webp"
+ },
+ "mantis_shrimp": {
+  "ability_name": null,
+  "description": "",
+  "id": "mantis_shrimp",
+  "kind": "enemy",
+  "name": "Mantis Shrimp",
+  "sprite": "/sprites/sp_icon_anim_mshrimp_0.webp"
+ },
+ "medic": {
+  "ability_name": "Triage",
+  "description": "The Medic Dude Heals the 3 most-injured Roster Dudes for 10 every time he deals a total of 50 damage.",
+  "id": "medic",
+  "kind": "dude",
+  "name": "Medic Dude",
+  "sprite": "/sprites/sp_icon_dude_medic_0.webp"
+ },
+ "medical_bag": {
+  "ability_name": null,
+  "description": "If a Medic Dude is hit by damage for more than 15% of his Max HP and survives, he Heals himself for 50% of the damage taken.",
+  "id": "medical_bag",
+  "kind": "relic",
+  "name": "Medical Bag",
+  "sprite": "/sprites/sp_relic_medical_bag_0.webp"
+ },
+ "mega_croc": {
+  "ability_name": null,
+  "description": "",
+  "id": "mega_croc",
+  "kind": "enemy",
+  "name": "Mega Crocodile",
+  "sprite": "/sprites/sp_icon_anim_megacroc_0.webp"
+ },
+ "meteor": {
+  "ability_name": null,
+  "description": "Calls down a meteor that deals 100 damage to all enemies in a location of your choosing, with its damage increasing each round. Dudes struck will be Thrown but unharmed.",
+  "id": "meteor",
+  "kind": "consumable",
+  "name": "Meteor",
+  "sprite": "/sprites/sp_cons_meteor_0.webp"
+ },
+ "miss_chance": {
+  "ability_name": null,
+  "description": "The chance that your damage fails to connect with a target. Miss Chance is a Diminishing Stat.",
+  "id": "miss_chance",
+  "kind": "stat",
+  "name": "Miss Chance",
+  "sprite": "/sprites/sp_stat_miss_chance_0.webp"
+ },
+ "mobius_strip": {
+  "ability_name": null,
+  "description": "Immediately gain 2 Dude Juice. All consumables used during battle have a 30% chance to not be consumed.",
+  "id": "mobius_strip",
+  "kind": "relic",
+  "name": "Mobius Strip",
+  "sprite": "/sprites/sp_relic_mobius_strip_0.webp"
+ },
+ "moose": {
+  "ability_name": null,
+  "description": "",
+  "id": "moose",
+  "kind": "enemy",
+  "name": "Moose",
+  "sprite": "/sprites/sp_icon_anim_moose_0.webp"
+ },
+ "morphine": {
+  "ability_name": null,
+  "description": "The Medic Dude's Triage has a 30% chance to apply Temporary Health for 3 seconds equal to 200% of the amount Healed.",
+  "id": "morphine",
+  "kind": "relic",
+  "name": "Morphine",
+  "sprite": "/sprites/sp_relic_morphine_0.webp"
+ },
+ "motivational_poster": {
+  "ability_name": null,
+  "description": "All Dudes gain 10% Attack Power.",
+  "id": "motivational_poster",
+  "kind": "relic",
+  "name": "Motivational Poster",
+  "sprite": "/sprites/sp_relic_motivationalposter_0.webp"
+ },
+ "mummy": {
+  "ability_name": "Curse of Doom",
+  "description": "All Direct Damage he deals generates an equal amount of Doom that gets Stored on the target. When the target's HP drops below its Doom level, the curse triggers and Expels the damage onto the target.",
+  "id": "mummy",
+  "kind": "dude",
+  "name": "Mummy Dude",
+  "sprite": "/sprites/sp_icon_dude_mummy_0.webp"
+ },
+ "mutant": {
+  "ability_name": "Floofballs",
+  "description": "His Direct Damage has a 50% chance to create a Floofball that Heals for 100% of his Attack Power. He attaches it to a Roster Dude in danger, and it bursts as needed. Dudes can have up to 4 Floofballs.",
+  "id": "mutant",
+  "kind": "dude",
+  "name": "Mutant Dude",
+  "sprite": "/sprites/sp_icon_dude_mutant_0.webp"
+ },
+ "naginata": {
+  "ability_name": null,
+  "description": "If the first Direct Damage a Samurai Dude deals after Dashing is a Critical Hit, he Heals for 50% of his Max HP, he instantly uses Swift Pursuit, and he gains a stacking 50% Run Speed for 5 seconds.",
+  "id": "naginata",
+  "kind": "relic",
+  "name": "Naginata",
+  "sprite": "/sprites/sp_relic_naginata_0.webp"
+ },
+ "necromancer": {
+  "ability_name": "Skeledude Summoner",
+  "description": "The Necrodude Summons a Skeledude when battle starts. When his Skeledude gets Knocked Out, the Necrodude Summons a new one after 6 seconds.",
+  "id": "necromancer",
+  "kind": "dude",
+  "name": "Necrodude",
+  "sprite": "/sprites/sp_icon_dude_lich_0.webp"
+ },
+ "necronomicon": {
+  "ability_name": null,
+  "description": "The Cooldown of the Necrodude's Skeledude Summoner ability is reduced by 50%.",
+  "id": "necronomicon",
+  "kind": "relic",
+  "name": "Necrodudicon",
+  "sprite": "/sprites/sp_relic_necrodudicon_0.webp"
+ },
+ "ninja": {
+  "ability_name": "Shuriken Throw",
+  "description": "When the Ninja Dude lands a Direct Crit, he throws a Shuriken that bounces around, damaging 2 enemies for 50% of his Attack Power.",
+  "id": "ninja",
+  "kind": "dude",
+  "name": "Ninja Dude",
+  "sprite": "/sprites/sp_icon_dude_ninja_0.webp"
+ },
+ "ninja_stars": {
+  "ability_name": null,
+  "description": "For each Shuriken the Ninja Dude throws, he gains an Independently Stacking 1% Crit Chance for 1 second.",
+  "id": "ninja_stars",
+  "kind": "relic",
+  "name": "Sharpened Stars",
+  "sprite": "/sprites/sp_relic_ninja_stars_0.webp"
+ },
+ "odin_statue": {
+  "ability_name": null,
+  "description": "The Viking Dude automatically enters Berserk when he takes damage that drops his HP below 50% and again at 25%.",
+  "id": "odin_statue",
+  "kind": "relic",
+  "name": "Odin Statue",
+  "sprite": "/sprites/sp_relic_odin_statue_0.webp"
+ },
+ "organ_bucket": {
+  "ability_name": null,
+  "description": "The Frankendude gains 100% Run Speed and 5% Regeneration. In addition, he gains 5% Attack Power during battle for each Unconscious Dude on your Team.",
+  "id": "organ_bucket",
+  "kind": "relic",
+  "name": "Organ Bucket",
+  "sprite": "/sprites/sp_relic_organ_bucket_0.webp"
+ },
+ "organ_donor_list": {
+  "ability_name": null,
+  "description": "The Frankendude's Blood Pump now Donates an additional 10% of his HP. When a Roster Dude takes Fatal Damage, the healthiest Frankendude with at least 30% HP will Donate 50% of his current HP to save him. 15 second Cooldown.",
+  "id": "organ_donor_list",
+  "kind": "relic",
+  "name": "Organ Donor List",
+  "sprite": "/sprites/sp_relic_organ_donor_list_0.webp"
+ },
+ "paladin": {
+  "ability_name": "#Blessed",
+  "description": "When battle starts, the Paladin Dude Blesses 2 random Roster Dudes. The Blessing reduces damage taken by 10% and Transfers 20% of the remaining damage to the Paladin Dude instead.",
+  "id": "paladin",
+  "kind": "dude",
+  "name": "Paladin Dude",
+  "sprite": "/sprites/sp_icon_dude_paladin_0.webp"
+ },
+ "panda_bear": {
+  "ability_name": null,
+  "description": "",
+  "id": "panda_bear",
+  "kind": "enemy",
+  "name": "Panda Bear",
+  "sprite": "/sprites/sp_icon_anim_pandabear_0.webp"
+ },
+ "parry_buckler": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Block Chance.",
+  "id": "parry_buckler",
+  "kind": "relic",
+  "name": "Parry Buckler",
+  "sprite": "/sprites/sp_relic_parry_buckler_0.webp"
+ },
+ "peregrine_falcon": {
+  "ability_name": null,
+  "description": "",
+  "id": "peregrine_falcon",
+  "kind": "enemy",
+  "name": "Peregrine Falcon",
+  "sprite": "/sprites/sp_icon_anim_peregrinefalcon_0.webp"
+ },
+ "phantasm_crystal": {
+  "ability_name": null,
+  "description": "The Ghost Dude grants 10% Evasion and 5% Lifesteal to his Phase Shift targets for 3 seconds.",
+  "id": "phantasm_crystal",
+  "kind": "relic",
+  "name": "Phantasm Crystal",
+  "sprite": "/sprites/sp_relic_phantasm_crystal_0.webp"
+ },
+ "pirate": {
+  "ability_name": "Rum",
+  "description": "He Taunts 4 enemies for 3 seconds when battle starts. Every 5 seconds, he takes a drink of Rum to gain 20% Evasion for 3 seconds.",
+  "id": "pirate",
+  "kind": "dude",
+  "name": "Pirate Dude",
+  "sprite": "/sprites/sp_icon_dude_pirate_0.webp"
+ },
+ "pocket_shuriken": {
+  "ability_name": null,
+  "description": "The Ninja Dude throws 1 additional Shuriken.",
+  "id": "pocket_shuriken",
+  "kind": "relic",
+  "name": "Pocket Shurikens",
+  "sprite": "/sprites/sp_relic_pocket_shuriken_0.webp"
+ },
+ "poison_dart_frog": {
+  "ability_name": null,
+  "description": "",
+  "id": "poison_dart_frog",
+  "kind": "enemy",
+  "name": "Poison Dart Frog",
+  "sprite": "/sprites/sp_icon_anim_frog_0.webp"
+ },
+ "polar_bear": {
+  "ability_name": null,
+  "description": "",
+  "id": "polar_bear",
+  "kind": "enemy",
+  "name": "Polar Bear",
+  "sprite": "/sprites/sp_icon_anim_polarbear_0.webp"
+ },
+ "porcupine": {
+  "ability_name": null,
+  "description": "",
+  "id": "porcupine",
+  "kind": "enemy",
+  "name": "Porcupine",
+  "sprite": "/sprites/sp_icon_anim_porcupine_0.webp"
+ },
+ "possessed_urn": {
+  "ability_name": null,
+  "description": "The Ghost Dude casts Phase Shift every 3 seconds. When he casts Phase Shift, he gains an Independently Stacking 5% Attack Power for 3 seconds.",
+  "id": "possessed_urn",
+  "kind": "relic",
+  "name": "Possessed Urn",
+  "sprite": "/sprites/sp_relic_possessed_urn_0.webp"
+ },
+ "psionic": {
+  "ability_name": "Mind Hijacker",
+  "description": "He Taunts 5 enemies when battle starts. When he Deflects or takes Deflected Damage, he has a 5% chance to Taunt 2 nearby enemies for 3 seconds.",
+  "id": "psionic",
+  "kind": "dude",
+  "name": "Psionic Dude",
+  "sprite": "/sprites/sp_icon_dude_psionic_0.webp"
+ },
+ "pumpkin_latte": {
+  "ability_name": null,
+  "description": "Immediately grants 2 Health Potions and reduces their price by 50%. Health Potions now Heal all of your Roster Dudes and grant 20% Toughness for 5 seconds.",
+  "id": "pumpkin_latte",
+  "kind": "relic",
+  "name": "Pumpkin Latte",
+  "sprite": "/sprites/sp_relic_pumpkinlatte_0.webp"
+ },
+ "purple_heart": {
+  "ability_name": null,
+  "description": "When any Dude lands a Critical Hit, he gains Temporary Health for 2 seconds for 10% of his Max HP. 2 second Cooldown.",
+  "id": "purple_heart",
+  "kind": "relic",
+  "name": "Purple Heart",
+  "sprite": "/sprites/sp_relic_purple_heart_0.webp"
+ },
+ "quantum": {
+  "ability_name": "Quantum Echo",
+  "description": "Every 5 seconds he Summons an Echo Dude if he doesn't have one active. For each of his Echo Dudes, the Quantum Dude Heals the most-injured Roster Dude for 50% of his DPS every second.",
+  "id": "quantum",
+  "kind": "dude",
+  "name": "Quantum Dude",
+  "sprite": "/sprites/sp_icon_dude_quantum_0.webp"
+ },
+ "r_ablative_shield": {
+  "ability_name": null,
+  "description": "When the Knight Dude receives Healing, he gains Temporary Health equal to 100% of the Healing for 3 seconds.",
+  "id": "r_ablative_shield",
+  "kind": "relic",
+  "name": "Ablative Shield",
+  "sprite": "/sprites/sp_relic_ablative_shield_0.webp"
+ },
+ "r_alchemy_table": {
+  "ability_name": null,
+  "description": "Toxin can now stack 1 additional time. When the Assassin Dude deals Direct Damage, he also applies Toxin to another random enemy.",
+  "id": "r_alchemy_table",
+  "kind": "relic",
+  "name": "Alchemy Table",
+  "sprite": "/sprites/sp_relic_alchemy_table_0.webp"
+ },
+ "r_ancient_idol": {
+  "ability_name": null,
+  "description": "The Explorer Dude's Canteen now also grants 10% Block Chance for 5 seconds, stacking up to 2 times.",
+  "id": "r_ancient_idol",
+  "kind": "relic",
+  "name": "Ancient Idol",
+  "sprite": "/sprites/sp_relic_ancient_idol_0.webp"
+ },
+ "r_andon_cord": {
+  "ability_name": null,
+  "description": "When any Dude gets Knocked Out, all Dudes gain 90% Toughness for 2 seconds. Once per battle Global Cooldown.",
+  "id": "r_andon_cord",
+  "kind": "relic",
+  "name": "Andon Cord",
+  "sprite": "/sprites/sp_relic_andon_cord_0.webp"
+ },
+ "r_antifragility_implant": {
+  "ability_name": null,
+  "description": "The Psionic Dude gains 30% Max HP. When a Psionic Dude takes Deflected Damage, he gains Temporary Health equal to 20% of his Max HP for 2 seconds. 1 second Cooldown.",
+  "id": "r_antifragility_implant",
+  "kind": "relic",
+  "name": "Antifragility Implant",
+  "sprite": "/sprites/sp_relic_antifragility_implant_0.webp"
+ },
+ "r_anubis_statue": {
+  "ability_name": null,
+  "description": "When Curse of Doom gets applied to an enemy, it has a 15% chance to also Heal the most-injured Roster Dude for 100% of the amount applied.",
+  "id": "r_anubis_statue",
+  "kind": "relic",
+  "name": "Anubis Statue",
+  "sprite": "/sprites/sp_relic_anubis_statue_0.webp"
+ },
+ "r_arcane_monocle": {
+  "ability_name": null,
+  "description": "The Wizard Dude gains 50% Crit Damage. In addition, Dudes who get caught in a Fireball's blast radius gain 5% Attack Power for 4 seconds, stacking up to 5 times.",
+  "id": "r_arcane_monocle",
+  "kind": "relic",
+  "name": "Arcane Monocle",
+  "sprite": "/sprites/sp_relic_arcane_monocle_0.webp"
+ },
+ "r_arsenal": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Crit Chance and 20% Crit Damage.",
+  "id": "r_arsenal",
+  "kind": "relic",
+  "name": "Arsenal",
+  "sprite": "/sprites/sp_relic_arsenal_0.webp"
+ },
+ "r_aspis": {
+  "ability_name": null,
+  "description": "The Spartan Dude gains 15% Toughness, and his Phalanx gains an additional 10% chance to Block for other Spartan Dudes.",
+  "id": "r_aspis",
+  "kind": "relic",
+  "name": "Aspis",
+  "sprite": "/sprites/sp_relic_aspis_0.webp"
+ },
+ "r_bag_of_bones": {
+  "ability_name": null,
+  "description": "Unconscious Thralls have a 50% chance to revive when entering the Ranch after battle. In addition, there is a 20% chance for a Skeledude to be Summoned when a Thrall gains a stack of Revenant.",
+  "id": "r_bag_of_bones",
+  "kind": "relic",
+  "name": "Bag of Bones",
+  "sprite": "/sprites/sp_relic_bag_of_bones_0.webp"
+ },
+ "r_bandage": {
+  "ability_name": null,
+  "description": "When the Explorer Dude uses Canteen, he also uses a bandage to Heal the most-injured Roster Dude for the same amount.",
+  "id": "r_bandage",
+  "kind": "relic",
+  "name": "Bandage",
+  "sprite": "/sprites/sp_relic_bandage_0.webp"
+ },
+ "r_bandoleer": {
+  "ability_name": null,
+  "description": "When a Dude arrives after being Lassoed, he damages up to 10 nearby enemies for 100% of his Max HP, split between them.",
+  "id": "r_bandoleer",
+  "kind": "relic",
+  "name": "Bandoleer",
+  "sprite": "/sprites/sp_relic_bandoleer_0.webp"
+ },
+ "r_barrel_of_oranges": {
+  "ability_name": null,
+  "description": "The Pirate Dude gains 20% Max HP. When he lands a Critical Hit, he gains 5% Healing Received for the rest of the battle, stacking up to 5 times.",
+  "id": "r_barrel_of_oranges",
+  "kind": "relic",
+  "name": "Barrel of Oranges",
+  "sprite": "/sprites/sp_relic_barrel_of_oranges_0.webp"
+ },
+ "r_bass_drum": {
+  "ability_name": null,
+  "description": "The Bard Dude's Four Chord Song inspires your Dudes to dance, granting 2% Evasion per stack.",
+  "id": "r_bass_drum",
+  "kind": "relic",
+  "name": "Bass Drum",
+  "sprite": "/sprites/sp_relic_bass_drum_0.webp"
+ },
+ "r_battle_hymn": {
+  "ability_name": null,
+  "description": "The Paladin Dude's Blessing now grants 20% Attack Power and 30% Run Speed.",
+  "id": "r_battle_hymn",
+  "kind": "relic",
+  "name": "Battle Hymn",
+  "sprite": "/sprites/sp_relic_battle_hymn_0.webp"
+ },
+ "r_beam_splitter": {
+  "ability_name": null,
+  "description": "The Alien Dude's Tractor Beam now targets an additional Dude, and it applies Temporary Health equal to 10% of the target Dude's Max HP for 2 seconds.",
+  "id": "r_beam_splitter",
+  "kind": "relic",
+  "name": "Beam Splitter",
+  "sprite": "/sprites/sp_relic_beam_splitter_0.webp"
+ },
+ "r_bear_arms": {
+  "ability_name": null,
+  "description": "When the Druid Dude lands a Direct Crit while in Bear Form, he gains a stacking 5% Attack Power for the rest of the battle.",
+  "id": "r_bear_arms",
+  "kind": "relic",
+  "name": "Bear Arms",
+  "sprite": "/sprites/sp_relic_bear_arms_0.webp"
+ },
+ "r_bear_back": {
+  "ability_name": null,
+  "description": "Bear Form now grants 20% Toughness, and the Druid Dude gains Temporary Health for 30% of his Max HP for 3 seconds when entering Bear Form.",
+  "id": "r_bear_back",
+  "kind": "relic",
+  "name": "Bear Back",
+  "sprite": "/sprites/sp_relic_bear_back_0.webp"
+ },
+ "r_bear_down": {
+  "ability_name": null,
+  "description": "When he takes Fatal Damage, the Druid Dude fully Heals, enters Bear Form, and Dashes to the farthest enemy, damaging enemies in his path for 50% of his DPS. 10 second Cooldown.",
+  "id": "r_bear_down",
+  "kind": "relic",
+  "name": "Bear Down",
+  "sprite": "/sprites/sp_relic_bear_down_0.webp"
+ },
+ "r_bear_grill": {
+  "ability_name": null,
+  "description": "Bear Form now grants an additional 20% Attack Power, 10% Crit Chance, and 10% Lifesteal.",
+  "id": "r_bear_grill",
+  "kind": "relic",
+  "name": "Bear Grill",
+  "sprite": "/sprites/sp_relic_bear_grill_0.webp"
+ },
+ "r_bear_hug": {
+  "ability_name": null,
+  "description": "When he enters Bear Form, the Druid Dude lets out a roar that empowers nearby Dudes, granting 20% Attack Power and 10% Toughness for 3 seconds.",
+  "id": "r_bear_hug",
+  "kind": "relic",
+  "name": "Bear Hug",
+  "sprite": "/sprites/sp_relic_bear_hug_0.webp"
+ },
+ "r_bear_knuckle": {
+  "ability_name": null,
+  "description": "The Druid Dude gains 10% Crit Chance. When he takes damage from an enemy, he has a 10% chance to counterattack for 200% of his DPS as Direct Damage.",
+  "id": "r_bear_knuckle",
+  "kind": "relic",
+  "name": "Bear Knuckle",
+  "sprite": "/sprites/sp_relic_bear_knuckle_0.webp"
+ },
+ "r_bear_mace": {
+  "ability_name": null,
+  "description": "When the Druid Dude deals Attack Damage, he has a 50% chance to strike again, dealing Direct Damage for up to 100% of his Attack Power, increasing as the target's HP Percentage decreases.",
+  "id": "r_bear_mace",
+  "kind": "relic",
+  "name": "Bear Mace",
+  "sprite": "/sprites/sp_relic_bear_mace_0.webp"
+ },
+ "r_bite_stick": {
+  "ability_name": null,
+  "description": "When a Roster Dude takes Fatal Damage, there is a 50% chance for a Cowboy Dude to Lasso him out of harm's way and fully Heal him. Once per battle Cooldown.",
+  "id": "r_bite_stick",
+  "kind": "relic",
+  "name": "Bite Stick",
+  "sprite": "/sprites/sp_relic_bite_stick_0.webp"
+ },
+ "r_blaze_of_glory": {
+  "ability_name": null,
+  "description": "Orbital Strike now delivers 3 Laser Grenades. Each Grenade fires 3 Laser Bolts at random enemies that deal Direct Damage for 50% of the Trooper Dude's Attack Power.",
+  "id": "r_blaze_of_glory",
+  "kind": "relic",
+  "name": "Blaze of Glory",
+  "sprite": "/sprites/sp_relic_blaze_of_glory_0.webp"
+ },
+ "r_blow_dart": {
+  "ability_name": null,
+  "description": "When the Explorer Dude uses Canteen, he also shoots 3 enemies with sedating darts, reducing their Attack Power by 5% for 5 seconds, stacking up to 3 times.",
+  "id": "r_blow_dart",
+  "kind": "relic",
+  "name": "Blow Gun",
+  "sprite": "/sprites/sp_relic_blowgun_0.webp"
+ },
+ "r_bokken": {
+  "ability_name": null,
+  "description": "The Samurai Dude gains 20% Attack Power, 30% Max HP, and 20% Deflection.",
+  "id": "r_bokken",
+  "kind": "relic",
+  "name": "Bokken",
+  "sprite": "/sprites/sp_relic_bokken_0.webp"
+ },
+ "r_bonus_check": {
+  "ability_name": null,
+  "description": "The Manager Dude now grants 20% Attack Speed and 5% Crit Chance to his Interns.",
+  "id": "r_bonus_check",
+  "kind": "relic",
+  "name": "Bonus Check",
+  "sprite": "/sprites/sp_relic_bonus_check_0.webp"
+ },
+ "r_book_of_life": {
+  "ability_name": null,
+  "description": "The Paladin Dude gains 10% Healing Received. When a Paladin Dude takes Fatal Damage from his Blessing, he Heals for 50% of his Max HP.",
+  "id": "r_book_of_life",
+  "kind": "relic",
+  "name": "Book of Life",
+  "sprite": "/sprites/sp_relic_book_of_life_0.webp"
+ },
+ "r_boombox": {
+  "ability_name": null,
+  "description": "The Construction Dude gains 30% Max HP and 20% Attack Speed.",
+  "id": "r_boombox",
+  "kind": "relic",
+  "name": "Boombox",
+  "sprite": "/sprites/sp_relic_boombox_0.webp"
+ },
+ "r_brain_implant": {
+  "ability_name": null,
+  "description": "The Alien Dude gains 5% Regeneration. Every half-second, all Alien Dudes Equalize their HP with the Dudes immediately above them on the Roster.",
+  "id": "r_brain_implant",
+  "kind": "relic",
+  "name": "Brain Implant",
+  "sprite": "/sprites/sp_relic_brain_implant_0.webp"
+ },
+ "r_brilliant_smile": {
+  "ability_name": null,
+  "description": "When the Dentist Dude applies Novocaine Injection to a Dude who is at maximum stacks, that Dude gains 5% Attack Speed and Run Speed for 4 seconds, stacking up to 5 times.",
+  "id": "r_brilliant_smile",
+  "kind": "relic",
+  "name": "Brilliant Smile",
+  "sprite": "/sprites/sp_relic_brilliant_smile_0.webp"
+ },
+ "r_bullet_time": {
+  "ability_name": null,
+  "description": "When a Dude gets Thrown, he has a 50% chance to plant his feet and land instantly, then gain 30% Evasion and 10% Crit Chance for 2 seconds.",
+  "id": "r_bullet_time",
+  "kind": "relic",
+  "name": "Bullet Time",
+  "sprite": "/sprites/sp_relic_bullet_time_0.webp"
+ },
+ "r_bulletproof_suit": {
+  "ability_name": null,
+  "description": "The Agent Dude gains 20% Toughness. When a Roster Dude takes Fatal Damage, there is a 50% chance for an Agent Dude to Dash to him and fully Heal him. 15 second Cooldown.",
+  "id": "r_bulletproof_suit",
+  "kind": "relic",
+  "name": "Bulletproof Suit",
+  "sprite": "/sprites/sp_relic_bulletproof_suit_0.webp"
+ },
+ "r_butterfly_stinger": {
+  "ability_name": null,
+  "description": "When a Dude gets Cleaved, he teleports to the other side of the enemy who Cleaved him and gains 20% Attack Power for 2 seconds.",
+  "id": "r_butterfly_stinger",
+  "kind": "relic",
+  "name": "Butterfly Stinger",
+  "sprite": "/sprites/sp_relic_butterfly_stinger_0.webp"
+ },
+ "r_cairn": {
+  "ability_name": null,
+  "description": "Cave Dude take Fatal Damage? Cave Dude live and Bunga triple hard! Every Bunga get 10% stronger until battle stop. It stack! Cave Dude do this one time per battle.",
+  "id": "r_cairn",
+  "kind": "relic",
+  "name": "Cairn",
+  "sprite": "/sprites/sp_relic_cairn_0.webp"
+ },
+ "r_canopic_jar": {
+  "ability_name": null,
+  "description": "When Curse of Doom triggers, all Mummy Dudes gain a stacking 2% Attack Power for the rest of the battle.",
+  "id": "r_canopic_jar",
+  "kind": "relic",
+  "name": "Canopic Jar",
+  "sprite": "/sprites/sp_relic_canopic_jar_0.webp"
+ },
+ "r_catering_truck": {
+  "ability_name": null,
+  "description": "The Chef Dude gains 20% Toughness. When he prepares a Burger, he gains a stacking 10% Block Chance that lasts until he Blocks.",
+  "id": "r_catering_truck",
+  "kind": "relic",
+  "name": "Catering Truck",
+  "sprite": "/sprites/sp_relic_catering_truck_0.webp"
+ },
+ "r_causal_chain": {
+  "ability_name": null,
+  "description": "Time Anomalies now last 2 additional seconds. When an Anomaly detonates, 20% of its Stored Damage is copied and split across all other Anomalies attached to its Dude.",
+  "id": "r_causal_chain",
+  "kind": "relic",
+  "name": "Causal Chain",
+  "sprite": "/sprites/sp_relic_causal_chain_0.webp"
+ },
+ "r_cave_painting": {
+  "ability_name": null,
+  "description": "Cave Dude have friends! All Dude get 1% Max HP for every Cave Dude on Team! Stack 15 time.",
+  "id": "r_cave_painting",
+  "kind": "relic",
+  "name": "Cave Painting",
+  "sprite": "/sprites/sp_relic_cave_painting_0.webp"
+ },
+ "r_championship_belt": {
+  "ability_name": null,
+  "description": "The most prevalent Dude Type on your Roster gains 30% Attack Power.",
+  "id": "r_championship_belt",
+  "kind": "relic",
+  "name": "Championship Belt",
+  "sprite": "/sprites/sp_relic_championship_belt_0.webp"
+ },
+ "r_chore_list": {
+  "ability_name": null,
+  "description": "When the Farmer Dude gets Knocked Out, he revives with 15% HP, gains 95% Toughness for 3 seconds, and Taunts 10 enemies for 3 seconds. Once per battle Cooldown.",
+  "id": "r_chore_list",
+  "kind": "relic",
+  "name": "Chore List",
+  "sprite": "/sprites/sp_relic_chore_list_0.webp"
+ },
+ "r_chrono_towel": {
+  "ability_name": null,
+  "description": "The Time Dude gains 30% Max HP and summons an additional Time Anomaly.",
+  "id": "r_chrono_towel",
+  "kind": "relic",
+  "name": "Chrono Towel",
+  "sprite": "/sprites/sp_relic_chrono_towel_0.webp"
+ },
+ "r_circuit_breaker": {
+  "ability_name": null,
+  "description": "When the Electrician Dude takes Fatal Damage, he survives by releasing a burst of electricity, damaging all nearby enemies for 100% of his DPS and Throwing himself back. 10 second Cooldown.",
+  "id": "r_circuit_breaker",
+  "kind": "relic",
+  "name": "Circuit Breaker",
+  "sprite": "/sprites/sp_relic_circuit_breaker_0.webp"
+ },
+ "r_clerical_error": {
+  "ability_name": null,
+  "description": "The Cleric Dude now generates Holy Destruction for 50% of the Raw Healing done by his Divine Pulse. Every 2 seconds, he unleashes the Holy Destruction as Direct Damage onto the Best Fit enemy.",
+  "id": "r_clerical_error",
+  "kind": "relic",
+  "name": "Clerical Error",
+  "sprite": "/sprites/sp_relic_clerical_error_0.webp"
+ },
+ "r_cloning_tank": {
+  "ability_name": null,
+  "description": "When the Trooper Dude gets Knocked Out, he calls in a replacement clone of himself, delivered via Orbital Strike. 10 second Cooldown.",
+  "id": "r_cloning_tank",
+  "kind": "relic",
+  "name": "Cloning Tank",
+  "sprite": "/sprites/sp_relic_cloning_tank_0.webp"
+ },
+ "r_cobra_juice": {
+  "ability_name": null,
+  "description": "The Assassin Dude's Toxin now also applies 3% Miss Chance per stack.",
+  "id": "r_cobra_juice",
+  "kind": "relic",
+  "name": "Snake Oil",
+  "sprite": "/sprites/sp_relic_snake_oil_0.webp"
+ },
+ "r_coffee_time": {
+  "ability_name": null,
+  "description": "When the Farmer Dude Donates HP to another Dude through his \"I'm Fine\" ability, he also Heals that Dude for 200% of the amount Donated.",
+  "id": "r_coffee_time",
+  "kind": "relic",
+  "name": "Coffee Time",
+  "sprite": "/sprites/sp_relic_coffee_time_0.webp"
+ },
+ "r_conduit": {
+  "ability_name": null,
+  "description": "The Electrician Dude gains 30% Attack Power, and he starts each battle with 10 Static Charges.",
+  "id": "r_conduit",
+  "kind": "relic",
+  "name": "Conduit",
+  "sprite": "/sprites/sp_relic_conduit_0.webp"
+ },
+ "r_cool_shades": {
+  "ability_name": null,
+  "description": "When the Agent Dude Dashes, he has a 20% chance to cause an explosion, damaging up to 10 nearby enemies for 1,000% of his DPS, split among them.",
+  "id": "r_cool_shades",
+  "kind": "relic",
+  "name": "Cool Shades",
+  "sprite": "/sprites/sp_relic_cool_shades_0.webp"
+ },
+ "r_cosmic_geode": {
+  "ability_name": null,
+  "description": "Immediately grants 2 Meteors and reduces their price by 50%. The radius of Meteors is 100% larger, and they apply 50% Vulnerability to enemies struck for 6 seconds.",
+  "id": "r_cosmic_geode",
+  "kind": "relic",
+  "name": "Cosmic Geode",
+  "sprite": "/sprites/sp_relic_cosmic_geode_0.webp"
+ },
+ "r_coupon": {
+  "ability_name": null,
+  "description": "Relics Stocked by the Merchant Dude have a 10% chance to go on sale for 50% off.",
+  "id": "r_coupon",
+  "kind": "relic",
+  "name": "Coupon",
+  "sprite": "/sprites/sp_relic_coupon_0.webp"
+ },
+ "r_cowbell": {
+  "ability_name": null,
+  "description": "The Cowboy Dude gains 15% Toughness. When he Lassoes a Dude, he has a 30% chance to Lasso another Dude. Chained Effect.",
+  "id": "r_cowbell",
+  "kind": "relic",
+  "name": "Cowbell",
+  "sprite": "/sprites/sp_relic_cowbell_0.webp"
+ },
+ "r_cuffed_briefcase": {
+  "ability_name": null,
+  "description": "When the Agent Dude Dashes, he gains a stacking 5% Attack Power and 5% Run Speed for the rest of the battle.",
+  "id": "r_cuffed_briefcase",
+  "kind": "relic",
+  "name": "Cuffed Briefcase",
+  "sprite": "/sprites/sp_relic_cuffed_briefcase_0.webp"
+ },
+ "r_cutlass": {
+  "ability_name": null,
+  "description": "Rum now grants 10% Crit Chance. When the Pirate Dude lands a Direct Crit, he Taunts 2 nearby enemies for 3 seconds and gains a stacking 5% Crit Damage for the rest of the battle.",
+  "id": "r_cutlass",
+  "kind": "relic",
+  "name": "Cutlass",
+  "sprite": "/sprites/sp_relic_cutlass_0.webp"
+ },
+ "r_dancing_shoes": {
+  "ability_name": null,
+  "description": "The Bard Dude gains 20% Max HP and 10% Evasion, and he has a 50% chance to play his Four Chord Song whenever he Evades.",
+  "id": "r_dancing_shoes",
+  "kind": "relic",
+  "name": "Dancing Shoes",
+  "sprite": "/sprites/sp_relic_dancing_shoes_0.webp"
+ },
+ "r_dark_wand": {
+  "ability_name": null,
+  "description": "When the Warlock Dude Expels his Pact damage, he has a 20% chance to blast a random enemy for 100% of his Attack Power as Direct Damage. Chained Effect.",
+  "id": "r_dark_wand",
+  "kind": "relic",
+  "name": "Dark Wand",
+  "sprite": "/sprites/sp_relic_dark_wand_0.webp"
+ },
+ "r_ddos": {
+  "ability_name": null,
+  "description": "When a Dude uses an Exploit, he has a 25% chance to not consume it. When this occurs, he gains a stacking 10% Attack Power for the rest of the battle. Chained Effect.",
+  "id": "r_ddos",
+  "kind": "relic",
+  "name": "DDOS",
+  "sprite": "/sprites/sp_relic_ddos_0.webp"
+ },
+ "r_deadline": {
+  "ability_name": null,
+  "description": "If a Manager Dude or one of his Interns has less than 40% HP, he Equalizes his and all of his Interns' HP. 2 second Cooldown.",
+  "id": "r_deadline",
+  "kind": "relic",
+  "name": "Deadline",
+  "sprite": "/sprites/sp_relic_deadline_0.webp"
+ },
+ "r_dental_drill": {
+  "ability_name": null,
+  "description": "When the Dentist Dude uses Novocaine Injection, he has a 30% chance to grant Temporary Health to a random injured Dude equal to 150% of the Dentist Dude's Attack Power for 3 seconds.",
+  "id": "r_dental_drill",
+  "kind": "relic",
+  "name": "Dental Filling",
+  "sprite": "/sprites/sp_relic_dental_filling_0.webp"
+ },
+ "r_dental_explorer": {
+  "ability_name": null,
+  "description": "Novocaine Injection now stacks 1 additional time. In addition, the Dentist Dude uses Novocaine Injection whenever he lands a Direct Crit.",
+  "id": "r_dental_explorer",
+  "kind": "relic",
+  "name": "Dental Explorer",
+  "sprite": "/sprites/sp_relic_dental_explorer_0.webp"
+ },
+ "r_disguise": {
+  "ability_name": null,
+  "description": "The Agent Dude gains 20% Deflection and 20% Max HP, and he grants 20% Deflection to his Assets.",
+  "id": "r_disguise",
+  "kind": "relic",
+  "name": "Disguise",
+  "sprite": "/sprites/sp_relic_disguise_0.webp"
+ },
+ "r_dissection_kit": {
+  "ability_name": null,
+  "description": "When the Dude Type below the Alien Dude on the Roster takes Fatal Damage, he has a 30% chance to fully Heal and immediately get Tractor Beamed.",
+  "id": "r_dissection_kit",
+  "kind": "relic",
+  "name": "Dissection Kit",
+  "sprite": "/sprites/sp_relic_dissection_kit_0.webp"
+ },
+ "r_diversified_portfolio": {
+  "ability_name": null,
+  "description": "All Dudes gain 1% Attack Power, 1% Max HP, 2% Cleave, and 4% Run Speed for every Finance Dude on your Team, stacking up to 10 times.",
+  "id": "r_diversified_portfolio",
+  "kind": "relic",
+  "name": "Diversified Portfolio",
+  "sprite": "/sprites/sp_relic_diversified_portfolio_0.webp"
+ },
+ "r_divining_rod": {
+  "ability_name": null,
+  "description": "When the Cleric Dude casts Divine Pulse, the Cooldown of his next Divine Pulse is reduced by 5% per Dude it Healed, up to a maximum reduction of 50%.",
+  "id": "r_divining_rod",
+  "kind": "relic",
+  "name": "Divining Rod",
+  "sprite": "/sprites/sp_relic_divining_rod_0.webp"
+ },
+ "r_dory": {
+  "ability_name": null,
+  "description": "When a Spartan Dude Blocks, he gains a stacking 1% Attack Power for the rest of the battle.",
+  "id": "r_dory",
+  "kind": "relic",
+  "name": "Dory",
+  "sprite": "/sprites/sp_relic_dory_0.webp"
+ },
+ "r_dream_fortress": {
+  "ability_name": null,
+  "description": "When a Psionic Dude Deflects or Evades, he has a 20% chance to grant 1% Deflection to himself and 5 random Dudes for 4 seconds, stacking up to 20 times.",
+  "id": "r_dream_fortress",
+  "kind": "relic",
+  "name": "Dream Fortress",
+  "sprite": "/sprites/sp_relic_dream_fortress_0.webp"
+ },
+ "r_duality": {
+  "ability_name": null,
+  "description": "The Quantum Dude and his Echo Dudes gain 30% Max HP. In addition, the Quantum Dude's Healing through Quantum Echo grants 20% Deflection for 2 seconds.",
+  "id": "r_duality",
+  "kind": "relic",
+  "name": "Duality",
+  "sprite": "/sprites/sp_relic_duality_0.webp"
+ },
+ "r_eagle_amulet": {
+  "ability_name": null,
+  "description": "When the Ranger Dude fires a Magic Arrow, he has a 30% chance to gain a stacking 1% Crit Chance and 5% Attack Power for the rest of the battle.",
+  "id": "r_eagle_amulet",
+  "kind": "relic",
+  "name": "Eagle Amulet",
+  "sprite": "/sprites/sp_relic_eagle_amulet_0.webp"
+ },
+ "r_earpiece": {
+  "ability_name": null,
+  "description": "The Agent Dude gains 30% Attack Speed, and he grants his Asset 5% Evasion for 8 seconds, stacking up to 3 times.",
+  "id": "r_earpiece",
+  "kind": "relic",
+  "name": "Earpiece",
+  "sprite": "/sprites/sp_relic_earpiece_0.webp"
+ },
+ "r_electrical_tape": {
+  "ability_name": null,
+  "description": "When the Electrician Dude uses Static Discharge, he grants 4% Attack Speed and 1% Evasion to all nearby Dudes for 5 seconds, stacking up to 5 times.",
+  "id": "r_electrical_tape",
+  "kind": "relic",
+  "name": "Electrical Tape",
+  "sprite": "/sprites/sp_relic_electrical_tape_0.webp"
+ },
+ "r_electrolytes": {
+  "ability_name": null,
+  "description": "When the Explorer Dude uses Canteen, he has a 30% chance to Dash to the target Dude and grant him Temporary Health for 300% of the Explorer Dude's DPS that lasts until depleted.",
+  "id": "r_electrolytes",
+  "kind": "relic",
+  "name": "Electrolytes",
+  "sprite": "/sprites/sp_relic_electrolytes_0.webp"
+ },
+ "r_elven_aura": {
+  "ability_name": null,
+  "description": "When the Ranger Dude fires a Magic Arrow, he and 3 nearby Dudes gain 5% Evasion and 5% Attack Power for 3 seconds, stacking up to 3 times.",
+  "id": "r_elven_aura",
+  "kind": "relic",
+  "name": "Elven Aura",
+  "sprite": "/sprites/sp_relic_elven_aura_0.webp"
+ },
+ "r_embalming_salt": {
+  "ability_name": null,
+  "description": "When Curse of Doom triggers on an enemy, there is a 20% chance for all of its Stored Damage to be copied to another random enemy.",
+  "id": "r_embalming_salt",
+  "kind": "relic",
+  "name": "Embalming Salt",
+  "sprite": "/sprites/sp_relic_embalming_salt_0.webp"
+ },
+ "r_ember_staff": {
+  "ability_name": null,
+  "description": "The Wizard Dude gains an Independently Stacking 5% Crit Chance for 5 seconds every time one of his Fireballs hits the ground.",
+  "id": "r_ember_staff",
+  "kind": "relic",
+  "name": "Ember Staff",
+  "sprite": "/sprites/sp_relic_ember_staff_0.webp"
+ },
+ "r_emergency_ring": {
+  "ability_name": null,
+  "description": "When a Dude takes Fatal Damage, he has a 15% chance to survive with 1 HP and gain 100% Deflection for 3 seconds.",
+  "id": "r_emergency_ring",
+  "kind": "relic",
+  "name": "Emergency Ring",
+  "sprite": "/sprites/sp_relic_emergency_ring_0.webp"
+ },
+ "r_employee_award": {
+  "ability_name": null,
+  "description": "The Manager Dude and the Dude Type immediately below him on the Roster gain 20% Max HP and 10% Deflection.",
+  "id": "r_employee_award",
+  "kind": "relic",
+  "name": "Employee Award",
+  "sprite": "/sprites/sp_relic_employee_award_0.webp"
+ },
+ "r_enchanted_girdle": {
+  "ability_name": null,
+  "description": "When the Wizard Dude takes Fatal Damage, he teleports to safety and gains Temporary Health for 100% of his Max HP that lasts until depleted. 10 second Cooldown.",
+  "id": "r_enchanted_girdle",
+  "kind": "relic",
+  "name": "Enchanted Girdle",
+  "sprite": "/sprites/sp_relic_enchanted_girdle_0.webp"
+ },
+ "r_everburning_torch": {
+  "ability_name": null,
+  "description": "Each Fireball the Wizard Dude casts grants him Temporary Health equal to 25% of his Max HP that lasts until depleted.",
+  "id": "r_everburning_torch",
+  "kind": "relic",
+  "name": "Everburning Torch",
+  "sprite": "/sprites/sp_relic_everburning_torch_0.webp"
+ },
+ "r_evil_quill": {
+  "ability_name": null,
+  "description": "When a non-Warlock Roster Dude takes incoming damage, he has a 15% chance to redirect 90% of the damage to a random active Warlock Dude's Pact.",
+  "id": "r_evil_quill",
+  "kind": "relic",
+  "name": "Evil Quill",
+  "sprite": "/sprites/sp_relic_evil_quill_0.webp"
+ },
+ "r_exfiltrate": {
+  "ability_name": null,
+  "description": "When a Dude gains an Exploit, he has a 30% chance to gain Temporary Health for 25% of his Max HP for 3 seconds. 2 second Cooldown.",
+  "id": "r_exfiltrate",
+  "kind": "relic",
+  "name": "Exfiltrate.exe",
+  "sprite": "/sprites/sp_relic_exfiltrate_0.webp"
+ },
+ "r_explosive_arrow": {
+  "ability_name": null,
+  "description": "Magic Arrows have a 30% chance to become Explosive, damaging up to 5 enemies near the original target for 500% of the Ranger Dude's Attack Power, split evenly among them.",
+  "id": "r_explosive_arrow",
+  "kind": "relic",
+  "name": "Explosive Arrow",
+  "sprite": "/sprites/sp_relic_explosive_arrow_0.webp"
+ },
+ "r_false_face": {
+  "ability_name": null,
+  "description": "All Dudes gain 20% Evasion for 8 seconds when battle starts.",
+  "id": "r_false_face",
+  "kind": "relic",
+  "name": "False Face",
+  "sprite": "/sprites/sp_relic_false_face_0.webp"
+ },
+ "r_fence": {
+  "ability_name": null,
+  "description": "The Farmer Dude generates Temporary Health for 25% of the damage he deals. Every second, he Donates 50% of his current Temporary Health to the most-injured Roster Dude for 4 seconds.",
+  "id": "r_fence",
+  "kind": "relic",
+  "name": "Wooden Fence",
+  "sprite": "/sprites/sp_relic_fence_0.webp"
+ },
+ "r_financial_calculator": {
+  "ability_name": null,
+  "description": "The Finance Dude gains 20% Deflection, and each Finance Dude on your Team increases the profits from investing at the Business Dude by 1%.",
+  "id": "r_financial_calculator",
+  "kind": "relic",
+  "name": "Financial Calculator",
+  "sprite": "/sprites/sp_relic_financial_calculator_0.webp"
+ },
+ "r_finger_guard": {
+  "ability_name": null,
+  "description": "When the Ranger Dude fires a Magic Arrow, he has a 30% chance to fire another one. Chained Effect.",
+  "id": "r_finger_guard",
+  "kind": "relic",
+  "name": "Finger Guard",
+  "sprite": "/sprites/sp_relic_finger_guard_0.webp"
+ },
+ "r_firewall": {
+  "ability_name": null,
+  "description": "The Hacker Dude gains 30% Max HP and 50% Crit Damage, and he can no longer be Cleaved.",
+  "id": "r_firewall",
+  "kind": "relic",
+  "name": "Firewall",
+  "sprite": "/sprites/sp_relic_firewall_0.webp"
+ },
+ "r_focus_mitts": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Crit Chance. When a Dude deals damage that fails to Crit, he gains a stacking 10% Crit Damage that expires once he successfully Crits.",
+  "id": "r_focus_mitts",
+  "kind": "relic",
+  "name": "Focus Mitts",
+  "sprite": "/sprites/sp_relic_focus_mitts_0.webp"
+ },
+ "r_forcefield": {
+  "ability_name": null,
+  "description": "When a Dude takes damage that brings his HP below 40%, he gains 30% Deflection for 3 seconds.",
+  "id": "r_forcefield",
+  "kind": "relic",
+  "name": "Force Field",
+  "sprite": "/sprites/sp_relic_forcefield_0.webp"
+ },
+ "r_fork_bomb": {
+  "ability_name": null,
+  "description": "The Hacker Dude gains 30% Attack Power. When he deals Direct Damage, he has a 20% chance to grant an Exploit to a random Roster Dude.",
+  "id": "r_fork_bomb",
+  "kind": "relic",
+  "name": "Fork Bomb",
+  "sprite": "/sprites/sp_relic_fork_bomb_0.webp"
+ },
+ "r_fossilizer": {
+  "ability_name": null,
+  "description": "The Time Dude gains 20% Toughness, and his Anomalies grant 4% Toughness for 3 seconds to their Dude when they detonate, stacking up to 5 times.",
+  "id": "r_fossilizer",
+  "kind": "relic",
+  "name": "Fossilizer",
+  "sprite": "/sprites/sp_relic_fossilizer_0.webp"
+ },
+ "r_fountain_of_youth": {
+  "ability_name": null,
+  "description": "Upon taking Fatal Damage, the Explorer Dude Dashes away and fully Heals, and all Explorer Dudes gain a stacking 10% Attack Power for the rest of the battle. 10 second Cooldown.",
+  "id": "r_fountain_of_youth",
+  "kind": "relic",
+  "name": "Fountain of Youth",
+  "sprite": "/sprites/sp_relic_fountain_of_youth_0.webp"
+ },
+ "r_frog_bottle": {
+  "ability_name": null,
+  "description": "At the start of battle and every 5 seconds, the Assassin Dude throws a bottle of toxic frogs that applies Toxin to 5 nearby enemies.",
+  "id": "r_frog_bottle",
+  "kind": "relic",
+  "name": "Frog Bottle",
+  "sprite": "/sprites/sp_relic_frog_bottle_0.webp"
+ },
+ "r_fuzzy_socks": {
+  "ability_name": null,
+  "description": "The Electrician Dude gains a Static Charge for every 25 feet he travels. This distance is reduced as his Run Speed increases.",
+  "id": "r_fuzzy_socks",
+  "kind": "relic",
+  "name": "Fuzzy Socks",
+  "sprite": "/sprites/sp_relic_fuzzy_socks_0.webp"
+ },
+ "r_golden_glove": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Evasion. When a Dude Evades, he has a 10% chance to deal Direct Damage to his attacker for 100% of his DPS. This damage always Crits.",
+  "id": "r_golden_glove",
+  "kind": "relic",
+  "name": "Golden Glove",
+  "sprite": "/sprites/sp_relic_goldenglove_0.webp"
+ },
+ "r_golden_shield": {
+  "ability_name": null,
+  "description": "The Paladin Dude gains 30% Max HP and can Bless 2 additional Dudes.",
+  "id": "r_golden_shield",
+  "kind": "relic",
+  "name": "Golden Shield",
+  "sprite": "/sprites/sp_relic_golden_shield_0.webp"
+ },
+ "r_golden_tongue": {
+  "ability_name": null,
+  "description": "The Mummy Dude gains 30% Max HP, and his Direct Damage generates 30% more Doom.",
+  "id": "r_golden_tongue",
+  "kind": "relic",
+  "name": "Golden Tongue",
+  "sprite": "/sprites/sp_relic_golden_tongue_0.webp"
+ },
+ "r_grappling_dummy": {
+  "ability_name": null,
+  "description": "All enemies gain 5% Miss Chance. When an enemy Misses, the target Dude has a 30% chance to strike back with Direct Damage for 100% of the enemy's intended damage.",
+  "id": "r_grappling_dummy",
+  "kind": "relic",
+  "name": "Grappling Dummy",
+  "sprite": "/sprites/sp_relic_grappling_dummy_0.webp"
+ },
+ "r_ground_wire": {
+  "ability_name": null,
+  "description": "The Electrician Dude is no longer Stunned after being Thrown. In addition, each enemy he shocks with Static Discharge grants him 5% Run Speed for the rest of the battle, stacking up to 40 times.",
+  "id": "r_ground_wire",
+  "kind": "relic",
+  "name": "Ground Wire",
+  "sprite": "/sprites/sp_relic_ground_wire_0.webp"
+ },
+ "r_growth_hormone": {
+  "ability_name": null,
+  "description": "The Mutant Dude gains 5% Regeneration. When a Floofball bursts, it grants 10% Healing Received and 10% Attack Power to its host Dude for 5 seconds, stacking up to 2 times.",
+  "id": "r_growth_hormone",
+  "kind": "relic",
+  "name": "Growth Hormone",
+  "sprite": "/sprites/sp_relic_growth_hormone_0.webp"
+ },
+ "r_guitar_pick": {
+  "ability_name": null,
+  "description": "The Bard Dude's Four Chord Song can stack 4 more times, and it affects 1 more Dude.",
+  "id": "r_guitar_pick",
+  "kind": "relic",
+  "name": "Guitar Pick",
+  "sprite": "/sprites/sp_relic_guitar_pick_0.webp"
+ },
+ "r_hair_of_the_dog": {
+  "ability_name": null,
+  "description": "Every 2 times the Pirate Dude drinks Rum, he gains 20% Evasion and 10% Crit Chance for 3 seconds.",
+  "id": "r_hair_of_the_dog",
+  "kind": "relic",
+  "name": "Hair of the Dog",
+  "sprite": "/sprites/sp_relic_hair_of_the_dog_0.webp"
+ },
+ "r_hair_trigger": {
+  "ability_name": null,
+  "description": "When the Trooper Dude deals Attack Damage, he has a 30% chance to fire a Laser Bolt at a random enemy, dealing Direct Damage for 100% of his Attack Power. All Laser Bolts have a 50% chance to bounce to a second target.",
+  "id": "r_hair_trigger",
+  "kind": "relic",
+  "name": "Hair Trigger",
+  "sprite": "/sprites/sp_relic_hair_trigger_0.webp"
+ },
+ "r_hammer_belt": {
+  "ability_name": null,
+  "description": "The Construction Dude now throws an additional Hammer, and his Hammers have a 10% chance to Stun the target for 1 second.",
+  "id": "r_hammer_belt",
+  "kind": "relic",
+  "name": "Hammer Belt",
+  "sprite": "/sprites/sp_relic_hammer_belt_0.webp"
+ },
+ "r_hammer_of_smiting": {
+  "ability_name": null,
+  "description": "When a Paladin Dude's Bless target takes Direct Damage, the Paladin Dude has a 10% chance to smite the attacker, Stunning it and dealing damage equal to his DPS.",
+  "id": "r_hammer_of_smiting",
+  "kind": "relic",
+  "name": "Hammer of Smiting",
+  "sprite": "/sprites/sp_relic_hammer_of_smiting_0.webp"
+ },
+ "r_hard_hat": {
+  "ability_name": null,
+  "description": "When the Construction Dude takes Fatal Damage, he gains Temporary Health for 80% of his Max HP and Dashes away, Stunning enemies he passes through. 10 second Cooldown.",
+  "id": "r_hard_hat",
+  "kind": "relic",
+  "name": "Hard Hat",
+  "sprite": "/sprites/sp_relic_hard_hat_0.webp"
+ },
+ "r_hardtack": {
+  "ability_name": null,
+  "description": "When the Pirate Dude takes damage that drops him below 30% HP and survives, he has a 30% chance to fully Heal and gain 20% Evasion for 3 seconds.",
+  "id": "r_hardtack",
+  "kind": "relic",
+  "name": "Hardtack",
+  "sprite": "/sprites/sp_relic_hardtack_0.webp"
+ },
+ "r_heart_boxers": {
+  "ability_name": null,
+  "description": "Every time the Merchant Dude's inventory gets Stocked, there is a 25% chance he gets charmed into letting you Restock the shop for free.",
+  "id": "r_heart_boxers",
+  "kind": "relic",
+  "name": "Heart Boxers",
+  "sprite": "/sprites/sp_relic_heart_boxers_0.webp"
+ },
+ "r_heating_pad": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Lifesteal. When a Dude Lifesteals, he gains 40% Cleave for 2 seconds.",
+  "id": "r_heating_pad",
+  "kind": "relic",
+  "name": "Heating Pad",
+  "sprite": "/sprites/sp_relic_heating_pad_0.webp"
+ },
+ "r_heroic_medal": {
+  "ability_name": null,
+  "description": "The General Dude gains 20% Max HP, and his Tactical Command targets an additional Dude.",
+  "id": "r_heroic_medal",
+  "kind": "relic",
+  "name": "Heroic Medal",
+  "sprite": "/sprites/sp_relic_heroic_medal_0.webp"
+ },
+ "r_holy_symbol": {
+  "ability_name": null,
+  "description": "When the Cleric Dude takes Fatal Damage, he fully Heals and casts Divine Pulse with 300% increased range and 1,000% increased power. Once per battle Cooldown.",
+  "id": "r_holy_symbol",
+  "kind": "relic",
+  "name": "Holy Symbol",
+  "sprite": "/sprites/sp_relic_holy_symbol_0.webp"
+ },
+ "r_holy_water": {
+  "ability_name": null,
+  "description": "The Cleric Dude's Divine Pulse gains increased Healing on Dudes with lower HP. The Healing increase is equal to the target Dude's missing HP Percentage.",
+  "id": "r_holy_water",
+  "kind": "relic",
+  "name": "Holy Water",
+  "sprite": "/sprites/sp_relic_holy_water_0.webp"
+ },
+ "r_hunters_blade": {
+  "ability_name": null,
+  "description": "The Ranger Dude gains 20% Max HP and 10% Crit Chance. When he lands a Direct Crit, he has a 50% chance to fire a Magic Arrow.",
+  "id": "r_hunters_blade",
+  "kind": "relic",
+  "name": "Hunter's Blade",
+  "sprite": "/sprites/sp_relic_hunters_blade_0.webp"
+ },
+ "r_ice_arrow": {
+  "ability_name": null,
+  "description": "The Ranger Dude's Magic Arrows have a 30% chance to become Icy, dealing 100% bonus damage and applying 20% Vulnerability to targets struck for 4 seconds.",
+  "id": "r_ice_arrow",
+  "kind": "relic",
+  "name": "Ice Arrow",
+  "sprite": "/sprites/sp_relic_ice_arrow_0.webp"
+ },
+ "r_ice_bath": {
+  "ability_name": null,
+  "description": "All Dudes gain 2% Regeneration. When a Dude Heals through Regeneration, he has a 10% chance to Heal for an additional 20% of his Max HP.",
+  "id": "r_ice_bath",
+  "kind": "relic",
+  "name": "Ice Bath",
+  "sprite": "/sprites/sp_relic_ice_bath_0.webp"
+ },
+ "r_incense_holder": {
+  "ability_name": null,
+  "description": "The Cleric Dude gains 30% Attack Power, and his Divine Pulse Healing increases by 5% per Dude within its radius.",
+  "id": "r_incense_holder",
+  "kind": "relic",
+  "name": "Incense Holder",
+  "sprite": "/sprites/sp_relic_incense_holder_0.webp"
+ },
+ "r_incident_calendar": {
+  "ability_name": null,
+  "description": "All Dudes gain a stacking 1% Attack Power each second during the battle. The stacks reset back to zero if a Roster Dude gets Knocked Out.",
+  "id": "r_incident_calendar",
+  "kind": "relic",
+  "name": "Incident Calendar",
+  "sprite": "/sprites/sp_relic_incident_calendar_0.webp"
+ },
+ "r_inertia_bubble": {
+  "ability_name": null,
+  "description": "The Cooldown of Tractor Beam is reduced by 1 second. When a Dude arrives at his Tractor Beam destination, he causes an explosion that deals damage split between surrounding enemies for 50% of his DPS.",
+  "id": "r_inertia_bubble",
+  "kind": "relic",
+  "name": "Inertia Bubble",
+  "sprite": "/sprites/sp_relic_inertia_bubble_0.webp"
+ },
+ "r_intercom": {
+  "ability_name": null,
+  "description": "All Manager Dudes now choose the same Micromanage Target.",
+  "id": "r_intercom",
+  "kind": "relic",
+  "name": "Intercom",
+  "sprite": "/sprites/sp_relic_intercom_0.webp"
+ },
+ "r_ion_storm": {
+  "ability_name": null,
+  "description": "Immediately grants 2 Bottled Lightnings and reduces their price by 50%. Bottled Lightning deals 100% increased damage and Stuns enemies for 300% longer.",
+  "id": "r_ion_storm",
+  "kind": "relic",
+  "name": "Ion Storm",
+  "sprite": "/sprites/sp_relic_ion_storm_0.webp"
+ },
+ "r_jaw_implant": {
+  "ability_name": null,
+  "description": "When a Frankendude takes Fatal Damage, he simply eats another Dude to fully Heal himself and gain 20% Toughness for 10 seconds, preferring to eat Summoned Dudes. 10 second Cooldown.",
+  "id": "r_jaw_implant",
+  "kind": "relic",
+  "name": "Jaw Implant",
+  "sprite": "/sprites/sp_relic_jaw_implant_0.webp"
+ },
+ "r_jazz_flute": {
+  "ability_name": null,
+  "description": "When a Dude Evades, he gains 10% Crit Chance for 2 seconds.",
+  "id": "r_jazz_flute",
+  "kind": "relic",
+  "name": "Jazz Flute",
+  "sprite": "/sprites/sp_relic_jazz_flute_0.webp"
+ },
+ "r_jobs_ad": {
+  "ability_name": null,
+  "description": "Immediately gain 3 Regular Dudes. When a Dude returns to your ranch from the Dude Whisperer, he has a 50% chance to bring back an additional new Dude of a random Dude Type from your posted Flyers.",
+  "id": "r_jobs_ad",
+  "kind": "relic",
+  "name": "Jobs Ad",
+  "sprite": "/sprites/sp_relic_jobs_ad_0.webp"
+ },
+ "r_keratin_sheet": {
+  "ability_name": null,
+  "description": "The Mutant Dude gains 15% Toughness. When a Floofball bursts, it grants 10% Toughness and 30% Cleave to its host Dude for 3 seconds.",
+  "id": "r_keratin_sheet",
+  "kind": "relic",
+  "name": "Keratin Sheet",
+  "sprite": "/sprites/sp_relic_keratin_sheet_0.webp"
+ },
+ "r_laughing_gas": {
+  "ability_name": null,
+  "description": "The Dentist Dude gains 5% Crit Chance. In addition, each stack of Novocaine Injection causes 10% of incoming damage to be spread out over 3 seconds.",
+  "id": "r_laughing_gas",
+  "kind": "relic",
+  "name": "Laughing Gas",
+  "sprite": "/sprites/sp_relic_laughing_gas_0.webp"
+ },
+ "r_lava_pendant": {
+  "ability_name": null,
+  "description": "Fireballs have a 30% chance to bounce on impact and fly towards a new target. Chained Effect.",
+  "id": "r_lava_pendant",
+  "kind": "relic",
+  "name": "Lava Pendant",
+  "sprite": "/sprites/sp_relic_lava_pendant_0.webp"
+ },
+ "r_leveraged_buyout": {
+  "ability_name": null,
+  "description": "When a Finance Dude takes Fatal Damage, he saves himself by Siphoning up to 10% HP from random Roster Dudes until his HP is full. 4 second Cooldown.",
+  "id": "r_leveraged_buyout",
+  "kind": "relic",
+  "name": "Golden Parachute",
+  "sprite": "/sprites/sp_relic_golden_parachute_0.webp"
+ },
+ "r_life_insurance": {
+  "ability_name": null,
+  "description": "The Finance Dude takes out Life Insurance policies on the Dudes immediately below them on the Roster. When those Dudes get Knocked Out, each Finance Dude generates $2.",
+  "id": "r_life_insurance",
+  "kind": "relic",
+  "name": "Life Insurance",
+  "sprite": "/sprites/sp_relic_life_insurance_0.webp"
+ },
+ "r_lightning_rod": {
+  "ability_name": null,
+  "description": "The Electrician Dude gains 20% Max HP, and his Static Discharge has a 50% chance to jump to an additional enemy. Chained Effect.",
+  "id": "r_lightning_rod",
+  "kind": "relic",
+  "name": "Lightning Rod",
+  "sprite": "/sprites/sp_relic_lightning_rod_0.webp"
+ },
+ "r_line_of_credit": {
+  "ability_name": null,
+  "description": "The Finance Dude gains 1% Attack Power for every $50 you hold.",
+  "id": "r_line_of_credit",
+  "kind": "relic",
+  "name": "Line of Credit",
+  "sprite": "/sprites/sp_relic_line_of_credit_0.webp"
+ },
+ "r_lint_roller": {
+  "ability_name": null,
+  "description": "When the Ghost Dude takes damage for more than 10% of his Max HP, the excess damage gets Transferred and split between 3 random other Roster Dudes.",
+  "id": "r_lint_roller",
+  "kind": "relic",
+  "name": "Lint Roller",
+  "sprite": "/sprites/sp_relic_lint_roller_0.webp"
+ },
+ "r_liquid_metal": {
+  "ability_name": null,
+  "description": "When the Cyborg Dude takes Fatal Damage, he turns into an Invulnerable puddle for 2 seconds, then generates 5 stacks of Extermination, fully Heals, and continues fighting. 10 second Cooldown.",
+  "id": "r_liquid_metal",
+  "kind": "relic",
+  "name": "Liquid Metal",
+  "sprite": "/sprites/sp_relic_liquid_metal_0.webp"
+ },
+ "r_lunch_pail": {
+  "ability_name": null,
+  "description": "Every time the Construction Dude deals a total of 250 damage, he makes it to his next lunch break and Heals for 100% of his Max HP.",
+  "id": "r_lunch_pail",
+  "kind": "relic",
+  "name": "Lunch Pail",
+  "sprite": "/sprites/sp_relic_lunch_pail_0.webp"
+ },
+ "r_mag_boots": {
+  "ability_name": null,
+  "description": "The Cyborg Dude gains 20% Deflection and 30% Max HP, and he is no longer Stunned after being Thrown.",
+  "id": "r_mag_boots",
+  "kind": "relic",
+  "name": "Mag Boots",
+  "sprite": "/sprites/sp_relic_mag_boots_0.webp"
+ },
+ "r_mana_collector": {
+  "ability_name": null,
+  "description": "All Dudes gain Temporary Health equal to 6% of their Max HP every 2 seconds. This Temporary Health lasts until it is depleted.",
+  "id": "r_mana_collector",
+  "kind": "relic",
+  "name": "Mana Collector",
+  "sprite": "/sprites/sp_relic_mana_collector_0.webp"
+ },
+ "r_marrow_leech": {
+  "ability_name": null,
+  "description": "The Lich Dude Taunts 5 enemies for 5 seconds when his Enthrall damage pulses. Before the damage pulse, he also Siphons as much HP from his Thralls as possible.",
+  "id": "r_marrow_leech",
+  "kind": "relic",
+  "name": "Marrow Leech",
+  "sprite": "/sprites/sp_relic_marrow_leech_0.webp"
+ },
+ "r_marrow_scooper": {
+  "ability_name": null,
+  "description": "When a Necrodude takes Fatal Damage, he sacrifices a Skeledude to Heal himself for 100% of the Skeledude's Max HP. 5 second Cooldown.",
+  "id": "r_marrow_scooper",
+  "kind": "relic",
+  "name": "Marrow Scooper",
+  "sprite": "/sprites/sp_relic_marrow_scooper_0.webp"
+ },
+ "r_medallion_of_vengeance": {
+  "ability_name": null,
+  "description": "When the Paladin Dude takes Fatal Damage from something other than his Blessing, he fully Heals, and all Paladin Dudes gain a stacking 15% Attack Power for the rest of the battle. 10 second Cooldown.",
+  "id": "r_medallion_of_vengeance",
+  "kind": "relic",
+  "name": "Medallion of Vengeance",
+  "sprite": "/sprites/sp_relic_medallion_of_vengeance_0.webp"
+ },
+ "r_medical_nanites": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Toughness and 1% Regeneration.",
+  "id": "r_medical_nanites",
+  "kind": "relic",
+  "name": "Medical Nanites",
+  "sprite": "/sprites/sp_relic_medical_nanites_0.webp"
+ },
+ "r_memento_mori": {
+  "ability_name": null,
+  "description": "All Dudes gain 10% Healing Received.",
+  "id": "r_memento_mori",
+  "kind": "relic",
+  "name": "Memento Mori",
+  "sprite": "/sprites/sp_relic_memento_mori_0.webp"
+ },
+ "r_memory_cube": {
+  "ability_name": null,
+  "description": "The Psionic Dude gains 20% Max HP. When any Dude Taunts an enemy, he gains 3% Deflection for 3 seconds, stacking up to 10 times.",
+  "id": "r_memory_cube",
+  "kind": "relic",
+  "name": "Memory Cube",
+  "sprite": "/sprites/sp_relic_memory_cube_0.webp"
+ },
+ "r_mental_wall": {
+  "ability_name": null,
+  "description": "The Psionic Dude gains 20% Max HP. When a Psionic Dude takes Attack Damage, he gains 1% Toughness for 2 seconds, stacking up to 20 times.",
+  "id": "r_mental_wall",
+  "kind": "relic",
+  "name": "Mental Wall",
+  "sprite": "/sprites/sp_relic_mental_wall_0.webp"
+ },
+ "r_metronome": {
+  "ability_name": null,
+  "description": "When the Bard Dude Evades, he has a 40% chance to gain Temporary Health for 2 seconds equal to 10% of his Max HP.",
+  "id": "r_metronome",
+  "kind": "relic",
+  "name": "Metronome",
+  "sprite": "/sprites/sp_relic_metronome_0.webp"
+ },
+ "r_milkshake": {
+  "ability_name": null,
+  "description": "When the Chef Dude delivers a Burger, he has a 30% chance to fling a Milkshake at the Dude, applying Temporary Health to him and a nearby Dude for 150% of the Chef Dude's Attack Power for 4 seconds.",
+  "id": "r_milkshake",
+  "kind": "relic",
+  "name": "Milkshake",
+  "sprite": "/sprites/sp_relic_milkshake_0.webp"
+ },
+ "r_mind_spike": {
+  "ability_name": null,
+  "description": "When any Dude Deflects, there is a 5% chance that your Psionic Dudes simultaneously counterattack, each dealing damage to the attacker for 50% of their DPS.",
+  "id": "r_mind_spike",
+  "kind": "relic",
+  "name": "Mind Spike",
+  "sprite": "/sprites/sp_relic_mind_spike_0.webp"
+ },
+ "r_mise_en_place": {
+  "ability_name": null,
+  "description": "The Chef Dude starts each battle with maximum Burgers, and his Burgers gain 50% increased Healing.",
+  "id": "r_mise_en_place",
+  "kind": "relic",
+  "name": "Mise en Place",
+  "sprite": "/sprites/sp_relic_mise_en_place_0.webp"
+ },
+ "r_moonshine": {
+  "ability_name": null,
+  "description": "When a Dude arrives after being Lassoed, he gains 30% Toughness for 5 seconds.",
+  "id": "r_moonshine",
+  "kind": "relic",
+  "name": "Moonshine",
+  "sprite": "/sprites/sp_relic_moonshine_0.webp"
+ },
+ "r_mouthguard": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Deflection. When a Dude Deflects, he has a 10% chance to gain 10% Block Chance for 2 seconds.",
+  "id": "r_mouthguard",
+  "kind": "relic",
+  "name": "Mouthguard",
+  "sprite": "/sprites/sp_relic_mouthguard_0.webp"
+ },
+ "r_mouthwash": {
+  "ability_name": null,
+  "description": "The Dentist Dude uses Novocaine Injection 5 times when battle starts. Whenever he uses Novocaine Injection, he also Heals the most-injured Roster Dude for 50% of his Attack Power.",
+  "id": "r_mouthwash",
+  "kind": "relic",
+  "name": "Mouthwash",
+  "sprite": "/sprites/sp_relic_mouthwash_0.webp"
+ },
+ "r_nailgun": {
+  "ability_name": null,
+  "description": "The Construction Dude's Hammers now also Nail the target, damaging it for 50% of his Attack Power and applying 2% Cleave Damage Down for 4 seconds, stacking up to 5 times.",
+  "id": "r_nailgun",
+  "kind": "relic",
+  "name": "Nailgun",
+  "sprite": "/sprites/sp_relic_nailgun_0.webp"
+ },
+ "r_nebulizer": {
+  "ability_name": null,
+  "description": "When the Assassin Dude applies Toxin to an enemy who is already at full stacks, he also damages the enemy for 100% of his Attack Power.",
+  "id": "r_nebulizer",
+  "kind": "relic",
+  "name": "Nebulizer",
+  "sprite": "/sprites/sp_relic_nebulizer_0.webp"
+ },
+ "r_neural_net": {
+  "ability_name": null,
+  "description": "When a Psionic Dude Deflects, he eliminates 40% of the Deflected Damage before it hits another Dude.",
+  "id": "r_neural_net",
+  "kind": "relic",
+  "name": "Neural Net",
+  "sprite": "/sprites/sp_relic_neural_net_0.webp"
+ },
+ "r_nft": {
+  "ability_name": null,
+  "description": "At the end of each battle, each conscious Finance Dude has a 2% chance to generate $200 and a separate 2% chance to lose $100.",
+  "id": "r_nft",
+  "kind": "relic",
+  "name": "NFT",
+  "sprite": "/sprites/sp_relic_nft_0.webp"
+ },
+ "r_nuclear_codes": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Attack Speed. When a Roster Dude Attacks, he guesses the next number in the Nuclear Code. When all numbers are correct, all enemies take 20000 damage.",
+  "id": "r_nuclear_codes",
+  "kind": "relic",
+  "name": "Nuclear Codes",
+  "sprite": "/sprites/sp_relic_nuclear_codes_0.webp"
+ },
+ "r_ohdang_button": {
+  "ability_name": null,
+  "description": "When a Dude takes Fatal Damage, he has a 20% chance to shock a nearby enemy for 100% of his DPS as Direct Damage. He then survives by teleporting away with Temporary Health equal to 25% of his Max HP.",
+  "id": "r_ohdang_button",
+  "kind": "relic",
+  "name": "OH DANG! Button",
+  "sprite": "/sprites/sp_relic_ohdang_button_0.webp"
+ },
+ "r_old_jacket": {
+  "ability_name": null,
+  "description": "The Zombie Dude gains 20% Max HP and 30% Healing Received.",
+  "id": "r_old_jacket",
+  "kind": "relic",
+  "name": "Old Jacket",
+  "sprite": "/sprites/sp_relic_old_jacket_0.webp"
+ },
+ "r_old_tooth": {
+  "ability_name": null,
+  "description": "The Zombie Dude gains 20% Attack Power and 2% Healing Received for every nearby Zombie Dude during battle. This effect stacks up to 5 times.",
+  "id": "r_old_tooth",
+  "kind": "relic",
+  "name": "Loose Tooth",
+  "sprite": "/sprites/sp_relic_old_tooth_0.webp"
+ },
+ "r_open_floor_plan": {
+  "ability_name": null,
+  "description": "The Manager Dude's Micromanage now copies and Stores an additional 10% of his Interns' damage dealt.",
+  "id": "r_open_floor_plan",
+  "kind": "relic",
+  "name": "Open Floor Plan",
+  "sprite": "/sprites/sp_relic_open_floor_plan_0.webp"
+ },
+ "r_oregano": {
+  "ability_name": null,
+  "description": "The Chef Dude increases the effects of the Food Dude's meals by 100%, and his Burgers now grant 10% Attack Speed for 4 seconds.",
+  "id": "r_oregano",
+  "kind": "relic",
+  "name": "Oregano",
+  "sprite": "/sprites/sp_relic_oregano_0.webp"
+ },
+ "r_overactive_amygdala": {
+  "ability_name": null,
+  "description": "When 20 of a Mutant Dude's Floofballs burst, he Dashes away, damaging enemies he passes through for 100% of his Attack Power, and he gains a stacking 10% Attack Power for the rest of the battle.",
+  "id": "r_overactive_amygdala",
+  "kind": "relic",
+  "name": "Overactive Amygdala",
+  "sprite": "/sprites/sp_relic_overactive_amygdala_0.webp"
+ },
+ "r_overcharged_amp": {
+  "ability_name": null,
+  "description": "The Bard Dude's Four Chord Song deals damage for 200% of his DPS, split between 3 nearby enemies.",
+  "id": "r_overcharged_amp",
+  "kind": "relic",
+  "name": "Overcharged Amp",
+  "sprite": "/sprites/sp_relic_overcharged_amp_0.webp"
+ },
+ "r_overclocked_servos": {
+  "ability_name": null,
+  "description": "The Cyborg Dude gains 200% Run Speed and 30% Attack Power.",
+  "id": "r_overclocked_servos",
+  "kind": "relic",
+  "name": "Overclocked Servos",
+  "sprite": "/sprites/sp_relic_overclocked_servos_0.webp"
+ },
+ "r_oversized_pauldrons": {
+  "ability_name": null,
+  "description": "The Paladin Dude's Blessing reduces damage taken by an additional 10% and Transfers an additional 10% of damage taken to the Paladin Dude.",
+  "id": "r_oversized_pauldrons",
+  "kind": "relic",
+  "name": "Oversized Pauldrons",
+  "sprite": "/sprites/sp_relic_oversized_pauldrons_0.webp"
+ },
+ "r_parrot": {
+  "ability_name": null,
+  "description": "When a Dude Taunts, he damages the enemy for 50% of his Attack Power.",
+  "id": "r_parrot",
+  "kind": "relic",
+  "name": "Belligerent Parrot",
+  "sprite": "/sprites/sp_relic_belligerent_parrot_0.webp"
+ },
+ "r_particle_accelerator": {
+  "ability_name": null,
+  "description": "When a Time Dude attaches an Anomaly to a Dude, that Dude gains 20% Attack Speed and 20% Run Speed for 2 seconds, stacking up to 5 times.",
+  "id": "r_particle_accelerator",
+  "kind": "relic",
+  "name": "Particle Accelerator",
+  "sprite": "/sprites/sp_relic_particle_accelerator_0.webp"
+ },
+ "r_peg_leg": {
+  "ability_name": null,
+  "description": "The Pirate Dude gains 20% Max HP. When he Evades, he has a 10% chance to Taunt 2 nearby enemies for 3 seconds.",
+  "id": "r_peg_leg",
+  "kind": "relic",
+  "name": "Peg Leg",
+  "sprite": "/sprites/sp_relic_peg_leg_0.webp"
+ },
+ "r_piano_wire": {
+  "ability_name": null,
+  "description": "When an Asset takes damage, his Agent Dude has a 20% chance to retaliate, damaging the attacker for 200% of his DPS.",
+  "id": "r_piano_wire",
+  "kind": "relic",
+  "name": "Piano Wire",
+  "sprite": "/sprites/sp_relic_piano_wire_0.webp"
+ },
+ "r_pitchfork": {
+  "ability_name": null,
+  "description": "When the Farmer Dude deals Direct Damage, he gains a stacking 20% Cleave. When he reaches 20 stacks, the stacks reset and he Taunts 3 nearby enemies for 3 seconds.",
+  "id": "r_pitchfork",
+  "kind": "relic",
+  "name": "Pitchfork",
+  "sprite": "/sprites/sp_relic_pitchfork_0.webp"
+ },
+ "r_pizza_party": {
+  "ability_name": null,
+  "description": "The Manager Dude's Micromanage now Heals himself and his Interns for 50% of the damage it deals, evenly split among them.",
+  "id": "r_pizza_party",
+  "kind": "relic",
+  "name": "Pizza Party",
+  "sprite": "/sprites/sp_relic_pizza_party_0.webp"
+ },
+ "r_plague_mask": {
+  "ability_name": null,
+  "description": "The Assassin Dude gains 30% Max HP. When an enemy receives a Killing Blow, half of its Toxin stacks get reapplied to other enemies at random.",
+  "id": "r_plague_mask",
+  "kind": "relic",
+  "name": "Plague Mask",
+  "sprite": "/sprites/sp_relic_plague_mask_0.webp"
+ },
+ "r_plot_armor": {
+  "ability_name": null,
+  "description": "When a Dude takes damage, he has a 0.5% chance to gain 50% Attack Power and 90% Toughness for 2 seconds. Once per battle Cooldown.",
+  "id": "r_plot_armor",
+  "kind": "relic",
+  "name": "Plot Armor",
+  "sprite": "/sprites/sp_relic_plot_armor_0.webp"
+ },
+ "r_pneumatic_fist": {
+  "ability_name": null,
+  "description": "When a Cyborg Dude deals Direct Damage to his Primary Target, he has a 25% chance to deal another 100% of his Attack Power as Direct Damage. Chained Effect.",
+  "id": "r_pneumatic_fist",
+  "kind": "relic",
+  "name": "Pneumatic Fist",
+  "sprite": "/sprites/sp_relic_pneumatic_fist_0.webp"
+ },
+ "r_pocket_flask": {
+  "ability_name": null,
+  "description": "When the Pirate Dude takes Fatal Damage, he drinks Rum and fully Heals. 6 second Cooldown.",
+  "id": "r_pocket_flask",
+  "kind": "relic",
+  "name": "Pocket Flask",
+  "sprite": "/sprites/sp_relic_pocket_flask_0.webp"
+ },
+ "r_pocket_obelisk": {
+  "ability_name": null,
+  "description": "Every 5 seconds, the Warlock Dude teleports to a random Dude, Taunts up to 5 nearby enemies for 3 seconds, and grants 10% Crit Chance to all nearby Dudes for 3 seconds.",
+  "id": "r_pocket_obelisk",
+  "kind": "relic",
+  "name": "Pocket Obelisk",
+  "sprite": "/sprites/sp_relic_pocket_obelisk_0.webp"
+ },
+ "r_pocket_singularity": {
+  "ability_name": null,
+  "description": "Time Anomalies copy 20% additional damage.",
+  "id": "r_pocket_singularity",
+  "kind": "relic",
+  "name": "Pocket Singularity",
+  "sprite": "/sprites/sp_relic_pocket_singularity_0.webp"
+ },
+ "r_postmortem": {
+  "ability_name": null,
+  "description": "When a Manager Dude takes Fatal Damage, he fully Heals, and all Manager Dudes gain a stacking additional 1% damage copied by their Micromanage for the rest of the battle. 10 second Cooldown.",
+  "id": "r_postmortem",
+  "kind": "relic",
+  "name": "Postmortem",
+  "sprite": "/sprites/sp_relic_postmortem_0.webp"
+ },
+ "r_power_siphon": {
+  "ability_name": null,
+  "description": "Every 2 seconds, any Dude with Temporary Health for less than 25% of his Max HP will Siphon some from other Dudes who have extra to spare until he reaches this threshold. This Siphoned Temporary Health lasts for 4 seconds.",
+  "id": "r_power_siphon",
+  "kind": "relic",
+  "name": "Power Siphon",
+  "sprite": "/sprites/sp_relic_power_siphon_0.webp"
+ },
+ "r_probe": {
+  "ability_name": null,
+  "description": "The Alien Dude gains 30% Max HP. For 2 seconds after he uses Tractor Beam on a Dude, the Alien Dude's Direct Damage deals bonus damage equal to 25% of that Dude's Attack Power.",
+  "id": "r_probe",
+  "kind": "relic",
+  "name": "Probe",
+  "sprite": "/sprites/sp_relic_probe_0.webp"
+ },
+ "r_protective_cloak": {
+  "ability_name": null,
+  "description": "The Cleric Dude gains 10% Toughness, and his Divine Pulse now applies Temporary Health for 20% of his DPS to up to 5 Roster Dudes within its radius for 3 seconds.",
+  "id": "r_protective_cloak",
+  "kind": "relic",
+  "name": "Protective Cloak",
+  "sprite": "/sprites/sp_relic_protective_cloak_0.webp"
+ },
+ "r_psychic_hood": {
+  "ability_name": null,
+  "description": "When a Psionic Dude takes damage, he weakens the attacker's mind, causing them to lose 1% Attack Power and gain 1% Vulnerability for 2 seconds, stacking up to 10 times.",
+  "id": "r_psychic_hood",
+  "kind": "relic",
+  "name": "Psychic Hood",
+  "sprite": "/sprites/sp_relic_psychic_hood_0.webp"
+ },
+ "r_pyre": {
+  "ability_name": null,
+  "description": "Cave Dude get 15% Toughness! Dude get Knocked Out? Each Cave Dude have 10% chance to Bunga!",
+  "id": "r_pyre",
+  "kind": "relic",
+  "name": "Pyre",
+  "sprite": "/sprites/sp_relic_pyre_0.webp"
+ },
+ "r_quantum_entanglement": {
+  "ability_name": null,
+  "description": "The Quantum Dude entangles himself to his Summoned Echo Dudes. They all gain 10% Regeneration, and their HP is Equalized every second.",
+  "id": "r_quantum_entanglement",
+  "kind": "relic",
+  "name": "Entanglement",
+  "sprite": "/sprites/sp_relic_quantum_entanglement_0.webp"
+ },
+ "r_quantum_tunnel": {
+  "ability_name": null,
+  "description": "The Quantum Dude now Summons an additional Echo Dude and can have 2 active at a time.",
+  "id": "r_quantum_tunnel",
+  "kind": "relic",
+  "name": "Quantum Tunnel",
+  "sprite": "/sprites/sp_relic_quantum_tunnel_0.webp"
+ },
+ "r_quark_nugget": {
+  "ability_name": null,
+  "description": "Every 5 seconds, for each of his active Echo Dudes, the Quantum Dude grants Temporary Health equal to 100% of his DPS to 2 random Roster Dudes for 5 seconds.",
+  "id": "r_quark_nugget",
+  "kind": "relic",
+  "name": "Quark Nugget",
+  "sprite": "/sprites/sp_relic_quark_nugget_0.webp"
+ },
+ "r_rad_infusion": {
+  "ability_name": null,
+  "description": "Dudes affected by Tractor Beam gain 25% Attack Power and 5% Crit Chance for 2 seconds after arriving at their target, stacking up to 4 times.",
+  "id": "r_rad_infusion",
+  "kind": "relic",
+  "name": "RAD Infusion",
+  "sprite": "/sprites/sp_relic_rad_infusion_0.webp"
+ },
+ "r_red_team": {
+  "ability_name": null,
+  "description": "The Hacker Dude gains 5% Crit Chance. When he lands a Direct Crit, he progresses the compile timer for the next Exploit by 3%.",
+  "id": "r_red_team",
+  "kind": "relic",
+  "name": "Red Team",
+  "sprite": "/sprites/sp_relic_red_team_0.webp"
+ },
+ "r_requiem": {
+  "ability_name": null,
+  "description": "When any Dude gets Knocked Out, the Bard Dude plays a Requiem, granting 20% Toughness to 5 random Dudes for 4 seconds.",
+  "id": "r_requiem",
+  "kind": "relic",
+  "name": "Requiem",
+  "sprite": "/sprites/sp_relic_requiem_0.webp"
+ },
+ "r_retainer": {
+  "ability_name": null,
+  "description": "The Dentist Dude gains 20% Attack Speed, and each stack of Novocaine Injection now also Heals for up to 3% of the Dude's Max HP every second, increasing based on his missing HP Percentage.",
+  "id": "r_retainer",
+  "kind": "relic",
+  "name": "Retainer",
+  "sprite": "/sprites/sp_relic_retainer_0.webp"
+ },
+ "r_retractable_shield": {
+  "ability_name": null,
+  "description": "The Cyborg Dude gains 10% Toughness. Every time your Cyborg Dudes generate 100 stacks of Extermination, all Dudes gain 30% Deflection for 1 second.",
+  "id": "r_retractable_shield",
+  "kind": "relic",
+  "name": "Retractable Shield",
+  "sprite": "/sprites/sp_relic_retractable_shield_0.webp"
+ },
+ "r_rewinder": {
+  "ability_name": null,
+  "description": "When a Time Dude takes Fatal Damage, his Anomalies detonate to deal 200% bonus damage, he fully Heals, and he teleports to where he was 1 second ago. 8 second Cooldown.",
+  "id": "r_rewinder",
+  "kind": "relic",
+  "name": "Rewinder",
+  "sprite": "/sprites/sp_relic_rewinder_0.webp"
+ },
+ "r_ring_of_shielding": {
+  "ability_name": null,
+  "description": "25% of all Overhealing now gets converted into Temporary Health that lasts for 2 seconds.",
+  "id": "r_ring_of_shielding",
+  "kind": "relic",
+  "name": "Ring of Shielding",
+  "sprite": "/sprites/sp_relic_ring_of_shielding_0.webp"
+ },
+ "r_river_raft": {
+  "ability_name": null,
+  "description": "The Explorer Dude starts the battle with a full Canteen, and he refills a Sip every 100 feet he travels.",
+  "id": "r_river_raft",
+  "kind": "relic",
+  "name": "River Raft",
+  "sprite": "/sprites/sp_relic_river_raft_0.webp"
+ },
+ "r_rto_mandate": {
+  "ability_name": null,
+  "description": "When re-entering the Ranch after winning a round, each Unconscious Dude has a 15% chance to be revived.",
+  "id": "r_rto_mandate",
+  "kind": "relic",
+  "name": "RTO Mandate",
+  "sprite": "/sprites/sp_relic_rto_mandate_0.webp"
+ },
+ "r_rubber_arrow": {
+  "ability_name": null,
+  "description": "Magic Arrows have a 30% chance to become Rubber, allowing them to bounce to 2 additional targets.",
+  "id": "r_rubber_arrow",
+  "kind": "relic",
+  "name": "Rubber Arrow",
+  "sprite": "/sprites/sp_relic_rubber_arrow_0.webp"
+ },
+ "r_ruby_scepter": {
+  "ability_name": null,
+  "description": "The Paladin Dude gains 20% Max HP and 20% Healing Received.",
+  "id": "r_ruby_scepter",
+  "kind": "relic",
+  "name": "Ruby Scepter",
+  "sprite": "/sprites/sp_relic_ruby_scepter_0.webp"
+ },
+ "r_rum_cask": {
+  "ability_name": null,
+  "description": "When the Pirate Dude Evades, he has a 10% chance to throw a cask to a random Roster Dude, granting him the effects of Rum.",
+  "id": "r_rum_cask",
+  "kind": "relic",
+  "name": "Rum Cask",
+  "sprite": "/sprites/sp_relic_rum_cask_0.webp"
+ },
+ "r_rush_order": {
+  "ability_name": null,
+  "description": "When the Chef Dude prepares a Burger, he has a 30% chance to prepare an additional Burger. Chained Effect.",
+  "id": "r_rush_order",
+  "kind": "relic",
+  "name": "Rush Order",
+  "sprite": "/sprites/sp_relic_rush_order_0.webp"
+ },
+ "r_saddle_horn": {
+  "ability_name": null,
+  "description": "When a Cowboy Dude Lassoes a Dude, he has a 25% chance to also Lasso an enemy, reducing its Attack Power by 10% and applying 20% Vulnerability to it for 3 seconds.",
+  "id": "r_saddle_horn",
+  "kind": "relic",
+  "name": "Saddle Horn",
+  "sprite": "/sprites/sp_relic_saddle_horn_0.webp"
+ },
+ "r_safety_glasses": {
+  "ability_name": null,
+  "description": "All Dudes gain 10% Deflection and 10% Attack Speed.",
+  "id": "r_safety_glasses",
+  "kind": "relic",
+  "name": "Safety Glasses",
+  "sprite": "/sprites/sp_relic_safety_glasses_0.webp"
+ },
+ "r_salt_lick": {
+  "ability_name": null,
+  "description": "When battle starts, all Farmer Dudes Taunt every enemy for 4 seconds and gain 40% Toughness that decays by 5% per second.",
+  "id": "r_salt_lick",
+  "kind": "relic",
+  "name": "Salt Lick",
+  "sprite": "/sprites/sp_relic_salt_lick_0.webp"
+ },
+ "r_sandstorm": {
+  "ability_name": null,
+  "description": "The Mummy Dude has a 25% chance when dealing Direct Damage to blind the target, increasing its Miss Chance by 10% for 3 seconds.",
+  "id": "r_sandstorm",
+  "kind": "relic",
+  "name": "Sandstorm",
+  "sprite": "/sprites/sp_relic_sandstorm_0.webp"
+ },
+ "r_sarcophagus": {
+  "ability_name": null,
+  "description": "When the Mummy Dude takes Fatal Damage, he damages the enemy with the most Doom for 500% of his DPS. If the enemy dies, the Mummy Dude fully Heals. 5 second Cooldown.",
+  "id": "r_sarcophagus",
+  "kind": "relic",
+  "name": "Sarcophagus",
+  "sprite": "/sprites/sp_relic_sarcophagus_0.webp"
+ },
+ "r_scales_of_death": {
+  "ability_name": null,
+  "description": "The Lich Dude gains 30% Max HP, and he Taunts 6 enemies for 6 seconds when battle starts.",
+  "id": "r_scales_of_death",
+  "kind": "relic",
+  "name": "Scales of Death",
+  "sprite": "/sprites/sp_relic_scales_of_death_0.webp"
+ },
+ "r_scarabs": {
+  "ability_name": null,
+  "description": "When Curse of Doom triggers, it has a 30% chance to deal Direct Damage equal to its Stored Damage to 3 other random enemies, split among them.",
+  "id": "r_scarabs",
+  "kind": "relic",
+  "name": "Scarabs",
+  "sprite": "/sprites/sp_relic_scarabs_0.webp"
+ },
+ "r_schrodingers_box": {
+  "ability_name": null,
+  "description": "When any Roster Dude takes Fatal Damage, he has a 50% chance to absorb an Echo Dude to fully Heal himself. This destroys the Echo Dude.",
+  "id": "r_schrodingers_box",
+  "kind": "relic",
+  "name": "Schrödinger's Box",
+  "sprite": "/sprites/sp_relic_schrodingers_box_0.webp"
+ },
+ "r_scorpion_stinger": {
+  "ability_name": null,
+  "description": "The Assassin Dude gains 30% Attack Power, and each stack of Toxin now applies 5% Vulnerability.",
+  "id": "r_scorpion_stinger",
+  "kind": "relic",
+  "name": "Scorpion Stinger",
+  "sprite": "/sprites/sp_relic_scorpion_stinger_0.webp"
+ },
+ "r_script_kitty": {
+  "ability_name": null,
+  "description": "When a Dude uses an Exploit, he gains 10% Crit Chance for 4 seconds.",
+  "id": "r_script_kitty",
+  "kind": "relic",
+  "name": "Script Kitty",
+  "sprite": "/sprites/sp_relic_script_kitty_0.webp"
+ },
+ "r_scythe": {
+  "ability_name": null,
+  "description": "The Lich Dude gains 30% Max HP, and Revenant now grants an additional 5% Attack Power and 1% Crit Chance per stack.",
+  "id": "r_scythe",
+  "kind": "relic",
+  "name": "Scythe",
+  "sprite": "/sprites/sp_relic_scythe_0.webp"
+ },
+ "r_secret_orders": {
+  "ability_name": null,
+  "description": "The Agent Dude gains 50% Cleave, and his Assets gain 40% Attack Speed and 10% Crit Chance.",
+  "id": "r_secret_orders",
+  "kind": "relic",
+  "name": "Secret Orders",
+  "sprite": "/sprites/sp_relic_secret_orders_0.webp"
+ },
+ "r_sensitivity_training": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Attack Power for each unique Family on your Roster.",
+  "id": "r_sensitivity_training",
+  "kind": "relic",
+  "name": "Sensitivity Training",
+  "sprite": "/sprites/sp_relic_sensitivity_training_0.webp"
+ },
+ "r_sequined_vest": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Evasion.",
+  "id": "r_sequined_vest",
+  "kind": "relic",
+  "name": "Sequined Vest",
+  "sprite": "/sprites/sp_relic_sequined_vest_0.webp"
+ },
+ "r_shadowy_funnel": {
+  "ability_name": null,
+  "description": "The Warlock Dude gains 5% Crit Chance. When he lands a Direct Crit, 25% of his Stored Pact damage is Expelled onto nearby enemies, split among them.",
+  "id": "r_shadowy_funnel",
+  "kind": "relic",
+  "name": "Shadowy Funnel",
+  "sprite": "/sprites/sp_relic_shadowy_funnel_0.webp"
+ },
+ "r_shield_belt": {
+  "ability_name": null,
+  "description": "All Dudes gain 15% Deflection.",
+  "id": "r_shield_belt",
+  "kind": "relic",
+  "name": "Shield Belt",
+  "sprite": "/sprites/sp_relic_shield_belt_0.webp"
+ },
+ "r_shock_helmet": {
+  "ability_name": null,
+  "description": "The Trooper Dude gains 20% Max HP. When he uses Orbital Strike, he gains an Independently Stacking 10% Toughness for 10 seconds.",
+  "id": "r_shock_helmet",
+  "kind": "relic",
+  "name": "Shock Helmet",
+  "sprite": "/sprites/sp_relic_shock_helmet_0.webp"
+ },
+ "r_six_shooter": {
+  "ability_name": null,
+  "description": "When he catches a Dude with his Lasso, the Cowboy Dude also shoots up to 6 nearby enemies for 100% of his DPS, splitting the damage between them. This damage always Crits.",
+  "id": "r_six_shooter",
+  "kind": "relic",
+  "name": "Six Shooter",
+  "sprite": "/sprites/sp_relic_six_shooter_0.webp"
+ },
+ "r_skull_drum": {
+  "ability_name": null,
+  "description": "Dude Bunga? Dude gain stacking 3% Attack Power for rest of battle.",
+  "id": "r_skull_drum",
+  "kind": "relic",
+  "name": "Skull Drum",
+  "sprite": "/sprites/sp_relic_skull_drum_0.webp"
+ },
+ "r_snapback_sneakers": {
+  "ability_name": null,
+  "description": "When a Dude lands after being Thrown, he has a 30% chance to instantly recover from being Stunned and teleport back to where he was Thrown from.",
+  "id": "r_snapback_sneakers",
+  "kind": "relic",
+  "name": "Snapback Sneakers",
+  "sprite": "/sprites/sp_relic_wingedshoes_0.webp"
+ },
+ "r_soul_chain": {
+  "ability_name": null,
+  "description": "When a Thrall gains a stack of Revenant, he has a 30% chance to gain an additional stack. Chained Effect.",
+  "id": "r_soul_chain",
+  "kind": "relic",
+  "name": "Soul Chain",
+  "sprite": "/sprites/sp_relic_soul_chain_0.webp"
+ },
+ "r_spare_rock": {
+  "ability_name": null,
+  "description": "Cave Dude get 30% Attack Power! Plus also... Cave Dude Bunga? Nearby Dudes have 20% chance to Bunga, too.",
+  "id": "r_spare_rock",
+  "kind": "relic",
+  "name": "Spare Rock",
+  "sprite": "/sprites/sp_relic_spare_rock_0.webp"
+ },
+ "r_special_sauce": {
+  "ability_name": null,
+  "description": "The Healing from the Chef Dude's Burgers can now Crit. In addition, his Burgers grant 10% Crit Chance for 3 seconds.",
+  "id": "r_special_sauce",
+  "kind": "relic",
+  "name": "Special Sauce",
+  "sprite": "/sprites/sp_relic_special_sauce_0.webp"
+ },
+ "r_spell_book": {
+  "ability_name": null,
+  "description": "The Wizard Dude gains 30% Attack Power, and he now casts Fireball every 100 feet he travels.",
+  "id": "r_spell_book",
+  "kind": "relic",
+  "name": "Spell Book",
+  "sprite": "/sprites/sp_relic_spell_book_0.webp"
+ },
+ "r_spirit_bomb": {
+  "ability_name": null,
+  "description": "When a Thrall gains a stack of Revenant, he causes a necrotic explosion that damages surrounding enemies for 300% of his DPS, split among them.",
+  "id": "r_spirit_bomb",
+  "kind": "relic",
+  "name": "Spirit Bomb",
+  "sprite": "/sprites/sp_relic_spirit_bomb_0.webp"
+ },
+ "r_spray_n_pray": {
+  "ability_name": null,
+  "description": "The Trooper Dude now has a 10% chance to use Orbital Strike when he lands a Direct Crit. 2 second Cooldown.",
+  "id": "r_spray_n_pray",
+  "kind": "relic",
+  "name": "Spray n' Pray",
+  "sprite": "/sprites/sp_relic_spray_n_pray_0.webp"
+ },
+ "r_sprinkler": {
+  "ability_name": null,
+  "description": "The Farmer Dude gains 30% Max HP, and all Dudes gain 0.2% Regeneration for every Farmer Dude on your Team.",
+  "id": "r_sprinkler",
+  "kind": "relic",
+  "name": "Sprinkler",
+  "sprite": "/sprites/sp_relic_sprinkler_0.webp"
+ },
+ "r_spurs": {
+  "ability_name": null,
+  "description": "The Cowboy Dude gains 150% Run Speed. When he finishes pulling a Dude with his Lasso, he grants all nearby Dudes 2% Crit Chance and 5% Attack Power for 4 seconds, stacking up to 5 times.",
+  "id": "r_spurs",
+  "kind": "relic",
+  "name": "Spurs",
+  "sprite": "/sprites/sp_relic_spurs_0.webp"
+ },
+ "r_stasis_cube": {
+  "ability_name": null,
+  "description": "Enemies cannot attack until 2 seconds after combat starts.",
+  "id": "r_stasis_cube",
+  "kind": "relic",
+  "name": "Stasis Cube",
+  "sprite": "/sprites/sp_relic_stasis_cube_0.webp"
+ },
+ "r_steel_toed_boots": {
+  "ability_name": null,
+  "description": "For each enemy the Construction Dude Hammers, he gains 2% Toughness for the rest of the battle, stacking up to 15 times.",
+  "id": "r_steel_toed_boots",
+  "kind": "relic",
+  "name": "Steel-Toed Boots",
+  "sprite": "/sprites/sp_relic_steel_toed_boots_0.webp"
+ },
+ "r_superposition": {
+  "ability_name": null,
+  "description": "Every 5 seconds, the Quantum Dude grants 20% Evasion for 3 seconds to nearby Dudes and teleports to a new location.",
+  "id": "r_superposition",
+  "kind": "relic",
+  "name": "Superposition",
+  "sprite": "/sprites/sp_relic_superposition_0.webp"
+ },
+ "r_supply_drop": {
+  "ability_name": null,
+  "description": "When a Trooper Dude uses Orbital Strike, he and all Dudes near the impact location gain 5% Attack Power, 2% Attack Speed, and 1% Crit Chance for 5 seconds, stacking up to 5 times.",
+  "id": "r_supply_drop",
+  "kind": "relic",
+  "name": "Supply Drop",
+  "sprite": "/sprites/sp_relic_supply_drop_0.webp"
+ },
+ "r_tape_measure": {
+  "ability_name": null,
+  "description": "When the Construction Dude deals damage, he has a 10% chance to toss a Tape Measure to a nearby Dude, granting 10% Attack Power and 10% Crit Chance for 4 seconds.",
+  "id": "r_tape_measure",
+  "kind": "relic",
+  "name": "Tape Measure",
+  "sprite": "/sprites/sp_relic_tape_measure_0.webp"
+ },
+ "r_target_painter": {
+  "ability_name": null,
+  "description": "30% of all Direct Damage the Trooper Dude deals gets added to the damage of his next Orbital Strike.",
+  "id": "r_target_painter",
+  "kind": "relic",
+  "name": "Target Painter",
+  "sprite": "/sprites/sp_relic_target_painter_0.webp"
+ },
+ "r_targeting_computer": {
+  "ability_name": null,
+  "description": "All Dudes gain 1% Crit Chance for every Cyborg Dude on your Roster, stacking up to 10%. Additionally, the Cyborg Dude now has a 20% chance to generate an Extermination stack when he lands a Critical Hit on any target.",
+  "id": "r_targeting_computer",
+  "kind": "relic",
+  "name": "Targeting Computer",
+  "sprite": "/sprites/sp_relic_targeting_computer_0.webp"
+ },
+ "r_tax_break": {
+  "ability_name": null,
+  "description": "All Dudes gain 1% Max HP for every $500 spent this run, stacking up to 20 times.",
+  "id": "r_tax_break",
+  "kind": "relic",
+  "name": "Tax Break",
+  "sprite": "/sprites/sp_relic_tax_break_0.webp"
+ },
+ "r_tax_evasion": {
+  "ability_name": null,
+  "description": "The Finance Dude gains 1% Evasion for every $50 spent on Restocking, up to a maximum of 30%.",
+  "id": "r_tax_evasion",
+  "kind": "relic",
+  "name": "Tax Evasion",
+  "sprite": "/sprites/sp_relic_tax_evasion_0.webp"
+ },
+ "r_team_jersey": {
+  "ability_name": null,
+  "description": "The Wielder gains 10% Attack Power and 3% Deflection for every nearby Dude of the same Dude Type during battle. This effect stacks up to 4 times.",
+  "id": "r_team_jersey",
+  "kind": "trinket",
+  "name": "Team Jersey",
+  "sprite": "/sprites/sp_tr_team_jersey_0.webp"
+ },
+ "r_thagomizer": {
+  "ability_name": null,
+  "description": "Cave Dude get 10% Crit Chance! Cave Dude Bunga now hit 5 extra enemy for 100% of Bunga damage. Damage split.",
+  "id": "r_thagomizer",
+  "kind": "relic",
+  "name": "Thagomizer",
+  "sprite": "/sprites/sp_relic_thagomizer_0.webp"
+ },
+ "r_thoughts_and_prayers": {
+  "ability_name": null,
+  "description": "Any Dude Healed by Divine Pulse gains 1% Evasion and receives 10% increased Healing from Divine Pulse for 4 seconds. This stacks up to 10 times.",
+  "id": "r_thoughts_and_prayers",
+  "kind": "relic",
+  "name": "Thoughts and Prayers",
+  "sprite": "/sprites/sp_relic_thoughts_and_prayers_0.webp"
+ },
+ "r_ticking_clock": {
+  "ability_name": null,
+  "description": "Every 5 seconds, each Roster Dude has a 20% chance to set off a bomb at his location, damaging nearby enemies for 500% of his DPS, evenly split among them.",
+  "id": "r_ticking_clock",
+  "kind": "relic",
+  "name": "Ticking Clock",
+  "sprite": "/sprites/sp_relic_ticking_clock_0.webp"
+ },
+ "r_time_dilator": {
+  "ability_name": null,
+  "description": "When a Dude Deflects, he gains 3% Attack Speed for 5 seconds, stacking up to 5 times.",
+  "id": "r_time_dilator",
+  "kind": "relic",
+  "name": "Time Sink",
+  "sprite": "/sprites/sp_relic_time_dilator_0.webp"
+ },
+ "r_time_trigger": {
+  "ability_name": null,
+  "description": "When a Time Anomaly detonates, it has a 20% chance to reset its timer and preserve its Stored Damage instead of being destroyed.",
+  "id": "r_time_trigger",
+  "kind": "relic",
+  "name": "Time Trigger",
+  "sprite": "/sprites/sp_relic_time_trigger_0.webp"
+ },
+ "r_tinderbox": {
+  "ability_name": null,
+  "description": "The Explorer Dude tells inspiring tales to your Dudes. All Dudes gain 1% Healing Received for every Explorer Dude on your Team, up to 15%.",
+  "id": "r_tinderbox",
+  "kind": "relic",
+  "name": "Tinderbox",
+  "sprite": "/sprites/sp_relic_tinderbox_0.webp"
+ },
+ "r_tiny_mirror": {
+  "ability_name": null,
+  "description": "Novocaine Injection now stacks 1 additional time, and the Dentist Dude now has a 25% chance when using Novocaine Injection to immediately use it again. Chained Effect.",
+  "id": "r_tiny_mirror",
+  "kind": "relic",
+  "name": "Tiny Mirror",
+  "sprite": "/sprites/sp_relic_tiny_mirror_0.webp"
+ },
+ "r_trench_coat": {
+  "ability_name": null,
+  "description": "All Dudes gain 15% Toughness when battle starts. This bonus decays by 1% each second, stopping when it reaches 5%.",
+  "id": "r_trench_coat",
+  "kind": "relic",
+  "name": "Trench Coat",
+  "sprite": "/sprites/sp_relic_trench_coat_0.webp"
+ },
+ "r_trophy_necklace": {
+  "ability_name": null,
+  "description": "Dude Bunga? Dude get 5% Toughness for 5 seconds. Stack 4 time.",
+  "id": "r_trophy_necklace",
+  "kind": "relic",
+  "name": "Trophy Necklace",
+  "sprite": "/sprites/sp_relic_trophy_necklace_0.webp"
+ },
+ "r_trucker_hat": {
+  "ability_name": null,
+  "description": "When the Farmer Dude receives Healing, he gains a stacking 1% Attack Power for the rest of the battle.",
+  "id": "r_trucker_hat",
+  "kind": "relic",
+  "name": "Trucker Hat",
+  "sprite": "/sprites/sp_relic_trucker_hat_0.webp"
+ },
+ "r_tuning_fork": {
+  "ability_name": null,
+  "description": "The Bard Dude gains 30% Attack Speed, and his Four Chord Song lasts for 2 more seconds. Any Dude who hears the Four Chord Song while at full stacks gains 20% Attack Power for 2 seconds.",
+  "id": "r_tuning_fork",
+  "kind": "relic",
+  "name": "Tuning Fork",
+  "sprite": "/sprites/sp_relic_tuning_fork_0.webp"
+ },
+ "r_two_sided_scroll": {
+  "ability_name": null,
+  "description": "When the Wizard Dude casts Fireball, he has a 25% chance to instantly cast another Fireball. Chained Effect.",
+  "id": "r_two_sided_scroll",
+  "kind": "relic",
+  "name": "Two-Sided Scroll",
+  "sprite": "/sprites/sp_relic_two_sided_scroll_0.webp"
+ },
+ "r_ufo_wax": {
+  "ability_name": null,
+  "description": "When the Alien Dude's Tractor Beam ends, he and his Tractor Beam target both gain an Independently Stacking 15% Deflection for 3 seconds.",
+  "id": "r_ufo_wax",
+  "kind": "relic",
+  "name": "UFO Wax",
+  "sprite": "/sprites/sp_relic_ufo_wax_0.webp"
+ },
+ "r_uncanny_ledger": {
+  "ability_name": null,
+  "description": "The Warlock Dude gains 15% Lifesteal. For every 100 Pact damage he Expels, he gains a stacking 1% Attack Power for the rest of the battle.",
+  "id": "r_uncanny_ledger",
+  "kind": "relic",
+  "name": "Uncanny Ledger",
+  "sprite": "/sprites/sp_relic_uncanny_ledger_0.webp"
+ },
+ "r_unholy_grail": {
+  "ability_name": null,
+  "description": "The Dude Type above the Lich Dude on the Roster now also Stores 30% of his damage taken in the Lich Dude's Thralls instead of taking that damage himself.",
+  "id": "r_unholy_grail",
+  "kind": "relic",
+  "name": "Unholy Grail",
+  "sprite": "/sprites/sp_relic_unholy_grail_0.webp"
+ },
+ "r_unstable_plasmid": {
+  "ability_name": null,
+  "description": "When generating a Floofball, the Mutant Dude has a 25% chance to generate another. Chained Effect.",
+  "id": "r_unstable_plasmid",
+  "kind": "relic",
+  "name": "Unstable Plasmid",
+  "sprite": "/sprites/sp_relic_unstable_plasmid_0.webp"
+ },
+ "r_valkyrie_amulet": {
+  "ability_name": null,
+  "description": "When a Viking Dude takes Fatal Damage, he fully Heals and goes Berserk. This effect has a 20 second Cooldown that is reduced to 10 seconds if the damage occurred during Berserk.",
+  "id": "r_valkyrie_amulet",
+  "kind": "relic",
+  "name": "Valkyrie Amulet",
+  "sprite": "/sprites/sp_relic_valkyrie_amulet_0.webp"
+ },
+ "r_vault": {
+  "ability_name": null,
+  "description": "Grants a 15% chance to earn a 100% increased payout after winning a battle.",
+  "id": "r_vault",
+  "kind": "relic",
+  "name": "Vault",
+  "sprite": "/sprites/sp_relic_vault_0.webp"
+ },
+ "r_velvet_robe": {
+  "ability_name": null,
+  "description": "The Warlock Dude gains 20% Max HP. Every 2 seconds, all Warlock Dudes reallocate their Stored Pact damage evenly amongst themselves.",
+  "id": "r_velvet_robe",
+  "kind": "relic",
+  "name": "Velvet Robe",
+  "sprite": "/sprites/sp_relic_velvet_robe_0.webp"
+ },
+ "r_venom_gland": {
+  "ability_name": null,
+  "description": "When a Floofball bursts, it deals damage equal to 50% of its host Dude's Attack Power, split among surrounding enemies.",
+  "id": "r_venom_gland",
+  "kind": "relic",
+  "name": "Venom Gland",
+  "sprite": "/sprites/sp_relic_venom_gland_0.webp"
+ },
+ "r_viral_load": {
+  "ability_name": null,
+  "description": "The Mutant Dude gains 20% Attack Speed, and he generates 4 Floofballs immediately when battle starts.",
+  "id": "r_viral_load",
+  "kind": "relic",
+  "name": "Viral Load",
+  "sprite": "/sprites/sp_relic_viral_load_0.webp"
+ },
+ "r_void_amethyst": {
+  "ability_name": null,
+  "description": "The Warlock Dude gains 20% Attack Speed, and his Pact damage is now spread out over 2 more seconds. When battle starts, he Taunts 5 enemies for 4 seconds.",
+  "id": "r_void_amethyst",
+  "kind": "relic",
+  "name": "Void Amethyst",
+  "sprite": "/sprites/sp_relic_void_amethyst_0.webp"
+ },
+ "r_waffle_fries": {
+  "ability_name": null,
+  "description": "Burgers now come with a side of Waffle Fries, granting the target Dude 5% Attack Power for 4 seconds, stacking up to 5 times.",
+  "id": "r_waffle_fries",
+  "kind": "relic",
+  "name": "Waffle Fries",
+  "sprite": "/sprites/sp_relic_waffle_fries_0.webp"
+ },
+ "r_warp_deck": {
+  "ability_name": null,
+  "description": "Every 8 seconds, any Dude with no Dudes near him will get Knocked Out, teleported to a new location near a random Dude, and instantly revived to his prior HP.",
+  "id": "r_warp_deck",
+  "kind": "relic",
+  "name": "Warp Deck",
+  "sprite": "/sprites/sp_relic_warp_deck_0.webp"
+ },
+ "r_wave_function": {
+  "ability_name": null,
+  "description": "The Quantum Dude's Quantum Echo now has a 50% chance to Heal an additional injured Roster Dude. In addition, he casts Quantum Echo for every 50 feet he travels.",
+  "id": "r_wave_function",
+  "kind": "relic",
+  "name": "Wave Function",
+  "sprite": "/sprites/sp_relic_wave_function_0.webp"
+ },
+ "r_white_hat": {
+  "ability_name": null,
+  "description": "When a Roster Dude takes Fatal Damage, there is a 50% chance for a Hacker Dude to save him by granting him Invulnerability for 2 seconds and granting him 2 Exploits. Once per battle Cooldown.",
+  "id": "r_white_hat",
+  "kind": "relic",
+  "name": "White Hat",
+  "sprite": "/sprites/sp_relic_white_hat_0.webp"
+ },
+ "r_wifi_adapter": {
+  "ability_name": null,
+  "description": "The Cyborg Dude gains a 20% increased chance to generate an Extermination stack when dealing Direct Damage to his Primary Target.",
+  "id": "r_wifi_adapter",
+  "kind": "relic",
+  "name": "Wi-Fi Adapter",
+  "sprite": "/sprites/sp_relic_wifi_adapter_0.webp"
+ },
+ "r_wire_stripper": {
+  "ability_name": null,
+  "description": "The Electrician Dude gains 50% Cleave, and each Static Charge he has grants him 10% Attack Power.",
+  "id": "r_wire_stripper",
+  "kind": "relic",
+  "name": "Wire Stripper",
+  "sprite": "/sprites/sp_relic_wire_stripper_0.webp"
+ },
+ "r_wrist_blade": {
+  "ability_name": null,
+  "description": "The Assassin Dude gains 10% Evasion. When he Evades, he has a 50% chance to apply Toxin to the attacker.",
+  "id": "r_wrist_blade",
+  "kind": "relic",
+  "name": "Wrist Blade",
+  "sprite": "/sprites/sp_relic_wrist_blade_0.webp"
+ },
+ "r_zinc_finger": {
+  "ability_name": null,
+  "description": "When a Floofball bursts, it has a 30% chance to immediately regrow and gain a stacking 30% increased Healing the next time it bursts.",
+  "id": "r_zinc_finger",
+  "kind": "relic",
+  "name": "Zinc Finger",
+  "sprite": "/sprites/sp_relic_zinc_finger_0.webp"
+ },
+ "ram": {
+  "ability_name": null,
+  "description": "",
+  "id": "ram",
+  "kind": "enemy",
+  "name": "Ram",
+  "sprite": "/sprites/sp_icon_anim_ram_0.webp"
+ },
+ "ranger": {
+  "ability_name": "Magic Arrow",
+  "description": "When he deals Direct Damage, he has a 25% chance to fire a Magic Arrow at a distant enemy for 100% of his Attack Power.",
+  "id": "ranger",
+  "kind": "dude",
+  "name": "Ranger Dude",
+  "sprite": "/sprites/sp_icon_dude_ranger_0.webp"
+ },
+ "rat": {
+  "ability_name": null,
+  "description": "",
+  "id": "rat",
+  "kind": "enemy",
+  "name": "Rat",
+  "sprite": "/sprites/sp_icon_anim_rat_0.webp"
+ },
+ "rat_king": {
+  "ability_name": null,
+  "description": "",
+  "id": "rat_king",
+  "kind": "enemy",
+  "name": "Dog-Sized Rat",
+  "sprite": "/sprites/sp_icon_anim_rat_king_0.webp"
+ },
+ "rattlesnake": {
+  "ability_name": null,
+  "description": "",
+  "id": "rattlesnake",
+  "kind": "enemy",
+  "name": "Rattlesnake",
+  "sprite": "/sprites/sp_icon_anim_snake_0.webp"
+ },
+ "raven": {
+  "ability_name": null,
+  "description": "",
+  "id": "raven",
+  "kind": "enemy",
+  "name": "Raven",
+  "sprite": "/sprites/sp_icon_anim_raven_0.webp"
+ },
+ "regeneration": {
+  "ability_name": null,
+  "description": "Every second, you will passively Heal for this percentage of your Max HP.",
+  "id": "regeneration",
+  "kind": "stat",
+  "name": "Regeneration",
+  "sprite": "/sprites/sp_stat_regeneration_0.webp"
+ },
+ "rhino": {
+  "ability_name": null,
+  "description": "",
+  "id": "rhino",
+  "kind": "enemy",
+  "name": "Rhino",
+  "sprite": "/sprites/sp_icon_anim_rhino_0.webp"
+ },
+ "ritual_dagger": {
+  "ability_name": null,
+  "description": "All Dudes gain 2% Regeneration. When a Dude Heals through Regeneration, he has a 20% chance to throw a dagger at a random enemy for 100% of his DPS as Direct Damage.",
+  "id": "ritual_dagger",
+  "kind": "relic",
+  "name": "Ritual Dagger",
+  "sprite": "/sprites/sp_relic_ritual_dagger_0.webp"
+ },
+ "rotting_steak": {
+  "ability_name": null,
+  "description": "All Dudes gain 10% Attack Speed and 30% Run Speed.",
+  "id": "rotting_steak",
+  "kind": "relic",
+  "name": "Rotting Steak",
+  "sprite": "/sprites/sp_relic_rotting_steak_0.webp"
+ },
+ "rubber_glove": {
+  "ability_name": null,
+  "description": "The Medic Dude's Triage gains 50% increased Healing, and it targets 1 additional Dude.",
+  "id": "rubber_glove",
+  "kind": "relic",
+  "name": "Rubber Glove",
+  "sprite": "/sprites/sp_relic_rubber_glove_0.webp"
+ },
+ "runic_tattoo": {
+  "ability_name": null,
+  "description": "The Viking Dude has a 50% chance to go Berserk when battle starts. In addition, Dudes who go Berserk now gain 10% of their Max HP as Temporary Health for 4 seconds.",
+  "id": "runic_tattoo",
+  "kind": "relic",
+  "name": "Runic Tattoo",
+  "sprite": "/sprites/sp_relic_runic_tattoo_0.webp"
+ },
+ "samurai": {
+  "ability_name": "Swift Pursuit",
+  "description": "Every 3 seconds, the Samurai Dude Dashes to the enemy with the lowest HP to help finish it off.",
+  "id": "samurai",
+  "kind": "dude",
+  "name": "Samurai Dude",
+  "sprite": "/sprites/sp_icon_dude_samurai_0.webp"
+ },
+ "scifi": {
+  "ability_name": null,
+  "description": "Sci-Fi Dudes use advanced technology and definitely realistic gadgets to gain the upper hand in any situation.",
+  "id": "scifi",
+  "kind": "family",
+  "name": "Sci-Fi",
+  "sprite": "/sprites/sp_famicon_scifi_0.webp"
+ },
+ "scroll_of_mockery": {
+  "ability_name": null,
+  "description": "The Knight Dude gains 20% Max HP, and any enemies he Taunts gain 10% Crit Exposure for 3 seconds.",
+  "id": "scroll_of_mockery",
+  "kind": "relic",
+  "name": "Scroll of Mockery",
+  "sprite": "/sprites/sp_relic_scroll_of_mockery_0.webp"
+ },
+ "seagull": {
+  "ability_name": null,
+  "description": "",
+  "id": "seagull",
+  "kind": "enemy",
+  "name": "Seagull",
+  "sprite": "/sprites/sp_icon_anim_seagull_0.webp"
+ },
+ "sewing_kit": {
+  "ability_name": null,
+  "description": "All Dudes have a 15% chance when taking damage to Heal for 100% of the damage taken if the damage was not Fatal.",
+  "id": "sewing_kit",
+  "kind": "relic",
+  "name": "Sewing Kit",
+  "sprite": "/sprites/sp_relic_sewing_kit_0.webp"
+ },
+ "shadow_dagger": {
+  "ability_name": null,
+  "description": "When the Ninja Dude deals Direct Damage, he has a 20% chance to instantly strike again, dealing Direct Damage for 100% of his Attack Power. Chained Effect.",
+  "id": "shadow_dagger",
+  "kind": "relic",
+  "name": "Shadow Dagger",
+  "sprite": "/sprites/sp_relic_shadow_dagger_0.webp"
+ },
+ "shadow_skin": {
+  "ability_name": null,
+  "description": "When a Vampire Dude Lifesteals while above 90% HP, he gains Temporary Health for 50% of the Lifesteal amount for 3 seconds.",
+  "id": "shadow_skin",
+  "kind": "relic",
+  "name": "Shadow Skin",
+  "sprite": "/sprites/sp_relic_shadow_skin_0.webp"
+ },
+ "shield_spikes": {
+  "ability_name": null,
+  "description": "When a Dude Blocks, he has a 25% chance to deal damage equal to 200% of his DPS back to the attacker.",
+  "id": "shield_spikes",
+  "kind": "relic",
+  "name": "Shield Spikes",
+  "sprite": "/sprites/sp_relic_shield_spikes_0.webp"
+ },
+ "shotgun_turtle": {
+  "ability_name": null,
+  "description": "",
+  "id": "shotgun_turtle",
+  "kind": "enemy",
+  "name": "Shotgun Turtle",
+  "sprite": "/sprites/sp_icon_anim_shotgunturtle_0.webp"
+ },
+ "skeleton": {
+  "ability_name": null,
+  "description": "",
+  "id": "skeleton",
+  "kind": "dude",
+  "name": "Skeledude",
+  "sprite": "/sprites/sp_icon_dude_skelly_0.webp"
+ },
+ "smelling_salts": {
+  "ability_name": null,
+  "description": "When a Dude gets Knocked Out, he has a 15% chance to revive and instantly Heal for 40% of his Max HP.",
+  "id": "smelling_salts",
+  "kind": "relic",
+  "name": "Smelling Salts",
+  "sprite": "/sprites/sp_relic_smellingsalts_0.webp"
+ },
+ "smoke_bomb": {
+  "ability_name": null,
+  "description": "The Ninja Dude becomes Invisible for 2 seconds when he takes damage that drops him below 50% HP. When this occurs, nearby Dudes gain 50% Crit Damage for 3 seconds.",
+  "id": "smoke_bomb",
+  "kind": "relic",
+  "name": "Smoke Bomb",
+  "sprite": "/sprites/sp_relic_smoke_bomb_0.webp"
+ },
+ "snapping_turtle": {
+  "ability_name": null,
+  "description": "",
+  "id": "snapping_turtle",
+  "kind": "enemy",
+  "name": "Snapping Turtle",
+  "sprite": "/sprites/sp_icon_anim_turtle_0.webp"
+ },
+ "socialism_potion": {
+  "ability_name": null,
+  "description": "Your Dudes attune their spirits. For the next 3 seconds, their HP is Equalized every second.",
+  "id": "socialism_potion",
+  "kind": "consumable",
+  "name": "Strange Spores",
+  "sprite": "/sprites/sp_cons_shroom_0.webp"
+ },
+ "soul_reliquary": {
+  "ability_name": null,
+  "description": "When the Vampire Dude deals Direct Damage, he marks the target's soul for 4 seconds. Any Dude who damages the marked target Heals for 15% of the damage dealt.",
+  "id": "soul_reliquary",
+  "kind": "relic",
+  "name": "Soul Reliquary",
+  "sprite": "/sprites/sp_relic_soul_reliquary_0.webp"
+ },
+ "spartan": {
+  "ability_name": "Phalanx",
+  "description": "The Spartan Dude has a 20% chance to Block incoming Direct Damage aimed at nearby Dudes.",
+  "id": "spartan",
+  "kind": "dude",
+  "name": "Spartan Dude",
+  "sprite": "/sprites/sp_icon_dude_spartan_0.webp"
+ },
+ "speed": {
+  "ability_name": null,
+  "description": "How fast you can move.",
+  "id": "speed",
+  "kind": "stat",
+  "name": "Run Speed",
+  "sprite": "/sprites/sp_stat_speed_0.webp"
+ },
+ "spooky_doll": {
+  "ability_name": null,
+  "description": "The Ghost Dude has a 25% chance to cause an ectoplasm explosion around his Phase Shift targets, applying 20% Vulnerability to surrounding enemies for 3 seconds.",
+  "id": "spooky_doll",
+  "kind": "relic",
+  "name": "Spooky Doll",
+  "sprite": "/sprites/sp_relic_spooky_doll_0.webp"
+ },
+ "stab_crab": {
+  "ability_name": null,
+  "description": "",
+  "id": "stab_crab",
+  "kind": "enemy",
+  "name": "Stab Crab",
+  "sprite": "/sprites/sp_icon_anim_stabcrab_0.webp"
+ },
+ "sturdy_helmet": {
+  "ability_name": null,
+  "description": "When any Dude Taunts an enemy, he gains 3% of his Max HP as Temporary Health for 3 seconds.",
+  "id": "sturdy_helmet",
+  "kind": "relic",
+  "name": "Great Helm",
+  "sprite": "/sprites/sp_relic_sturdy_helmet_0.webp"
+ },
+ "t_bite_instinct": {
+  "ability_name": null,
+  "description": "When a Dude gets Thrown and lands near the creature, it reflexively Attacks him immediately.",
+  "id": "t_bite_instinct",
+  "kind": "enemy_trait",
+  "name": "Bite Instinct",
+  "sprite": "/sprites/sp_trait_bite_instinct_0.webp"
+ },
+ "t_food_thief": {
+  "ability_name": null,
+  "description": "The creature cannot be Taunted, and it fixates on attacking Dudes who have eaten food.",
+  "id": "t_food_thief",
+  "kind": "enemy_trait",
+  "name": "Food Thief",
+  "sprite": "/sprites/sp_trait_food_thief_0.webp"
+ },
+ "t_hangry": {
+  "ability_name": null,
+  "description": "When battle starts, the creature rampages around the battlefield, damaging Dudes it passes through and Throwing them.",
+  "id": "t_hangry",
+  "kind": "enemy_trait",
+  "name": "Hangry",
+  "sprite": "/sprites/sp_trait_hangry_0.webp"
+ },
+ "t_hellfire": {
+  "ability_name": null,
+  "description": "The creature's Attacks have a 20% chance to launch a ball of Hellfire at a random Dude, damaging all Dudes near the impact area.",
+  "id": "t_hellfire",
+  "kind": "enemy_trait",
+  "name": "Hellfire",
+  "sprite": "/sprites/sp_trait_hellfire_0.webp"
+ },
+ "t_huge": {
+  "ability_name": null,
+  "description": "This creature is so big it cannot possibly be Thrown or Stunned.",
+  "id": "t_huge",
+  "kind": "enemy_trait",
+  "name": "Huge",
+  "sprite": "/sprites/sp_trait_huge_0.webp"
+ },
+ "t_hunter": {
+  "ability_name": null,
+  "description": "Will sometimes seek out injured Dudes and Dash to them, attacking them for 2 seconds and becoming immune to Taunts for the duration.",
+  "id": "t_hunter",
+  "kind": "enemy_trait",
+  "name": "Hunter",
+  "sprite": "/sprites/sp_trait_hunter_0.webp"
+ },
+ "t_killipede": {
+  "ability_name": null,
+  "description": "99% of the damage taken by its head is Transferred to its last body segment until it has no segments left.",
+  "id": "t_killipede",
+  "kind": "enemy_trait",
+  "name": "Body Positivity",
+  "sprite": "/sprites/sp_trait_body_positivity_0.webp"
+ },
+ "t_knife": {
+  "ability_name": null,
+  "description": "The creature has a knife, so it gains 15% Piercing.",
+  "id": "t_knife",
+  "kind": "enemy_trait",
+  "name": "Knife Wielder",
+  "sprite": "/sprites/sp_icon_knife_0.webp"
+ },
+ "t_marrow_eater": {
+  "ability_name": null,
+  "description": "When a Dude gets Knocked Out and fails to recover, the creature gains 2% Attack Power and 10% Run Speed for the rest of the battle, stacking up to 10 times.",
+  "id": "t_marrow_eater",
+  "kind": "enemy_trait",
+  "name": "Marrow Eater",
+  "sprite": "/sprites/sp_trait_marrow_eater_0.webp"
+ },
+ "t_pack": {
+  "ability_name": null,
+  "description": "30% of damage taken is Transferred and split between 2 other creatures of the same type.",
+  "id": "t_pack",
+  "kind": "enemy_trait",
+  "name": "Pack Mentality",
+  "sprite": "/sprites/sp_trait_pack_0.webp"
+ },
+ "t_panicky": {
+  "ability_name": null,
+  "description": "When its HP drops below 30%, it panics and runs around, damaging all Dudes in its path for 20% of its Attack Power and Throwing them.",
+  "id": "t_panicky",
+  "kind": "enemy_trait",
+  "name": "Panicky",
+  "sprite": "/sprites/sp_icon_confusion_0.webp"
+ },
+ "t_phased": {
+  "ability_name": null,
+  "description": "When it Attacks, it has a 20% chance to teleport to a random Dude and Attack him instantly.",
+  "id": "t_phased",
+  "kind": "enemy_trait",
+  "name": "Phased",
+  "sprite": "/sprites/sp_trait_phased_0.webp"
+ },
+ "t_pounce": {
+  "ability_name": null,
+  "description": "Will sometimes Throw a Dude far away and then pounce on him.",
+  "id": "t_pounce",
+  "kind": "enemy_trait",
+  "name": "Pounce",
+  "sprite": "/sprites/sp_trait_pounce_0.webp"
+ },
+ "t_primal_rage": {
+  "ability_name": null,
+  "description": "When this creature's HP drops below 30%, it emits a roar that destroys the Temporary Health of nearby Dudes and then gains 20% Attack Power for the rest of the battle.",
+  "id": "t_primal_rage",
+  "kind": "enemy_trait",
+  "name": "Primal Rage",
+  "sprite": "/sprites/sp_trait_primal_rage_0.webp"
+ },
+ "t_proud": {
+  "ability_name": null,
+  "description": "When a Lion or Lioness is defeated, all Lions gain an Independently Stacking 10% Attack Power for 10 seconds.",
+  "id": "t_proud",
+  "kind": "enemy_trait",
+  "name": "Proud",
+  "sprite": "/sprites/sp_trait_proud_0.webp"
+ },
+ "t_rotten": {
+  "ability_name": null,
+  "description": "Its Attacks have a 20% chance to create a Rot Cloud, reducing the Healing Received of Dudes caught within by 25% for 3 seconds.",
+  "id": "t_rotten",
+  "kind": "enemy_trait",
+  "name": "Rotten",
+  "sprite": "/sprites/sp_trait_rotten_0.webp"
+ },
+ "t_sharp_claws": {
+  "ability_name": null,
+  "description": "This creature's attacks gain 25% Piercing.",
+  "id": "t_sharp_claws",
+  "kind": "enemy_trait",
+  "name": "Sharp Claws",
+  "sprite": "/sprites/sp_trait_sharp_claws_0.webp"
+ },
+ "t_sharp_horn": {
+  "ability_name": null,
+  "description": "This creature's attacks gain 15% Piercing.",
+  "id": "t_sharp_horn",
+  "kind": "enemy_trait",
+  "name": "Sharp Horn",
+  "sprite": "/sprites/sp_trait_sharp_horn_0.webp"
+ },
+ "t_shotgun_shell": {
+  "ability_name": null,
+  "description": "It occasionally emits blasts from its shell that damage and Throw Dudes who are beside it.",
+  "id": "t_shotgun_shell",
+  "kind": "enemy_trait",
+  "name": "Shotgun Shell",
+  "sprite": "/sprites/sp_trait_shotgun_shell_0.webp"
+ },
+ "t_starburst": {
+  "ability_name": null,
+  "description": "The creature's Attacks have a 20% chance to launch a bursting star at a random Dude, damaging all Dudes near the impact area and Throwing them.",
+  "id": "t_starburst",
+  "kind": "enemy_trait",
+  "name": "Starburst",
+  "sprite": "/sprites/sp_trait_starburst_0.webp"
+ },
+ "t_swarmer": {
+  "ability_name": null,
+  "description": "Gains 20% Run Speed and 2% Attack Speed for each nearby creature of the same type, stacking up to 10 times.",
+  "id": "t_swarmer",
+  "kind": "enemy_trait",
+  "name": "Swarmer",
+  "sprite": "/sprites/sp_trait_swarmer_0.webp"
+ },
+ "t_tail_whip": {
+  "ability_name": null,
+  "description": "The creature's Attacks have a 20% chance to Throw its Primary Target directly at another creature of the same type.",
+  "id": "t_tail_whip",
+  "kind": "enemy_trait",
+  "name": "Tail Whip",
+  "sprite": "/sprites/sp_trait_tail_whip_0.webp"
+ },
+ "t_toxic_secretion": {
+  "ability_name": null,
+  "description": "When it takes damage, the creature applies 1% Vulnerability to the attacker for 8 seconds, stacking up to 10 times.",
+  "id": "t_toxic_secretion",
+  "kind": "enemy_trait",
+  "name": "Toxic Secretion",
+  "sprite": "/sprites/sp_icon_droplets_0.webp"
+ },
+ "t_trample": {
+  "ability_name": null,
+  "description": "When the creature walks over Dudes, it damages them for 20% of its DPS and Stuns them briefly.",
+  "id": "t_trample",
+  "kind": "enemy_trait",
+  "name": "Trample",
+  "sprite": "/sprites/sp_trait_trample_0.webp"
+ },
+ "talking_head": {
+  "ability_name": null,
+  "description": "The Zombie Dude gains 20% Max HP and 4% Regeneration.",
+  "id": "talking_head",
+  "kind": "relic",
+  "name": "Shrunken Head",
+  "sprite": "/sprites/sp_relic_talkinghead_0.webp"
+ },
+ "tattered_shoes": {
+  "ability_name": null,
+  "description": "All Dudes gain 5% Run Speed and 2% Max HP for each Zombie Dude on your Team. This effect stacks up to 5 times.",
+  "id": "tattered_shoes",
+  "kind": "relic",
+  "name": "Tattered Shoes",
+  "sprite": "/sprites/sp_relic_tattered_shoes_0.webp"
+ },
+ "taunt_resistance": {
+  "ability_name": null,
+  "description": "The chance to ignore a Taunt.",
+  "id": "taunt_resistance",
+  "kind": "stat",
+  "name": "Taunt Resistance",
+  "sprite": "/sprites/sp_icon_placeholder_paw_0.webp"
+ },
+ "time": {
+  "ability_name": "Time Anomaly",
+  "description": "Every 4 seconds, he attaches 2 Time Anomalies to the Dudes next to him on the Roster. The Time Anomalies detonate after 3 seconds.",
+  "id": "time",
+  "kind": "dude",
+  "name": "Time Dude",
+  "sprite": "/sprites/sp_icon_dude_timetraveler_0.webp"
+ },
+ "toddler": {
+  "ability_name": null,
+  "description": "",
+  "id": "toddler",
+  "kind": "enemy",
+  "name": "Toddler",
+  "sprite": "/sprites/sp_icon_anim_toddler_0.webp"
+ },
+ "tosei_gusoku": {
+  "ability_name": null,
+  "description": "When the Samurai Dude reaches his Dash target, he gains Temporary Health equal to 30% of his Max HP for 4 seconds.",
+  "id": "tosei_gusoku",
+  "kind": "relic",
+  "name": "Tosei Gusoku",
+  "sprite": "/sprites/sp_relic_tosei_gusoku_0.webp"
+ },
+ "toughness": {
+  "ability_name": null,
+  "description": "Reduces all incoming damage. Toughness is a Diminishing Stat.",
+  "id": "toughness",
+  "kind": "stat",
+  "name": "Toughness",
+  "sprite": "/sprites/sp_stat_toughness_0.webp"
+ },
+ "tourniquet": {
+  "ability_name": null,
+  "description": "When a Medic Dude takes damage that drops his HP below 30%, all Medic Dudes gain 30% Attack Speed for 3 seconds.",
+  "id": "tourniquet",
+  "kind": "relic",
+  "name": "Tourniquet",
+  "sprite": "/sprites/sp_relic_tourniquet_0.webp"
+ },
+ "tower_shield": {
+  "ability_name": null,
+  "description": "The Spartan Dude's Phalanx gains a 10% increased chance to Block for other Dudes.",
+  "id": "tower_shield",
+  "kind": "relic",
+  "name": "Tower Shield",
+  "sprite": "/sprites/sp_relic_tower_shield_0.webp"
+ },
+ "tr_bad_credit": {
+  "ability_name": null,
+  "description": "50% of the Wielder's incoming damage gets Stored and spread out over 4 seconds. Every second, he has a 50% chance to Expel 50% of the Stored Damage onto the Best Fit enemy as Direct Damage.",
+  "id": "tr_bad_credit",
+  "kind": "trinket",
+  "name": "Bad Credit",
+  "sprite": "/sprites/sp_tr_bad_credit_0.webp"
+ },
+ "tr_bag_of_nuts": {
+  "ability_name": null,
+  "description": "The Wielder has a 5% chance when dealing Direct Damage to go nuts, gaining 50% Attack Speed for 2 seconds.",
+  "id": "tr_bag_of_nuts",
+  "kind": "trinket",
+  "name": "Bag of Nuts",
+  "sprite": "/sprites/sp_tr_bag_of_nuts_0.webp"
+ },
+ "tr_bongos": {
+  "ability_name": null,
+  "description": "Every second, the Wielder alternates between gaining 20% Evasion and 20% Deflection.",
+  "id": "tr_bongos",
+  "kind": "trinket",
+  "name": "Bongos",
+  "sprite": "/sprites/sp_tr_bongos_0.webp"
+ },
+ "tr_crazy_straw": {
+  "ability_name": null,
+  "description": "The Wielder gains 10% Lifesteal. When he Lifesteals, he gains 5% Crit Chance for 3 seconds, stacking up to 2 times.",
+  "id": "tr_crazy_straw",
+  "kind": "trinket",
+  "name": "Crazy Straw",
+  "sprite": "/sprites/sp_tr_crazy_straw_0.webp"
+ },
+ "tr_fedora": {
+  "ability_name": null,
+  "description": "The Wielder gains 3% Attack Power and 1% Max HP multiplied by the difference between the count of the most prevalent Dude Type on the Roster and the Wielder's Dude Type.",
+  "id": "tr_fedora",
+  "kind": "trinket",
+  "name": "Fedora",
+  "sprite": "/sprites/sp_tr_fedora_0.webp"
+ },
+ "tr_folding_chair": {
+  "ability_name": null,
+  "description": "When the Wielder deals Attack Damage, he has a 20% chance to strike again for 30% of his Max HP as Direct Damage.",
+  "id": "tr_folding_chair",
+  "kind": "trinket",
+  "name": "Folding Chair",
+  "sprite": "/sprites/sp_tr_folding_chair_0.webp"
+ },
+ "tr_friendship_bracelet": {
+  "ability_name": null,
+  "description": "When the Wielder takes Fatal Damage, he survives by Equalizing his HP with the Dude who has the highest HP. This has a 2 second Cooldown.",
+  "id": "tr_friendship_bracelet",
+  "kind": "trinket",
+  "name": "Friendship Bracelet",
+  "sprite": "/sprites/sp_tr_friendship_bracelet_0.webp"
+ },
+ "tr_glass_cannon": {
+  "ability_name": null,
+  "description": "When the Wielder lands a Critical Hit, he gains a stacking 5% Attack Power and 1% Vulnerability for the rest of the battle.",
+  "id": "tr_glass_cannon",
+  "kind": "trinket",
+  "name": "Glass Cannon",
+  "sprite": "/sprites/sp_tr_glass_cannon_0.webp"
+ },
+ "tr_grudge_bangle": {
+  "ability_name": null,
+  "description": "When the Wielder takes Fatal Damage, he fully Heals and gains 30% Attack Power for the rest of the battle. Once per battle Cooldown.",
+  "id": "tr_grudge_bangle",
+  "kind": "trinket",
+  "name": "Ear Gauges",
+  "sprite": "/sprites/sp_tr_ear_gauges_0.webp"
+ },
+ "tr_kinetic_shield": {
+  "ability_name": null,
+  "description": "Every 3 seconds, the Wielder strikes the nearest 4 enemies, dealing Direct Damage equal to 25% of his DPS to each. This damage always Crits.",
+  "id": "tr_kinetic_shield",
+  "kind": "trinket",
+  "name": "Baseball Bat",
+  "sprite": "/sprites/sp_tr_baseball_bat_0.webp"
+ },
+ "tr_laser_pointer": {
+  "ability_name": null,
+  "description": "Every second, each Wielder has a 20% chance to teleport a random Dude of the Dude Type below him on the Roster to a random distant Dude or enemy and grant him 20% Attack Speed for 2 seconds, stacking up to 3 times.",
+  "id": "tr_laser_pointer",
+  "kind": "trinket",
+  "name": "Laser Pointer",
+  "sprite": "/sprites/sp_tr_laser_pointer_0.webp"
+ },
+ "tr_medical_license": {
+  "ability_name": null,
+  "description": "For every 100 damage the Wielder deals, he Heals a random injured Roster Dude for 15.",
+  "id": "tr_medical_license",
+  "kind": "trinket",
+  "name": "Medical License",
+  "sprite": "/sprites/sp_tr_medical_license_0.webp"
+ },
+ "tr_neckbrace": {
+  "ability_name": null,
+  "description": "The Wielder gains 20% Max HP. When he takes damage that drops him below 30% HP, he gains Temporary Health for 50% of his Max HP for 4 seconds. 4 second Cooldown.",
+  "id": "tr_neckbrace",
+  "kind": "trinket",
+  "name": "Neckbrace",
+  "sprite": "/sprites/sp_tr_neckbrace_0.webp"
+ },
+ "tr_overcharged_battery": {
+  "ability_name": null,
+  "description": "The Diss Track copies 30% of damage dealt by all of its Wielders and Stores it. Every second, the Stored damage is Expelled onto the Best Fit enemy.",
+  "id": "tr_overcharged_battery",
+  "kind": "trinket",
+  "name": "Diss Track",
+  "sprite": "/sprites/sp_tr_diss_track_0.webp"
+ },
+ "tr_peace_pipe": {
+  "ability_name": null,
+  "description": "Every 2 seconds, the Wielder grants Temporary Health for 25% of his Max HP to a random injured Roster Dude for 3 seconds.",
+  "id": "tr_peace_pipe",
+  "kind": "trinket",
+  "name": "Socialism",
+  "sprite": "/sprites/sp_tr_socialism_0.webp"
+ },
+ "tr_pet_rock": {
+  "ability_name": null,
+  "description": "The Wielder gains 10% Block Chance. When he Blocks, he gains 10% Crit Chance and 20% Crit Damage for 2 seconds.",
+  "id": "tr_pet_rock",
+  "kind": "trinket",
+  "name": "Pet Rock",
+  "sprite": "/sprites/sp_tr_pet_rock_0.webp"
+ },
+ "tr_rage_alarm": {
+  "ability_name": null,
+  "description": "Every second, the Wielder gains 5% Attack Power and 5% Run Speed that lasts for the rest of the battle, stacking up to 10 times.",
+  "id": "tr_rage_alarm",
+  "kind": "trinket",
+  "name": "Airhorn",
+  "sprite": "/sprites/sp_tr_airhorn_0.webp"
+ },
+ "tr_receipts": {
+  "ability_name": null,
+  "description": "When the Wielder lands a Direct Crit, he has a 50% chance to Taunt 2 nearby enemies and gain 10% Toughness and 5% Lifesteal for 4 seconds, stacking up to 2 times.",
+  "id": "tr_receipts",
+  "kind": "trinket",
+  "name": "Receipts",
+  "sprite": "/sprites/sp_tr_receipts_0.webp"
+ },
+ "tr_rizz": {
+  "ability_name": null,
+  "description": "Dudes adjacent to the Wielder on the Roster gain 1% Crit Chance and 1% Evasion for every 2 Wielders, stacking up to 10 times.",
+  "id": "tr_rizz",
+  "kind": "trinket",
+  "name": "Rizz",
+  "sprite": "/sprites/sp_tr_rizz_0.webp"
+ },
+ "tr_rocket_pants": {
+  "ability_name": null,
+  "description": "The Wielder gains 40% Run Speed. Every 4 seconds, he Dashes to the farthest enemy from himself.",
+  "id": "tr_rocket_pants",
+  "kind": "trinket",
+  "name": "ADHD",
+  "sprite": "/sprites/sp_tr_adhd_0.webp"
+ },
+ "tr_scrubs": {
+  "ability_name": null,
+  "description": "The Wielder gains 20% Deflection. When he Deflects, he has a 20% chance to gain 30% Attack Power for 2 seconds.",
+  "id": "tr_scrubs",
+  "kind": "trinket",
+  "name": "Scrubs",
+  "sprite": "/sprites/sp_tr_scrubs_0.webp"
+ },
+ "tr_shock_boots": {
+  "ability_name": null,
+  "description": "For every 50 feet traveled, the Wielder shocks a nearby enemy for 50% of his DPS.",
+  "id": "tr_shock_boots",
+  "kind": "trinket",
+  "name": "Taser",
+  "sprite": "/sprites/sp_tr_taser_0.webp"
+ },
+ "tr_shovel": {
+  "ability_name": null,
+  "description": "The Wielder gains a stacking 20% Cleave during battle for every Unconscious Dude on your Team.",
+  "id": "tr_shovel",
+  "kind": "trinket",
+  "name": "Shovel",
+  "sprite": "/sprites/sp_tr_shovel_0.webp"
+ },
+ "tr_smart_medicine": {
+  "ability_name": null,
+  "description": "When the Wielder Heals any target, he has a chance equal to his Crit Chance to also Heal the most-injured Roster Dude for the same amount.",
+  "id": "tr_smart_medicine",
+  "kind": "trinket",
+  "name": "Inhaler",
+  "sprite": "/sprites/sp_tr_inhaler_0.webp"
+ },
+ "tr_smoke_cloak": {
+  "ability_name": null,
+  "description": "The Wielder gains 10% Crit Chance and 15% Attack Power and can no longer be Cleaved.",
+  "id": "tr_smoke_cloak",
+  "kind": "trinket",
+  "name": "Ghillie Suit",
+  "sprite": "/sprites/sp_tr_ghillie_suit_0.webp"
+ },
+ "tr_tank_treads": {
+  "ability_name": null,
+  "description": "For every 25 feet the Wielder travels, he gains a stacking 1% Attack Power for the rest of the battle.",
+  "id": "tr_tank_treads",
+  "kind": "trinket",
+  "name": "Cutoff Jorts",
+  "sprite": "/sprites/sp_tr_cutoff_jorts_0.webp"
+ },
+ "tr_therapy": {
+  "ability_name": null,
+  "description": "While the Wielder is above 70% HP he gains 30% Toughness. This benefit decreases to 10% Toughness as his HP approaches 20%.",
+  "id": "tr_therapy",
+  "kind": "trinket",
+  "name": "Therapy",
+  "sprite": "/sprites/sp_tr_therapy_0.webp"
+ },
+ "tr_twisted_statue": {
+  "ability_name": null,
+  "description": "The Wielder gains 30% Toughness and 30% Attack Power but loses 50% Run Speed.",
+  "id": "tr_twisted_statue",
+  "kind": "trinket",
+  "name": "Weighted Vest",
+  "sprite": "/sprites/sp_tr_weighted_vest_0.webp"
+ },
+ "tr_vampiric_tattoo": {
+  "ability_name": null,
+  "description": "The Wielder gains 10% Deflection, and all Deflected Damage now gets redirected to him. When he takes Deflected Damage, he gains 5% Toughness for 4 seconds, stacking up to 5 times.",
+  "id": "tr_vampiric_tattoo",
+  "kind": "trinket",
+  "name": "Face Tattoo",
+  "sprite": "/sprites/sp_tr_face_tattoo_0.webp"
+ },
+ "tr_wind_totem": {
+  "ability_name": null,
+  "description": "The Wielder gains 10% Evasion. When he Evades, he has a 20% chance to strike back, dealing Direct Damage equal to 100% of his DPS.",
+  "id": "tr_wind_totem",
+  "kind": "trinket",
+  "name": "Black Belt",
+  "sprite": "/sprites/sp_tr_black_belt_0.webp"
+ },
+ "tr_wrist_blade": {
+  "ability_name": null,
+  "description": "When the Wielder deals Attack Damage, he has a chance equal to the target's missing HP Percentage to strike again, dealing Direct Damage equal to 60% of his Attack Power.",
+  "id": "tr_wrist_blade",
+  "kind": "trinket",
+  "name": "Shiv",
+  "sprite": "/sprites/sp_tr_shiv_0.webp"
+ },
+ "trait_apes_together": {
+  "ability_name": null,
+  "description": "Gains a stacking 1% Attack Power for every Gorilla type enemy active in the battle.",
+  "id": "trait_apes_together",
+  "kind": "enemy_trait",
+  "name": "Apes Together Strong",
+  "sprite": "/sprites/sp_trait_apes_together_strong_0.webp"
+ },
+ "trait_backhand": {
+  "ability_name": null,
+  "description": "Its Attacks have a 25% chance to Throw its Primary Target an extreme distance.",
+  "id": "trait_backhand",
+  "kind": "enemy_trait",
+  "name": "Backhand",
+  "sprite": "/sprites/sp_trait_backhand_0.webp"
+ },
+ "trait_cavitation_bubble": {
+  "ability_name": null,
+  "description": "Its Attacks have a 5% chance to cause an explosion that Throws all nearby Dudes.",
+  "id": "trait_cavitation_bubble",
+  "kind": "enemy_trait",
+  "name": "Cavitation Bubble",
+  "sprite": "/sprites/sp_trait_cavitation_bubble_0.webp"
+ },
+ "trait_charger": {
+  "ability_name": null,
+  "description": "The creature will sometimes charge across the battlefield, damaging Dudes it passes through and Throwing them.",
+  "id": "trait_charger",
+  "kind": "enemy_trait",
+  "name": "Charger",
+  "sprite": "/sprites/sp_trait_charger_0.webp"
+ },
+ "trait_mudslinger": {
+  "ability_name": null,
+  "description": "Its Attacks have a 30% chance to fling mud at a random Dude. All Dudes near the mud's impact area gain 15% Miss Chance for 2 seconds.",
+  "id": "trait_mudslinger",
+  "kind": "enemy_trait",
+  "name": "Mudslinger",
+  "sprite": "/sprites/sp_trait_mudslinger_0.webp"
+ },
+ "trait_peck": {
+  "ability_name": null,
+  "description": "The creature's Attack Damage has a 10% chance to apply 10% Miss Chance to its target for 2 seconds.",
+  "id": "trait_peck",
+  "kind": "enemy_trait",
+  "name": "Peck",
+  "sprite": "/sprites/sp_trait_peck_0.webp"
+ },
+ "trait_pinch": {
+  "ability_name": null,
+  "description": "When the creature deals Attack Damage, it has a 10% chance to latch onto its target for 3 seconds. While latched, it damages the target for 75% of its DPS every half-second.",
+  "id": "trait_pinch",
+  "kind": "enemy_trait",
+  "name": "Pinch",
+  "sprite": "/sprites/sp_trait_pinch_0.webp"
+ },
+ "trait_plagued": {
+  "ability_name": null,
+  "description": "Its Attacks spread the Plague, reducing its target's Healing Received by 1% for 5 seconds, stacking up to 10 times.",
+  "id": "trait_plagued",
+  "kind": "enemy_trait",
+  "name": "Plagued",
+  "sprite": "/sprites/sp_trait_plagued_0.webp"
+ },
+ "trait_quills": {
+  "ability_name": null,
+  "description": "The creature gains 10% Piercing, and it has a 15% chance when receiving Attack Damage to deal damage to the attacker for 30% of its DPS.",
+  "id": "trait_quills",
+  "kind": "enemy_trait",
+  "name": "Quills",
+  "sprite": "/sprites/sp_trait_quills_0.webp"
+ },
+ "trait_slashing_rampage": {
+  "ability_name": null,
+  "description": "When its HP drops below 50%, it Dashes rapidly between 5 random Dudes, slashing them for 60% of its DPS.",
+  "id": "trait_slashing_rampage",
+  "kind": "enemy_trait",
+  "name": "Slashing Rampage",
+  "sprite": "/sprites/sp_trait_slashing_rampage_0.webp"
+ },
+ "trait_snap": {
+  "ability_name": null,
+  "description": "The creature's Attack Damage removes fingers, reducing its target's Attack Power by 1% for the rest of the battle, stacking up to 10 times.",
+  "id": "trait_snap",
+  "kind": "enemy_trait",
+  "name": "Snap",
+  "sprite": "/sprites/sp_trait_snap_0.webp"
+ },
+ "trait_stable": {
+  "ability_name": null,
+  "description": "Its low center of gravity prevents it from being Thrown or Stunned.",
+  "id": "trait_stable",
+  "kind": "enemy_trait",
+  "name": "Stable",
+  "sprite": "/sprites/sp_trait_stable_0.webp"
+ },
+ "trait_tripod": {
+  "ability_name": null,
+  "description": "Its tail makes it so stable that it cannot be Thrown or Stunned.",
+  "id": "trait_tripod",
+  "kind": "enemy_trait",
+  "name": "Tripod",
+  "sprite": "/sprites/sp_trait_tripod_0.webp"
+ },
+ "trait_venom": {
+  "ability_name": null,
+  "description": "The creature's Attack Damage applies 1% Vulnerability to its target for the rest of the battle, stacking up to 10 times.",
+  "id": "trait_venom",
+  "kind": "enemy_trait",
+  "name": "Venom",
+  "sprite": "/sprites/sp_trait_venom_0.webp"
+ },
+ "trooper": {
+  "ability_name": "Orbital Strike",
+  "description": "When battle starts and every 10 seconds, he calls down an Orbital Strike on a random enemy, damaging all enemies caught in the blast for 100% of his DPS.",
+  "id": "trooper",
+  "kind": "dude",
+  "name": "Trooper Dude",
+  "sprite": "/sprites/sp_icon_dude_trooper_0.webp"
+ },
+ "turbo_team": {
+  "ability_name": null,
+  "description": "The Ninja Dude gains 20% Max HP. When he uses Shuriken Throw, nearby Dudes gain 5% Attack Speed for 4 seconds, stacking up to 4 times.",
+  "id": "turbo_team",
+  "kind": "relic",
+  "name": "Turbo Team",
+  "sprite": "/sprites/sp_relic_turbo_team_0.webp"
+ },
+ "undead": {
+  "ability_name": null,
+  "description": "Undead Dudes thrive in chaos and are completely unbothered when their fellow Dudes fall in combat.",
+  "id": "undead",
+  "kind": "family",
+  "name": "Undead",
+  "sprite": "/sprites/sp_famicon_undead_0.webp"
+ },
+ "unit_tattoo": {
+  "ability_name": null,
+  "description": "When the Spartan Dude uses Phalanx to Block for another Dude, he has a 30% chance to grant Temporary Health equal to 10% of his Max HP for 3 seconds.",
+  "id": "unit_tattoo",
+  "kind": "relic",
+  "name": "Unit Tattoo",
+  "sprite": "/sprites/sp_relic_unit_tattoo_0.webp"
+ },
+ "vampire": {
+  "ability_name": "Bloodsucker Aura",
+  "description": "When the Vampire Dude Lifesteals, he applies his Bloodsucker Aura to 2 random Roster Dudes, granting 2% Lifesteal for 4 seconds. This effect stacks up to 4 times.",
+  "id": "vampire",
+  "kind": "dude",
+  "name": "Vampire Dude",
+  "sprite": "/sprites/sp_icon_dude_vampire_0.webp"
+ },
+ "venomous_lipstick": {
+  "ability_name": null,
+  "description": "The Vampire Dude gains 30% Attack Power, and his Direct Damage reduces enemy Attack Power by 2% for 5 seconds, stacking up to 5 times.",
+  "id": "venomous_lipstick",
+  "kind": "relic",
+  "name": "Venomous Lipstick",
+  "sprite": "/sprites/sp_relic_venomous_lipstick_0.webp"
+ },
+ "viking": {
+  "ability_name": "Berserker Rage",
+  "description": "When the Viking Dude deals Direct Damage to an enemy, he has a 5% chance to go Berserk, gaining 50% Attack Speed and Run Speed for 3 seconds.",
+  "id": "viking",
+  "kind": "dude",
+  "name": "Viking Dude",
+  "sprite": "/sprites/sp_icon_dude_viking_0.webp"
+ },
+ "vulnerability": {
+  "ability_name": null,
+  "description": "Increases all incoming damage.",
+  "id": "vulnerability",
+  "kind": "stat",
+  "name": "Vulnerability",
+  "sprite": "/sprites/sp_stat_vulnerability_0.webp"
+ },
+ "wakizashi": {
+  "ability_name": null,
+  "description": "The Samurai Dude gains 50% Cleave. When he lands a Direct Crit, he gains a stacking 2% Attack Power for the rest of the battle.",
+  "id": "wakizashi",
+  "kind": "relic",
+  "name": "Wakizashi",
+  "sprite": "/sprites/sp_relic_wakizashi_0.webp"
+ },
+ "warhorn": {
+  "ability_name": null,
+  "description": "The Viking Dude gains 10% Attack Power. In addition, when any Dude goes Berserk, there is a 30% chance for another Dude to also go Berserk. Chained Effect.",
+  "id": "warhorn",
+  "kind": "relic",
+  "name": "Warhorn",
+  "sprite": "/sprites/sp_relic_warhorn_0.webp"
+ },
+ "warlock": {
+  "ability_name": "Pact",
+  "description": "The Warlock Dude has made a Pact with an evil being, slowing his incoming damage. His Direct Damage has a 25% chance to Expel 20% of the damage Stored in his Pact onto his target and Taunt it for 3 seconds.",
+  "id": "warlock",
+  "kind": "dude",
+  "name": "Warlock Dude",
+  "sprite": "/sprites/sp_icon_dude_warlock_0.webp"
+ },
+ "warrior": {
+  "ability_name": null,
+  "description": "Warrior Dudes use precision and coordinated attacks to work together and outsmart their opponents.",
+  "id": "warrior",
+  "kind": "family",
+  "name": "Warrior",
+  "sprite": "/sprites/sp_famicon_warrior_0.webp"
+ },
+ "western": {
+  "ability_name": "Lasso",
+  "description": "Every 3 seconds, the Cowboy Dude Lassoes a Roster Dude and forces him to Dash to his side, prioritizing Dudes who are farther away.",
+  "id": "western",
+  "kind": "dude",
+  "name": "Cowboy Dude",
+  "sprite": "/sprites/sp_icon_dude_cowboy_0.webp"
+ },
+ "wherewolf": {
+  "ability_name": null,
+  "description": "",
+  "id": "wherewolf",
+  "kind": "enemy",
+  "name": "Wherewolf",
+  "sprite": "/sprites/sp_icon_anim_wherewolf_0.webp"
+ },
+ "willing_flesh": {
+  "ability_name": null,
+  "description": "The Zombie Dude gains 15% Healing Received. When any Zombie Dude gets Knocked Out, there is a 5% chance that all Unconscious Zombie Dudes instantly revive with full HP. 4 second Global Cooldown.",
+  "id": "willing_flesh",
+  "kind": "relic",
+  "name": "Willing Flesh",
+  "sprite": "/sprites/sp_relic_willingflesh_0.webp"
+ },
+ "winged_shoes": {
+  "ability_name": null,
+  "description": "When a Dude takes damage that drops his HP below 30%, he gains 100% Cleave for 3 seconds.",
+  "id": "winged_shoes",
+  "kind": "relic",
+  "name": "Rage Bait",
+  "sprite": "/sprites/sp_relic_ragebait_0.webp"
+ },
+ "wizard": {
+  "ability_name": "\"I Cast Fireball\"",
+  "description": "The Wizard Dude casts a Fireball every 3 seconds at a random enemy, dealing damage equal to 50% of his DPS to all enemies in the blast area.",
+  "id": "wizard",
+  "kind": "dude",
+  "name": "Wizard Dude",
+  "sprite": "/sprites/sp_icon_dude_wizard_0.webp"
+ },
+ "wolf": {
+  "ability_name": null,
+  "description": "",
+  "id": "wolf",
+  "kind": "enemy",
+  "name": "Wolf",
+  "sprite": "/sprites/sp_icon_anim_wolf_0.webp"
+ },
+ "wolf_alpha": {
+  "ability_name": null,
+  "description": "",
+  "id": "wolf_alpha",
+  "kind": "enemy",
+  "name": "Alpha Wolf",
+  "sprite": "/sprites/sp_icon_anim_alpha_0.webp"
+ },
+ "wolfskin_cloak": {
+  "ability_name": null,
+  "description": "The Viking Dude gains 20% Max HP, and Berserk grants 20% Toughness.",
+  "id": "wolfskin_cloak",
+  "kind": "relic",
+  "name": "Wolfskin Cloak",
+  "sprite": "/sprites/sp_relic_wolfskin_cloak_0.webp"
+ },
+ "woolly_rhino": {
+  "ability_name": null,
+  "description": "",
+  "id": "woolly_rhino",
+  "kind": "enemy",
+  "name": "Woolly Rhino",
+  "sprite": "/sprites/sp_icon_anim_woolyrhino_0.webp"
+ },
+ "zombie": {
+  "ability_name": "Undead Hunger",
+  "description": "When he receives Healing, he has a 15% chance to Taunt 3 nearby enemies for 3 seconds. Zombie Dudes recover from being Unconscious after only 1 round.",
+  "id": "zombie",
+  "kind": "dude",
+  "name": "Zombie Dude",
+  "sprite": "/sprites/sp_icon_dude_zombie_0.webp"
+ },
+ "zombie_bear": {
+  "ability_name": null,
+  "description": "",
+  "id": "zombie_bear",
+  "kind": "enemy",
+  "name": "Zombear",
+  "sprite": "/sprites/sp_icon_anim_zombear_0.webp"
+ }
+}

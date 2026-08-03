@@ -1,0 +1,48 @@
+QLabel#pathLabel {
+    color: palette(mid);
+    font-style: italic;
+}
+
+QLabel#cloudBanner {
+    background: palette(alternate-base);
+    border: 1px solid palette(mid);
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: palette(text);
+}
+
+QLabel#statusLabel {
+    font-weight: 600;
+}
+
+QLabel#missingIcon {
+    color: palette(mid);
+    border: 1px dashed palette(mid);
+    border-radius: 4px;
+}
+
+QPushButton#saveButton {
+    font-weight: 600;
+    padding: 4px 18px;
+}
+
+QGroupBox {
+    font-weight: 600;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 8px;
+    padding: 0 4px;
+}
+
+QTableWidget {
+    gridline-color: palette(mid);
+}
+
+QHeaderView::section {
+    padding: 4px 6px;
+    font-weight: 600;
+}
