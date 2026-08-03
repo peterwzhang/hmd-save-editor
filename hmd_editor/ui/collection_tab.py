@@ -8,7 +8,6 @@ from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
     QButtonGroup,
     QCheckBox,
-    QComboBox,
     QHBoxLayout,
     QLabel,
     QLineEdit,
@@ -20,7 +19,7 @@ from PySide6.QtWidgets import (
 )
 
 from ..model import collection as collection_model
-from .widgets import icon_label
+from .widgets import combo_box, icon_label
 
 TIER_COUNT = 4
 COLLECTIBLE_KINDS = ("dude", "relic", "trinket")
@@ -99,7 +98,7 @@ class CollectionTab(QWidget):
         self.search_edit.textChanged.connect(self._apply_filter)
         row.addWidget(self.search_edit, 1)
 
-        self.kind_combo = QComboBox()
+        self.kind_combo = combo_box()
         self.kind_combo.addItem("All kinds", None)
         for kind in COLLECTIBLE_KINDS:
             self.kind_combo.addItem(kind.capitalize(), kind)

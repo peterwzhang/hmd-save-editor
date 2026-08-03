@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QDoubleSpinBox, QHBoxLayout, QLabel, QSpinBox, QWidget
+from PySide6.QtWidgets import QComboBox, QDoubleSpinBox, QHBoxLayout, QLabel, QSpinBox, QWidget
 
 ICON_SIZE = 32
 
@@ -67,4 +67,13 @@ def count_spinbox(value: int = 0, maximum: int = 9999) -> QSpinBox:
     box = QSpinBox()
     box.setRange(0, maximum)
     box.setValue(value)
+    return box
+
+
+def combo_box() -> QComboBox:
+    """A QComboBox that force-closes its popup on selection, as a safety net
+    for a Qt/Windows 11 style bug (QTBUG-124235) where a mispositioned popup
+    can fail to auto-dismiss after the user picks an item."""
+    box = QComboBox()
+    box.activated.connect(box.hidePopup)
     return box

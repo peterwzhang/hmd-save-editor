@@ -6,7 +6,6 @@ from typing import Callable
 
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
-    QComboBox,
     QFormLayout,
     QGroupBox,
     QHBoxLayout,
@@ -21,7 +20,7 @@ from PySide6.QtWidgets import (
 )
 
 from ..model import run as run_model
-from .widgets import count_spinbox, icon_label, money_spinbox
+from .widgets import combo_box, count_spinbox, icon_label, money_spinbox
 
 RUN_FILE = "save_data.json"
 
@@ -116,7 +115,7 @@ class RunTab(QWidget):
             layout.addWidget(self._build_dude_card(dude_type, stats))
 
         add_row = QHBoxLayout()
-        new_dude_combo = QComboBox()
+        new_dude_combo = combo_box()
         for dude_id in sorted(self.catalog.ids_of_kind("dude"), key=self.catalog.name_for):
             new_dude_combo.addItem(self.catalog.name_for(dude_id), dude_id)
         add_button = QPushButton("Add to roster")
@@ -174,7 +173,7 @@ class RunTab(QWidget):
             remove_button.clicked.connect(lambda: self._unequip_trinket(equipped_id))
             row.addWidget(remove_button)
         else:
-            combo = QComboBox()
+            combo = combo_box()
             for tr_id in sorted(self.catalog.ids_of_kind("trinket"), key=self.catalog.name_for):
                 combo.addItem(self.catalog.name_for(tr_id), tr_id)
             equip_button = QPushButton("Equip trinket")
@@ -241,7 +240,7 @@ class RunTab(QWidget):
 
     def _build_add_item_row(self, kind: str, already_owned) -> QHBoxLayout:
         row = QHBoxLayout()
-        combo = QComboBox()
+        combo = combo_box()
         owned_set = set(already_owned)
         for item_id in sorted(self.catalog.ids_of_kind(kind), key=self.catalog.name_for):
             if item_id not in owned_set:
@@ -276,7 +275,7 @@ class RunTab(QWidget):
             form.addRow(self.catalog.name_for(cons_id), spin)
 
         add_row = QHBoxLayout()
-        combo = QComboBox()
+        combo = combo_box()
         owned = set(self.bundle.run_data["consumables_owned"])
         for cons_id in sorted(self.catalog.ids_of_kind("consumable"), key=self.catalog.name_for):
             if cons_id not in owned:
@@ -325,13 +324,13 @@ class RunTab(QWidget):
             return box
 
         add_row = QHBoxLayout()
-        food_type_combo = QComboBox()
+        food_type_combo = combo_box()
         for food_id in sorted(self.catalog.ids_of_kind("food"), key=self.catalog.name_for):
             food_type_combo.addItem(self.catalog.name_for(food_id), food_id)
-        stat_combo = QComboBox()
+        stat_combo = combo_box()
         for stat_id in sorted(self.catalog.ids_of_kind("stat"), key=self.catalog.name_for):
             stat_combo.addItem(self.catalog.name_for(stat_id), stat_id)
-        dude_combo = QComboBox()
+        dude_combo = combo_box()
         for dude_type in self.bundle.run_data["roster_order"]:
             dude_combo.addItem(self.catalog.name_for(dude_type), dude_type)
         add_button = QPushButton("Add food")
