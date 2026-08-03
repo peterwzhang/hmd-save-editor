@@ -15,6 +15,10 @@ THEME_PATH = Path(__file__).parent / "ui" / "theme.qss"
 def main() -> int:
     app = QApplication(sys.argv)
     app.setApplicationName("HMD Save Editor")
+    # Windows 11's native style has a popup-positioning bug on Qt 6.7+
+    # (QTBUG-124235) that detaches combo box dropdowns from their widget.
+    # Fusion renders consistently across platforms and isn't affected.
+    app.setStyle("Fusion")
     if THEME_PATH.is_file():
         app.setStyleSheet(THEME_PATH.read_text(encoding="utf-8"))
 
