@@ -6,6 +6,12 @@ This is an unofficial fan-made tool and is not affiliated with or endorsed by Bu
 
 Edit your current run, your permanent collection (discovered / silver / gold stars), and your achievements.
 
+## Screenshots
+
+| Run | Collection | Achievements |
+| --- | --- | --- |
+| [![Run tab](screenshots/run_tab.png)](screenshots/run_tab.png) | [![Collection tab](screenshots/collection_tab.png)](screenshots/collection_tab.png) | [![Achievements tab](screenshots/achievements_tab.png)](screenshots/achievements_tab.png) |
+
 ## Installing
 
 Requires [uv](https://docs.astral.sh/uv/).
