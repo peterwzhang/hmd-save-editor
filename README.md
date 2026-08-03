@@ -4,7 +4,7 @@ A desktop save editor for *How Many Dudes?* (Butterscotch Shenanigans).
 
 This is an unofficial fan-made tool and is not affiliated with or endorsed by Butterscotch Shenanigans.
 
-Edit your current run, your permanent collection (discovered / silver / gold stars), and your achievements, all shown with real names and icons instead of raw ids.
+Edit your current run, your permanent collection (discovered / silver / gold stars), and your achievements.
 
 ## Installing
 
