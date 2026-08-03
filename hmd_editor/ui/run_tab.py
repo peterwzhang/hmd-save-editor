@@ -86,13 +86,15 @@ class RunTab(QWidget):
         cash_box.valueChanged.connect(lambda v: self._set_scalar(run_model.set_cash, v))
         form.addRow("Cash", cash_box)
 
-        week_box = count_spinbox(int(run["week"]), maximum=9999)
-        week_box.valueChanged.connect(lambda v: self._set_scalar(run_model.set_week, v))
-        form.addRow("Week", week_box)
+        round_box = count_spinbox(int(run["week"]), maximum=9999)
+        round_box.valueChanged.connect(lambda v: self._set_scalar(run_model.set_week, v))
+        form.addRow("Round", round_box)
 
-        rank_box = count_spinbox(int(run["rank"]), maximum=9999)
-        rank_box.valueChanged.connect(lambda v: self._set_scalar(run_model.set_rank, v))
-        form.addRow("Rank", rank_box)
+        # Called "rank" in the save data, but the game calls it Tier, and it
+        # only ever takes the values 1, 2, or 3.
+        tier_box = count_spinbox(int(run["rank"]), minimum=1, maximum=3)
+        tier_box.valueChanged.connect(lambda v: self._set_scalar(run_model.set_rank, v))
+        form.addRow("Tier", tier_box)
 
         mode_combo = combo_box()
         for raw, label in GAME_MODES:

@@ -63,9 +63,9 @@ def fraction_spinbox(value: float = 1.0) -> QDoubleSpinBox:
     return box
 
 
-def count_spinbox(value: int = 0, maximum: int = 9999) -> QSpinBox:
+def count_spinbox(value: int = 0, maximum: int = 9999, minimum: int = 0) -> QSpinBox:
     box = QSpinBox()
-    box.setRange(0, maximum)
+    box.setRange(minimum, maximum)
     box.setValue(value)
     return box
 
