@@ -56,3 +56,22 @@ def test_real_catalog_loads_and_resolves_known_ids():
     assert len(cat) > 0
     assert cat.name_for("dentist") == "Dentist Dude"
     assert cat.kind_for("r_bandage") == "relic"
+
+
+def test_sprite_urls_returns_sorted_distinct_urls():
+    cat = Catalog(SYNTHETIC)
+    assert cat.sprite_urls() == [
+        "/sprites/sp_icon_dude_dentist_0.webp",
+        "/sprites/sp_relic_bandage_0.webp",
+    ]
+
+
+def test_clear_icon_cache_empties_memoized_lookups():
+    # Deliberately doesn't call icon_for() here, which lazily imports
+    # PySide6/QPixmap - this module stays testable without Qt or a display.
+    cat = Catalog(SYNTHETIC)
+    cat._icon_cache["dentist"] = "stand-in-for-a-qpixmap"
+
+    cat.clear_icon_cache()
+
+    assert cat._icon_cache == {}

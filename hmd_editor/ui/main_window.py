@@ -4,8 +4,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from PySide6.QtCore import QSettings
+from PySide6.QtCore import QSettings, QTimer
 from PySide6.QtWidgets import (
+    QApplication,
     QCheckBox,
     QFileDialog,
     QHBoxLayout,
@@ -25,6 +26,7 @@ from ..savefile import SaveBundle
 from .achievements_tab import AchievementsTab
 from .collection_tab import CollectionTab
 from .run_tab import RunTab
+from .sprite_download import SpriteDownloadPrompt
 
 ORG_NAME = "hmd-save-editor"
 APP_NAME = "hmd-save-editor"
@@ -45,6 +47,13 @@ class MainWindow(QMainWindow):
         self._build_ui()
         self._refresh_recent_menu()
         self._set_bundle(None)
+
+        self.sprite_download_prompt = SpriteDownloadPrompt(
+            self, self.catalog, self.settings, self._on_sprites_downloaded
+        )
+        # Deferred so the main window is on screen before the prompt dialog is.
+        QTimer.singleShot(0, self.sprite_download_prompt.maybe_show)
+        QApplication.instance().aboutToQuit.connect(self.sprite_download_prompt.shutdown)
 
     # -- UI construction --------------------------------------------------------
 
@@ -231,3 +240,8 @@ class MainWindow(QMainWindow):
             return
         self.bundle.revert()
         self._set_bundle(self.bundle)
+
+    def _on_sprites_downloaded(self) -> None:
+        self.catalog.clear_icon_cache()
+        if self.bundle is not None:
+            self._set_bundle(self.bundle)

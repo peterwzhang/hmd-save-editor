@@ -18,10 +18,12 @@ import argparse
 import json
 import sys
 import time
-import urllib.error
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
+
+from hmd_editor import sprite_fetch
+from hmd_editor.catalog import SPRITES_DIR
 
 BASE_URL = "https://howmanydudes.com"
 LISTING_KINDS = (
@@ -50,12 +52,11 @@ MIN_EXPECTED_COUNTS = {
     "stat": 22,
 }
 
-USER_AGENT = "Mozilla/5.0 (compatible; hmd-save-editor-catalog-fetch/1.0)"
-REQUEST_DELAY_SECONDS = 0.3
+USER_AGENT = sprite_fetch.USER_AGENT
+REQUEST_DELAY_SECONDS = sprite_fetch.REQUEST_DELAY_SECONDS
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CATALOG_PATH = REPO_ROOT / "data" / "catalog.json"
-SPRITES_DIR = REPO_ROOT / "cache" / "sprites"
 
 
 class DudexPageParser(HTMLParser):
@@ -193,22 +194,13 @@ def fetch_catalog() -> dict[str, dict]:
 
 
 def download_sprites(catalog: dict[str, dict]) -> None:
-    SPRITES_DIR.mkdir(parents=True, exist_ok=True)
     sprites = sorted({e["sprite"] for e in catalog.values() if e["sprite"]})
     print(f"downloading {len(sprites)} sprites...", file=sys.stderr)
-    for i, sprite_path in enumerate(sprites):
-        dest = SPRITES_DIR / Path(sprite_path).name
-        if dest.exists():
-            continue
-        if i > 0:
-            time.sleep(REQUEST_DELAY_SECONDS)
-        url = BASE_URL + sprite_path
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                dest.write_bytes(resp.read())
-        except urllib.error.HTTPError as e:
-            print(f"  warning: failed to fetch {url}: {e}", file=sys.stderr)
+    failed = sprite_fetch.download_sprites(sprites, SPRITES_DIR)
+    for sprite_path in failed:
+        print(f"  warning: failed to fetch {BASE_URL + sprite_path}", file=sys.stderr)
+    if failed:
+        print(f"  {len(failed)} of {len(sprites)} sprites failed", file=sys.stderr)
 
 
 def main():

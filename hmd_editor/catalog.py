@@ -16,7 +16,7 @@ from typing import Optional
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 _DEFAULT_CATALOG_PATH = _REPO_ROOT / "data" / "catalog.json"
-_SPRITES_DIR = _REPO_ROOT / "cache" / "sprites"
+SPRITES_DIR = _REPO_ROOT / "cache" / "sprites"
 
 
 class Catalog:
@@ -60,11 +60,16 @@ class Catalog:
     def ids_of_kind(self, kind: str) -> list:
         return [eid for eid, e in self._entries.items() if e["kind"] == kind]
 
+    def sprite_urls(self) -> list:
+        """All distinct sprite URL paths (e.g. "/sprites/foo.webp") referenced
+        by the catalog, for downloading via hmd_editor.sprite_fetch."""
+        return sorted({e["sprite"] for e in self._entries.values() if e.get("sprite")})
+
     def sprite_path_for(self, item_id: str) -> Optional[Path]:
         entry = self._entries.get(item_id)
         if entry is None or not entry.get("sprite"):
             return None
-        local = _SPRITES_DIR / Path(entry["sprite"]).name
+        local = SPRITES_DIR / Path(entry["sprite"]).name
         return local if local.is_file() else None
 
     def icon_for(self, item_id: str):
@@ -84,6 +89,11 @@ class Catalog:
                 pixmap = None
         self._icon_cache[item_id] = pixmap
         return pixmap
+
+    def clear_icon_cache(self) -> None:
+        """Drop memoized icon lookups, e.g. after newly downloading sprites
+        that were previously cached as missing (None)."""
+        self._icon_cache.clear()
 
 
 @functools.lru_cache(maxsize=1)

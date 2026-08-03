@@ -25,6 +25,9 @@ uv run python -m hmd_editor
 On launch, use **Open save folder...** (or drag a folder or a save file onto the window) to load your save.
 Nothing is auto-detected: you choose which files to open.
 
+The first time you run the editor, it'll ask permission to download item icons from [howmanydudes.com](https://howmanydudes.com) (a fan wiki) into a local `cache/sprites/` folder.
+This only happens once, and only if you say yes; decline and items just show with a placeholder instead.
+
 ## Where the game keeps its save files
 
 - **Windows**: `%LOCALAPPDATA%\HowManyDudes\<steam_id>\Game\`
