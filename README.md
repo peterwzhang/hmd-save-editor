@@ -1,4 +1,4 @@
-# HMD Save Editor
+# How Many Dudes Save Editor
 
 A desktop save editor for *How Many Dudes?* (Butterscotch Shenanigans).
 
