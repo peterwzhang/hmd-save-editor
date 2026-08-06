@@ -158,6 +158,10 @@ class RunTab(QWidget):
         heal_button.clicked.connect(lambda: self._heal_type(dude_type))
         row.addWidget(heal_button)
 
+        remove1_button = QPushButton("-1")
+        remove1_button.clicked.connect(lambda: self._remove_one_dude(dude_type))
+        row.addWidget(remove1_button)
+
         add1_button = QPushButton("+1")
         add1_button.clicked.connect(lambda: self._add_dude(dude_type, 1))
         row.addWidget(add1_button)
@@ -168,6 +172,11 @@ class RunTab(QWidget):
 
         row.addWidget(self._build_trinket_slot(dude_type))
         row.addStretch(1)
+
+        remove_button = QPushButton("Remove from roster")
+        remove_button.clicked.connect(lambda: self._remove_dude_type(dude_type))
+        row.addWidget(remove_button)
+
         return card
 
     def _build_trinket_slot(self, dude_type: str) -> QWidget:
@@ -209,6 +218,16 @@ class RunTab(QWidget):
         if not dude_type:
             return
         run_model.add_dude(self.bundle, dude_type, count)
+        self._rebuild()
+        self._notify_changed()
+
+    def _remove_one_dude(self, dude_type: str) -> None:
+        run_model.remove_one_dude_of_type(self.bundle, dude_type)
+        self._rebuild()
+        self._notify_changed()
+
+    def _remove_dude_type(self, dude_type: str) -> None:
+        run_model.remove_dude_type(self.bundle, dude_type)
         self._rebuild()
         self._notify_changed()
 

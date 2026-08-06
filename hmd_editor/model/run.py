@@ -97,6 +97,29 @@ def remove_dude(bundle: SaveBundle, unit_id: str) -> None:
     bundle.run_data["dudes"].pop(unit_id, None)
 
 
+def remove_one_dude_of_type(bundle: SaveBundle, dude_type: str) -> None:
+    """Remove a single unit of `dude_type`, chosen arbitrarily among
+    surviving units - mirrors add_dude's "+1", which doesn't distinguish
+    between individual units either. No-op if none remain."""
+    run = bundle.run_data
+    for unit_id, dude in run["dudes"].items():
+        if dude["type"] == dude_type:
+            del run["dudes"][unit_id]
+            return
+
+
+def remove_dude_type(bundle: SaveBundle, dude_type: str) -> None:
+    """Remove `dude_type` entirely: every surviving unit, its roster_order
+    entry, and any trinket equipped to it - which would otherwise be left
+    equipped to a dude no longer on the roster."""
+    run = bundle.run_data
+    run["dudes"] = {uid: d for uid, d in run["dudes"].items() if d["type"] != dude_type}
+    run["roster_order"] = [t for t in run["roster_order"] if t != dude_type]
+    run["trinkets_equipped"] = {
+        tr_id: dtype for tr_id, dtype in run["trinkets_equipped"].items() if dtype != dude_type
+    }
+
+
 def heal_all(bundle: SaveBundle) -> None:
     for dude in bundle.run_data["dudes"].values():
         dude["hp_percent"] = 1.0

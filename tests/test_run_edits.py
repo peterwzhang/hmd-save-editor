@@ -74,6 +74,36 @@ def test_add_dude_generates_unique_ids_and_updates_roster(save_dir):
     assert "zombie" in bundle.run_data["roster_order"]
 
 
+def test_remove_one_dude_of_type_removes_a_single_unit(save_dir):
+    bundle = SaveBundle.load(save_dir)
+    run_model.remove_one_dude_of_type(bundle, "dentist")
+
+    assert "aaa" not in bundle.run_data["dudes"]
+    assert "bbb" in bundle.run_data["dudes"]  # warlock untouched
+    assert "dentist" in bundle.run_data["roster_order"]  # type entry persists
+
+
+def test_remove_one_dude_of_type_is_a_noop_when_none_remain(save_dir):
+    bundle = SaveBundle.load(save_dir)
+    before = dict(bundle.run_data["dudes"])
+
+    run_model.remove_one_dude_of_type(bundle, "zombie")  # not in this fixture
+
+    assert bundle.run_data["dudes"] == before
+
+
+def test_remove_dude_type_clears_units_roster_entry_and_equipped_trinket(save_dir):
+    bundle = SaveBundle.load(save_dir)
+    run_model.remove_dude_type(bundle, "warlock")
+
+    data = bundle.run_data
+    assert "bbb" not in data["dudes"]
+    assert "warlock" not in data["roster_order"]
+    assert "tr_rocket_pants" not in data["trinkets_equipped"]
+    assert "aaa" in data["dudes"]  # dentist untouched
+    assert run_model.validate(bundle) == []
+
+
 def test_heal_all_restores_full_hp(save_dir):
     bundle = SaveBundle.load(save_dir)
     bundle.run_data["dudes"]["aaa"]["hp_percent"] = 0.1
