@@ -6,6 +6,8 @@ This is an unofficial fan-made tool and is not affiliated with or endorsed by Bu
 
 Edit your current run, your permanent collection (discovered / silver / gold stars), and your achievements.
 
+[![How Many Dudes? in-game](screenshots/ingame.png)](screenshots/ingame.png)
+
 ## Features
 
 **Run** (`save_data.json`)
