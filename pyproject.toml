@@ -12,9 +12,12 @@ dev = [
     "pytest>=7.0",
     "ruff>=0.6",
 ]
+build = [
+    "pyinstaller>=6.10",
+]
 
 [project.scripts]
-hmd-save-editor = "hmd_editor.__main__:main"
+hmd-save-editor = "hmd_editor.app:main"
 
 [build-system]
 requires = ["setuptools>=68"]

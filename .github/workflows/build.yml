@@ -1,0 +1,71 @@
+name: Build Windows executable
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          python-version: "3.12"
+
+      # --no-editable: PyInstaller's static analysis can't walk the PEP 660
+      # editable-install finder `uv sync` uses by default (a plain `uv sync`
+      # here builds an exe that fails at startup with "No module named
+      # hmd_editor.app"). --no-sync on the run below keeps that non-editable
+      # install intact - a bare `uv run` re-syncs (and reverts to editable)
+      # before every invocation.
+      - name: Install dependencies
+        run: uv sync --no-editable --group build
+
+      - name: Build executable
+        run: >-
+          uv run --no-sync pyinstaller
+          --name hmd-save-editor
+          --onedir
+          --windowed
+          --add-data "data/catalog.json;data"
+          --add-data "hmd_editor/ui/theme.qss;hmd_editor/ui"
+          packaging/pyinstaller_entry.py
+
+      # cache/sprites/ is gitignored on purpose (see THIRD_PARTY_NOTICES.md) -
+      # the game's art isn't ours to redistribute. This step fails the build
+      # if any of it, or any other image asset, ends up in the dist output.
+      - name: Verify no game art was bundled
+        shell: pwsh
+        run: |
+          $bundled = Get-ChildItem -Recurse dist -Include *.webp,*.png,*.jpg,*.jpeg -ErrorAction SilentlyContinue
+          if ($bundled) {
+            Write-Error "Image assets were bundled into the build - these must not be redistributed:`n$($bundled -join "`n")"
+            exit 1
+          }
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hmd-save-editor-windows
+          path: dist/hmd-save-editor/
+
+      # Only tag pushes (v*) get a Release; plain workflow_dispatch runs
+      # (e.g. testing this workflow itself) stop at the artifact above.
+      - name: Zip build for release
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: pwsh
+        run: Compress-Archive -Path dist/hmd-save-editor/* -DestinationPath hmd-save-editor-windows.zip
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: hmd-save-editor-windows.zip

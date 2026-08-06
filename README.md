@@ -112,6 +112,30 @@ uv run python tools/fetch_catalog.py --sprites
 uv run pytest
 ```
 
+## Building a Windows executable
+
+Pushing a `v*` tag triggers [`.github/workflows/build.yml`](.github/workflows/build.yml), which builds a PyInstaller bundle on a Windows runner and attaches it to a GitHub Release for that tag.
+
+To build locally instead (e.g. to test a change before tagging - the output is platform-specific, so a Windows `.exe` has to be built on Windows):
+
+```
+uv sync --no-editable --group build
+uv run --no-sync pyinstaller --name hmd-save-editor --onedir --windowed --add-data "data/catalog.json:data" --add-data "hmd_editor/ui/theme.qss:hmd_editor/ui" packaging/pyinstaller_entry.py
+```
+
+`--no-editable` matters: PyInstaller can't bundle the project correctly from
+the editable install `uv sync` creates by default.
+`--no-sync` on the second command stops a bare `uv run` from silently
+re-syncing (and reverting to editable) before it runs PyInstaller.
+On Windows, use `;` instead of `:` in `--add-data` (its `SOURCE:DEST`
+separator collides with drive letters like `C:\`, so Windows PyInstaller
+uses `;` there instead - see `.github/workflows/build.yml`, which builds on
+Windows and uses `;`).
+
+The result lands in `dist/hmd-save-editor/`.
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the licenses that apply to a packaged build.
+
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the
+licenses covering PySide6/Qt and PyInstaller in packaged builds.

@@ -11,12 +11,28 @@ from __future__ import annotations
 
 import functools
 import json
+import os
+import sys
 from pathlib import Path
 from typing import Optional
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
-_DEFAULT_CATALOG_PATH = _REPO_ROOT / "data" / "catalog.json"
-SPRITES_DIR = _REPO_ROOT / "cache" / "sprites"
+_FROZEN = getattr(sys, "frozen", False)
+
+if _FROZEN:
+    # PyInstaller extracts bundled data files under sys._MEIPASS (set for
+    # both --onefile and --onedir builds) rather than next to hmd_editor/ -
+    # see .github/workflows/build.yml's --add-data flag for what lands there.
+    _DEFAULT_CATALOG_PATH = Path(getattr(sys, "_MEIPASS", "")) / "data" / "catalog.json"
+    # cache/sprites/ next to the source tree doesn't exist in a packaged
+    # build, and wouldn't be writable if it did (installs typically land in
+    # Program Files) - sprites downloaded at runtime go to a real per-user
+    # cache directory instead.
+    _APPDATA = Path(os.environ.get("LOCALAPPDATA", str(Path.home())))
+    SPRITES_DIR = _APPDATA / "hmd-save-editor" / "cache" / "sprites"
+else:
+    _DEFAULT_CATALOG_PATH = _REPO_ROOT / "data" / "catalog.json"
+    SPRITES_DIR = _REPO_ROOT / "cache" / "sprites"
 
 
 class Catalog:
